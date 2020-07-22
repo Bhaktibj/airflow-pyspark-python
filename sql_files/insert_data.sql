@@ -1,0 +1,2 @@
+LOAD DATA INFILE "/input_files_mysql/sample.csv" INTO TABLE employees FIELDS TERMINATED BY ","
+LINES TERMINATED BY "\n" IGNORE 1 ROWS;
