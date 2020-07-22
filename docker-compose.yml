@@ -1,0 +1,53 @@
+version: '2.1'
+services:
+    postgres:
+      container_name: postgresCon
+      image: postgres:9.6
+      environment:
+        - POSTGRES_USER=airflow
+        - POSTGRES_PASSWORD=airflow
+        - POSTGRES_DB=airflow
+    mysql:
+      container_name: mysqlCon
+      image: mysql:5.7
+      restart: always
+      environment:
+        - MYSQL_ROOT_PASSWORD=root
+      ports:
+        - "3306:3306"
+      volumes:
+        - ./input_data:/input_files_mysql/
+        - ./mysql.cnf:/etc/mysql/mysql.cnf
+        - /data/mysql:/var/lib/mysql
+        - ./requirements.txt:/requirements.txt
+    webserver:
+      container_name: airflowCon
+      image: puckel/docker-airflow:1.10.9
+      restart: always
+      mem_limit: 8000m
+      depends_on:
+        - postgres
+        - mysql
+      environment:
+        - INSTALL_MYSQL=y
+        - LOAD_EX=n
+        - EXECUTOR=Local
+        - FERNET_KEY=iBriUFzb7Oi221Ey_ISFh2PbyQhJp2sjN1RZKuAbWWc=
+      volumes:
+        - ./dags:/usr/local/airflow/dags
+        - ./input_data:/usr/local/airflow/input_files_airflow
+        - ./sql_files:/usr/local/airflow/sql_files
+#          - ./test:/usr/local/airflow/test
+        - ./plugins:/usr/local/airflow/plugins
+          # Uncomment to include custom plugins
+        - ./requirements.txt:/requirements.txt
+        - ~/.aws:/usr/local/airflow/.aws
+        - /var/run/docker.sock:/var/run/docker.sock
+      ports:
+        - "8080:8080"
+      command: webserver
+      healthcheck:
+        test: ["CMD-SHELL", "[ -f /usr/local/airflow/airflow-webserver.pid ]"]
+        interval: 30s
+        timeout: 30s
+        retries: 3
