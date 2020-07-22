@@ -1,0 +1,5 @@
+PyMySQL==0.9.3
+mysql-connector==2.2.9
+pyvim
+mysql-client
+docker==4.2.2
