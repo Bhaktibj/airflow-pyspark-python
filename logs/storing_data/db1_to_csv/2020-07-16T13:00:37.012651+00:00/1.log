@@ -1,0 +1,266 @@
+[2020-07-16 18:30:43,060] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.db1_to_csv 2020-07-16T13:00:37.012651+00:00 [queued]>
+[2020-07-16 18:30:43,072] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.db1_to_csv 2020-07-16T13:00:37.012651+00:00 [queued]>
+[2020-07-16 18:30:43,073] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-16 18:30:43,073] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-16 18:30:43,073] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-16 18:30:43,219] {taskinstance.py:900} INFO - Executing <Task(BashOperator): db1_to_csv> on 2020-07-16T13:00:37.012651+00:00
+[2020-07-16 18:30:43,224] {standard_task_runner.py:53} INFO - Started process 877397 to run task
+[2020-07-16 18:30:43,396] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: storing_data.db1_to_csv 2020-07-16T13:00:37.012651+00:00 [running]> bhakti-Vostro-3558
+[2020-07-16 18:30:43,409] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-16 18:30:43,410] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpz7xzpgdl/db1_to_csv9iggv7j8
+[2020-07-16 18:30:43,410] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=root
+dbname=airflow_db1
+host=mysql
+port=3306
+docker exec -it mysqlCon \
+mysql -D$dbname -h$host -p$port -u$user -p$password -e'SELECT * FROM employees INTO OUTFILE "/input_files_mysql/sample4.csv" FIELDS ENCLOSED BY ' ' TERMINATED BY "," ESCAPED BY ' ' LINES TERMINATED BY "\n";'
+[2020-07-16 18:30:43,418] {bash_operator.py:122} INFO - Output:
+[2020-07-16 18:30:44,046] {bash_operator.py:126} INFO - mysql: [Warning] Using a password on the command line interface can be insecure.
+[2020-07-16 18:30:44,047] {bash_operator.py:126} INFO - mysql  Ver 14.14 Distrib 5.7.31, for Linux (x86_64) using  EditLine wrapper
+[2020-07-16 18:30:44,047] {bash_operator.py:126} INFO - Copyright (c) 2000, 2020, Oracle and/or its affiliates. All rights reserved.
+[2020-07-16 18:30:44,047] {bash_operator.py:126} INFO - 
+[2020-07-16 18:30:44,047] {bash_operator.py:126} INFO - Oracle is a registered trademark of Oracle Corporation and/or its
+[2020-07-16 18:30:44,047] {bash_operator.py:126} INFO - affiliates. Other names may be trademarks of their respective
+[2020-07-16 18:30:44,047] {bash_operator.py:126} INFO - owners.
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO - 
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO - Usage: mysql [OPTIONS] [database]
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -   -?, --help          Display this help and exit.
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -   -I, --help          Synonym for -?
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -   --auto-rehash       Enable automatic rehashing. One doesn't need to use
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       'rehash' to get table and field completion, but startup
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       and reconnecting may take a longer time. Disable with
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       --disable-auto-rehash.
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       (Defaults to on; use --skip-auto-rehash to disable.)
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -   -A, --no-auto-rehash
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       No automatic rehashing. One has to use 'rehash' to get
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       table and field completion. This gives a quicker start of
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       mysql and disables rehashing on reconnect.
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -   --auto-vertical-output
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       Automatically switch to vertical output mode if the
+[2020-07-16 18:30:44,048] {bash_operator.py:126} INFO -                       result is wider than the terminal width.
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -   -B, --batch         Don't use history file. Disable interactive behavior.
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -                       (Enables --silent.)
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -   --bind-address=name IP address to bind to.
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -   --binary-as-hex     Print binary data as hex
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -   --character-sets-dir=name
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -                       Directory for character set files.
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -   --column-type-info  Display column type information.
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -   -c, --comments      Preserve comments. Send comments to the server. The
+[2020-07-16 18:30:44,049] {bash_operator.py:126} INFO -                       default is --skip-comments (discard comments), enable
+[2020-07-16 18:30:44,050] {bash_operator.py:126} INFO -                       with --comments.
+[2020-07-16 18:30:44,050] {bash_operator.py:126} INFO -   -C, --compress      Use compression in server/client protocol.
+[2020-07-16 18:30:44,055] {bash_operator.py:126} INFO -   -#, --debug[=#]     This is a non-debug version. Catch this and exit.
+[2020-07-16 18:30:44,055] {bash_operator.py:126} INFO -   --debug-check       This is a non-debug version. Catch this and exit.
+[2020-07-16 18:30:44,055] {bash_operator.py:126} INFO -   -T, --debug-info    This is a non-debug version. Catch this and exit.
+[2020-07-16 18:30:44,055] {bash_operator.py:126} INFO -   -D, --database=name Database to use.
+[2020-07-16 18:30:44,055] {bash_operator.py:126} INFO -   --default-character-set=name
+[2020-07-16 18:30:44,055] {bash_operator.py:126} INFO -                       Set the default character set.
+[2020-07-16 18:30:44,055] {bash_operator.py:126} INFO -   --delimiter=name    Delimiter to be used.
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -   --enable-cleartext-plugin
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       Enable/disable the clear text authentication plugin.
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -   -e, --execute=name  Execute command and quit. (Disables --force and history
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       file.)
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -   -E, --vertical      Print the output of a query (rows) vertically.
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -   -f, --force         Continue even if we get an SQL error.
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -   --histignore=name   A colon-separated list of patterns to keep statements
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       from getting logged into syslog and mysql history.
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -   -G, --named-commands
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       Enable named commands. Named commands mean this program's
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       internal commands; see mysql> help . When enabled, the
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       named commands can be used from any line of the query,
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       otherwise only from the first line, before an enter.
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       Disable with --disable-named-commands. This option is
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -                       disabled by default.
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -   -i, --ignore-spaces Ignore space after function names.
+[2020-07-16 18:30:44,056] {bash_operator.py:126} INFO -   --init-command=name SQL Command to execute when connecting to MySQL server.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -                       Will automatically be re-executed when reconnecting.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   --local-infile      Enable/disable LOAD DATA LOCAL INFILE.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   -b, --no-beep       Turn off beep on error.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   -h, --host=name     Connect to host.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   -H, --html          Produce HTML output.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   -X, --xml           Produce XML output.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   --line-numbers      Write line numbers for errors.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -                       (Defaults to on; use --skip-line-numbers to disable.)
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   -L, --skip-line-numbers
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -                       Don't write line number for errors.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   -n, --unbuffered    Flush buffer after each query.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   --column-names      Write column names in results.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -                       (Defaults to on; use --skip-column-names to disable.)
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   -N, --skip-column-names
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -                       Don't write column names in results.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   --sigint-ignore     Ignore SIGINT (CTRL-C).
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   -o, --one-database  Ignore statements except those that occur while the
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -                       default database is the one named at the command line.
+[2020-07-16 18:30:44,057] {bash_operator.py:126} INFO -   --pager[=name]      Pager to use to display results. If you don't supply an
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -                       option, the default pager is taken from your ENV variable
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -                       PAGER. Valid pagers are less, more, cat [> filename],
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -                       etc. See interactive help (\h) also. This option does not
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -                       work in batch mode. Disable with --disable-pager. This
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -                       option is disabled by default.
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -   -p, --password[=name]
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -                       Password to use when connecting to server. If password is
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -                       not given it's asked from the tty.
+[2020-07-16 18:30:44,058] {bash_operator.py:126} INFO -   -P, --port=#        Port number to use for connection or 0 for default to, in
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -                       order of preference, my.cnf, $MYSQL_TCP_PORT,
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -                       /etc/services, built-in default (3306).
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -   --prompt=name       Set the mysql prompt to this value.
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -   --protocol=name     The protocol to use for connection (tcp, socket, pipe,
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -                       memory).
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -   -q, --quick         Don't cache result, print it row by row. This may slow
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -                       down the server if the output is suspended. Doesn't use
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -                       history file.
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -   -r, --raw           Write fields without conversion. Used with --batch.
+[2020-07-16 18:30:44,059] {bash_operator.py:126} INFO -   --reconnect         Reconnect if the connection is lost. Disable with
+[2020-07-16 18:30:44,060] {bash_operator.py:126} INFO -                       --disable-reconnect. This option is enabled by default.
+[2020-07-16 18:30:44,060] {bash_operator.py:126} INFO -                       (Defaults to on; use --skip-reconnect to disable.)
+[2020-07-16 18:30:44,060] {bash_operator.py:126} INFO -   -s, --silent        Be more silent. Print results with a tab as separator,
+[2020-07-16 18:30:44,060] {bash_operator.py:126} INFO -                       each row on new line.
+[2020-07-16 18:30:44,061] {bash_operator.py:126} INFO -   -S, --socket=name   The socket file to use for connection.
+[2020-07-16 18:30:44,061] {bash_operator.py:126} INFO -   --ssl-mode=name     SSL connection mode.
+[2020-07-16 18:30:44,061] {bash_operator.py:126} INFO -   --ssl               Deprecated. Use --ssl-mode instead.
+[2020-07-16 18:30:44,061] {bash_operator.py:126} INFO -                       (Defaults to on; use --skip-ssl to disable.)
+[2020-07-16 18:30:44,061] {bash_operator.py:126} INFO -   --ssl-verify-server-cert
+[2020-07-16 18:30:44,062] {bash_operator.py:126} INFO -                       Deprecated. Use --ssl-mode=VERIFY_IDENTITY instead.
+[2020-07-16 18:30:44,062] {bash_operator.py:126} INFO -   --ssl-ca=name       CA file in PEM format.
+[2020-07-16 18:30:44,062] {bash_operator.py:126} INFO -   --ssl-capath=name   CA directory.
+[2020-07-16 18:30:44,062] {bash_operator.py:126} INFO -   --ssl-cert=name     X509 cert in PEM format.
+[2020-07-16 18:30:44,062] {bash_operator.py:126} INFO -   --ssl-cipher=name   SSL cipher to use.
+[2020-07-16 18:30:44,062] {bash_operator.py:126} INFO -   --ssl-key=name      X509 key in PEM format.
+[2020-07-16 18:30:44,062] {bash_operator.py:126} INFO -   --ssl-crl=name      Certificate revocation list.
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -   --ssl-crlpath=name  Certificate revocation list path.
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -   --tls-version=name  TLS version to use, permitted values are: TLSv1, TLSv1.1,
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -                       TLSv1.2
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -   --server-public-key-path=name
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -                       File path to the server public RSA key in PEM format.
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -   --get-server-public-key
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -                       Get server public key
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -   -t, --table         Output in table format.
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -   --tee=name          Append everything into outfile. See interactive help (\h)
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -                       also. Does not work in batch mode. Disable with
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -                       --disable-tee. This option is disabled by default.
+[2020-07-16 18:30:44,063] {bash_operator.py:126} INFO -   -u, --user=name     User for login if not current user.
+[2020-07-16 18:30:44,064] {bash_operator.py:126} INFO -   -U, --safe-updates  Only allow UPDATE and DELETE that uses keys.
+[2020-07-16 18:30:44,064] {bash_operator.py:126} INFO -   -U, --i-am-a-dummy  Synonym for option --safe-updates, -U.
+[2020-07-16 18:30:44,064] {bash_operator.py:126} INFO -   -v, --verbose       Write more. (-v -v -v gives the table output format).
+[2020-07-16 18:30:44,064] {bash_operator.py:126} INFO -   -V, --version       Output version information and exit.
+[2020-07-16 18:30:44,064] {bash_operator.py:126} INFO -   -w, --wait          Wait and retry if connection is down.
+[2020-07-16 18:30:44,064] {bash_operator.py:126} INFO -   --connect-timeout=# Number of seconds before connection timeout.
+[2020-07-16 18:30:44,064] {bash_operator.py:126} INFO -   --max-allowed-packet=#
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -                       The maximum packet length to send to or receive from
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -                       server.
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -   --net-buffer-length=#
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -                       The buffer size for TCP/IP and socket communication.
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -   --select-limit=#    Automatic limit for SELECT when using --safe-updates.
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -   --max-join-size=#   Automatic limit for rows in a join when using
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -                       --safe-updates.
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -   --secure-auth       Refuse client connecting to server if it uses old
+[2020-07-16 18:30:44,065] {bash_operator.py:126} INFO -                       (pre-4.1.1) protocol. Deprecated. Always TRUE
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -   --server-arg=name   Send embedded server this as a parameter.
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -   --show-warnings     Show warnings after every statement.
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -   -j, --syslog        Log filtered interactive commands to syslog. Filtering of
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -                       commands depends on the patterns supplied via histignore
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -                       option besides the default patterns.
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -   --plugin-dir=name   Directory for client-side plugins.
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -   --default-auth=name Default authentication client-side plugin to use.
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -   --binary-mode       By default, ASCII '\0' is disallowed and '\r\n' is
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -                       translated to '\n'. This switch turns off both features,
+[2020-07-16 18:30:44,066] {bash_operator.py:126} INFO -                       and also turns off parsing of all clientcommands except
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO -                       \C and DELIMITER, in non-interactive mode (for input
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO -                       piped to mysql or loaded using the 'source' command).
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO -                       This is necessary when processing output from mysqlbinlog
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO -                       that may contain blobs.
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO -   --connect-expired-password
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO -                       Notify the server that this client is prepared to handle
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO -                       expired password sandbox mode.
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO - 
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO - Default options are read from the following files in the given order:
+[2020-07-16 18:30:44,067] {bash_operator.py:126} INFO - /etc/my.cnf /etc/mysql/my.cnf ~/.my.cnf
+[2020-07-16 18:30:44,068] {bash_operator.py:126} INFO - The following groups are read: mysql client
+[2020-07-16 18:30:44,068] {bash_operator.py:126} INFO - The following options may be given as the first argument:
+[2020-07-16 18:30:44,069] {bash_operator.py:126} INFO - --print-defaults        Print the program argument list and exit.
+[2020-07-16 18:30:44,069] {bash_operator.py:126} INFO - --no-defaults           Don't read default options from any option file,
+[2020-07-16 18:30:44,069] {bash_operator.py:126} INFO -                         except for login file.
+[2020-07-16 18:30:44,071] {bash_operator.py:126} INFO - --defaults-file=#       Only read default options from the given file #.
+[2020-07-16 18:30:44,072] {bash_operator.py:126} INFO - --defaults-extra-file=# Read this file after the global files are read.
+[2020-07-16 18:30:44,072] {bash_operator.py:126} INFO - --defaults-group-suffix=#
+[2020-07-16 18:30:44,072] {bash_operator.py:126} INFO -                         Also read groups with concat(group, suffix)
+[2020-07-16 18:30:44,072] {bash_operator.py:126} INFO - --login-path=#          Read this path from the login file.
+[2020-07-16 18:30:44,072] {bash_operator.py:126} INFO - 
+[2020-07-16 18:30:44,072] {bash_operator.py:126} INFO - Variables (--variable-name=value)
+[2020-07-16 18:30:44,073] {bash_operator.py:126} INFO - and boolean options {FALSE|TRUE}  Value (after reading options)
+[2020-07-16 18:30:44,073] {bash_operator.py:126} INFO - --------------------------------- ----------------------------------------
+[2020-07-16 18:30:44,073] {bash_operator.py:126} INFO - auto-rehash                       TRUE
+[2020-07-16 18:30:44,073] {bash_operator.py:126} INFO - auto-vertical-output              FALSE
+[2020-07-16 18:30:44,073] {bash_operator.py:126} INFO - bind-address                      (No default value)
+[2020-07-16 18:30:44,074] {bash_operator.py:126} INFO - binary-as-hex                     FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - character-sets-dir                (No default value)
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - column-type-info                  FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - comments                          FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - compress                          FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - database                          airflow_db1
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - default-character-set             auto
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - delimiter                         ;
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - enable-cleartext-plugin           FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - vertical                          FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - force                             FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - histignore                        (No default value)
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - named-commands                    FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - ignore-spaces                     FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - init-command                      (No default value)
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - local-infile                      TRUE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - no-beep                           FALSE
+[2020-07-16 18:30:44,075] {bash_operator.py:126} INFO - host                              mysql
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - html                              FALSE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - xml                               FALSE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - line-numbers                      TRUE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - unbuffered                        FALSE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - column-names                      TRUE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - sigint-ignore                     FALSE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - port                              0
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - prompt                            mysql>
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - quick                             FALSE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - raw                               FALSE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - reconnect                         FALSE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - socket                            (No default value)
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - ssl                               TRUE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - ssl-verify-server-cert            FALSE
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - ssl-ca                            (No default value)
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - ssl-capath                        (No default value)
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - ssl-cert                          (No default value)
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - ssl-cipher                        (No default value)
+[2020-07-16 18:30:44,076] {bash_operator.py:126} INFO - ssl-key                           (No default value)
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - ssl-crl                           (No default value)
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - ssl-crlpath                       (No default value)
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - tls-version                       (No default value)
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - server-public-key-path            (No default value)
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - get-server-public-key             FALSE
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - table                             FALSE
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - user                              root
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - safe-updates                      FALSE
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - i-am-a-dummy                      FALSE
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - connect-timeout                   0
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - max-allowed-packet                16777216
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - net-buffer-length                 16384
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - select-limit                      1000
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - max-join-size                     1000000
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - secure-auth                       TRUE
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - show-warnings                     FALSE
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - plugin-dir                        (No default value)
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - default-auth                      (No default value)
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - binary-mode                       FALSE
+[2020-07-16 18:30:44,077] {bash_operator.py:126} INFO - connect-expired-password          FALSE
+[2020-07-16 18:30:44,141] {bash_operator.py:128} INFO - Command exited with return code 1
+[2020-07-16 18:30:44,164] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-07-16 18:30:44,179] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-07-16 18:30:52,890] {logging_mixin.py:112} INFO - [2020-07-16 18:30:52,890] {local_task_job.py:103} INFO - Task exited with return code 1

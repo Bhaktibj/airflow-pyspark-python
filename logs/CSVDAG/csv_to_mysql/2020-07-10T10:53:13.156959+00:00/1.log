@@ -1,0 +1,13 @@
+[2020-07-10 16:24:46,326] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: CSVDAG.csv_to_mysql 2020-07-10T10:53:13.156959+00:00 [queued]>
+[2020-07-10 16:24:46,339] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: CSVDAG.csv_to_mysql 2020-07-10T10:53:13.156959+00:00 [queued]>
+[2020-07-10 16:24:46,339] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-10 16:24:46,339] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-10 16:24:46,339] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-10 16:24:46,477] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): csv_to_mysql> on 2020-07-10T10:53:13.156959+00:00
+[2020-07-10 16:24:46,482] {standard_task_runner.py:53} INFO - Started process 65309 to run task
+[2020-07-10 16:24:46,736] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: CSVDAG.csv_to_mysql 2020-07-10T10:53:13.156959+00:00 [running]> bhakti-Vostro-3558
+[2020-07-10 16:24:47,016] {python_operator.py:114} INFO - Done. Returned value was: True
+[2020-07-10 16:24:47,155] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=CSVDAG, task_id=csv_to_mysql, execution_date=20200710T105313, start_date=20200710T105446, end_date=20200710T105447
+[2020-07-10 16:24:56,175] {logging_mixin.py:112} INFO - [2020-07-10 16:24:56,174] {local_task_job.py:103} INFO - Task exited with return code 0

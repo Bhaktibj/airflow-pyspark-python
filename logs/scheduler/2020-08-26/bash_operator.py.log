@@ -1,0 +1,286 @@
+[2020-08-26 11:39:23,904] {scheduler_job.py:153} INFO - Started process (PID=69172) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:39:23,907] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 11:39:23,907] {logging_mixin.py:112} INFO - [2020-08-26 11:39:23,907] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:39:49,128] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:39:49,304] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 11:39:49,995] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-23 00:00:00+00:00: scheduled__2020-07-23T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:39:49,998] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-23 00:00:00+00:00: scheduled__2020-07-23T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:39:50,040] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 11:39:50,044] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-23 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:50,286] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 26.382 seconds
+[2020-08-26 11:44:01,403] {scheduler_job.py:153} INFO - Started process (PID=71962) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:44:01,462] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 11:44:01,463] {logging_mixin.py:112} INFO - [2020-08-26 11:44:01,463] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:44:09,560] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:44:10,343] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 11:44:13,357] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-24 00:00:00+00:00: scheduled__2020-07-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:44:13,365] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-23 00:00:00+00:00: scheduled__2020-07-23T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:44:13,388] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-24 00:00:00+00:00: scheduled__2020-07-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:44:13,457] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 11:44:13,461] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-23 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:44:13,465] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-24 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:44:16,369] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 14.966 seconds
+[2020-08-26 11:48:14,883] {scheduler_job.py:153} INFO - Started process (PID=74246) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:48:14,916] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 11:48:14,918] {logging_mixin.py:112} INFO - [2020-08-26 11:48:14,917] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:48:23,872] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:48:23,993] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 11:48:24,397] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-25 00:00:00+00:00: scheduled__2020-07-25T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:48:24,403] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-23 00:00:00+00:00: scheduled__2020-07-23T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:48:24,422] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-24 00:00:00+00:00: scheduled__2020-07-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:48:24,445] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-25 00:00:00+00:00: scheduled__2020-07-25T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:48:24,556] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 11:48:24,561] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-23 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:48:24,569] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-24 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:48:24,574] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-25 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:48:24,769] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 9.886 seconds
+[2020-08-26 11:51:59,774] {scheduler_job.py:153} INFO - Started process (PID=76812) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:51:59,780] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 11:51:59,781] {logging_mixin.py:112} INFO - [2020-08-26 11:51:59,781] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:52:06,609] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:52:06,877] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 11:52:07,392] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:52:07,399] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-23 00:00:00+00:00: scheduled__2020-07-23T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:52:07,413] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-24 00:00:00+00:00: scheduled__2020-07-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:52:07,432] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-25 00:00:00+00:00: scheduled__2020-07-25T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:52:07,457] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:52:07,543] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 11:52:07,547] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-23 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:52:07,552] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-24 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:52:07,556] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-25 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:52:07,560] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-26 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:52:07,789] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 8.015 seconds
+[2020-08-26 11:56:37,495] {scheduler_job.py:153} INFO - Started process (PID=79585) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:56:37,498] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 11:56:37,499] {logging_mixin.py:112} INFO - [2020-08-26 11:56:37,499] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:56:44,631] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 11:56:44,765] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 11:56:45,271] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-27 00:00:00+00:00: scheduled__2020-07-27T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:56:45,278] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-23 00:00:00+00:00: scheduled__2020-07-23T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:56:45,311] {logging_mixin.py:112} INFO - [2020-08-26 11:56:45,311] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-23 00:00:00+00:00: scheduled__2020-07-23T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 11:56:45,410] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-24 00:00:00+00:00: scheduled__2020-07-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:56:45,431] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-25 00:00:00+00:00: scheduled__2020-07-25T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:56:45,588] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:56:45,622] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-27 00:00:00+00:00: scheduled__2020-07-27T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:56:45,778] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 11:56:45,786] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-24 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:56:45,794] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-25 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:56:45,804] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-26 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:56:45,814] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-27 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:56:46,021] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 8.526 seconds
+[2020-08-26 12:02:24,407] {scheduler_job.py:153} INFO - Started process (PID=82734) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:02:24,412] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:02:24,413] {logging_mixin.py:112} INFO - [2020-08-26 12:02:24,413] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:02:30,097] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:02:30,269] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:02:30,646] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-28 00:00:00+00:00: scheduled__2020-07-28T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:02:30,651] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-24 00:00:00+00:00: scheduled__2020-07-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:02:30,663] {logging_mixin.py:112} INFO - [2020-08-26 12:02:30,663] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-24 00:00:00+00:00: scheduled__2020-07-24T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:02:30,828] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-25 00:00:00+00:00: scheduled__2020-07-25T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:02:30,844] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:02:30,878] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-27 00:00:00+00:00: scheduled__2020-07-27T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:02:30,913] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-28 00:00:00+00:00: scheduled__2020-07-28T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:02:31,065] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:02:31,073] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-25 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:02:31,078] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-26 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:02:31,084] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-27 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:02:31,089] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-28 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:02:31,324] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 6.917 seconds
+[2020-08-26 12:06:04,691] {scheduler_job.py:153} INFO - Started process (PID=85014) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:06:04,694] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:06:04,695] {logging_mixin.py:112} INFO - [2020-08-26 12:06:04,695] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:06:10,821] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:06:11,379] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:06:12,096] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-29 00:00:00+00:00: scheduled__2020-07-29T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:06:12,102] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-25 00:00:00+00:00: scheduled__2020-07-25T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:06:12,112] {logging_mixin.py:112} INFO - [2020-08-26 12:06:12,112] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-25 00:00:00+00:00: scheduled__2020-07-25T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:06:12,407] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:06:12,425] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-27 00:00:00+00:00: scheduled__2020-07-27T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:06:12,443] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-28 00:00:00+00:00: scheduled__2020-07-28T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:06:12,470] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-29 00:00:00+00:00: scheduled__2020-07-29T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:06:12,566] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:06:12,570] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-26 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:06:12,575] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-27 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:06:12,579] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-28 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:06:12,583] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-29 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:06:12,884] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 8.193 seconds
+[2020-08-26 12:08:42,771] {scheduler_job.py:153} INFO - Started process (PID=86788) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:08:42,775] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:08:42,776] {logging_mixin.py:112} INFO - [2020-08-26 12:08:42,775] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:08:57,174] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:08:57,339] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:08:57,863] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-30 00:00:00+00:00: scheduled__2020-07-30T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:08:57,868] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:08:57,878] {logging_mixin.py:112} INFO - [2020-08-26 12:08:57,878] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:08:57,987] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-27 00:00:00+00:00: scheduled__2020-07-27T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:08:58,014] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-28 00:00:00+00:00: scheduled__2020-07-28T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:08:58,034] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-29 00:00:00+00:00: scheduled__2020-07-29T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:08:58,063] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-30 00:00:00+00:00: scheduled__2020-07-30T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:08:58,154] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:08:58,158] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-27 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:08:58,165] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-28 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:08:58,169] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-29 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:08:58,174] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-30 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:08:58,351] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 15.580 seconds
+[2020-08-26 12:11:48,590] {scheduler_job.py:153} INFO - Started process (PID=89185) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:11:48,625] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:11:48,626] {logging_mixin.py:112} INFO - [2020-08-26 12:11:48,626] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:11:58,694] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:11:58,911] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:11:59,328] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-07-31 00:00:00+00:00: scheduled__2020-07-31T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:11:59,333] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-27 00:00:00+00:00: scheduled__2020-07-27T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:11:59,351] {logging_mixin.py:112} INFO - [2020-08-26 12:11:59,350] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-27 00:00:00+00:00: scheduled__2020-07-27T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:11:59,495] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-28 00:00:00+00:00: scheduled__2020-07-28T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:11:59,510] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-29 00:00:00+00:00: scheduled__2020-07-29T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:11:59,530] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-30 00:00:00+00:00: scheduled__2020-07-30T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:11:59,556] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-31 00:00:00+00:00: scheduled__2020-07-31T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:11:59,639] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:11:59,646] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-28 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:11:59,654] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-29 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:11:59,661] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-30 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:11:59,669] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-07-31 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:11:59,904] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 11.315 seconds
+[2020-08-26 12:15:00,319] {scheduler_job.py:153} INFO - Started process (PID=91333) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:15:00,323] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:15:00,324] {logging_mixin.py:112} INFO - [2020-08-26 12:15:00,323] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:15:07,663] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:15:07,887] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:15:08,638] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-08-01 00:00:00+00:00: scheduled__2020-08-01T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:15:08,644] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-28 00:00:00+00:00: scheduled__2020-07-28T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:15:08,668] {logging_mixin.py:112} INFO - [2020-08-26 12:15:08,668] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-28 00:00:00+00:00: scheduled__2020-07-28T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:15:08,861] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-29 00:00:00+00:00: scheduled__2020-07-29T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:15:08,902] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-30 00:00:00+00:00: scheduled__2020-07-30T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:15:08,925] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-31 00:00:00+00:00: scheduled__2020-07-31T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:15:08,953] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-01 00:00:00+00:00: scheduled__2020-08-01T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:15:09,031] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:15:09,037] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-29 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:15:09,044] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-30 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:15:09,050] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-07-31 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:15:09,058] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-08-01 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:15:09,240] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 8.921 seconds
+[2020-08-26 12:17:37,923] {scheduler_job.py:153} INFO - Started process (PID=93275) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:17:37,927] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:17:37,928] {logging_mixin.py:112} INFO - [2020-08-26 12:17:37,928] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:17:49,496] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:17:49,677] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:17:50,220] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-08-02 00:00:00+00:00: scheduled__2020-08-02T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:17:50,225] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-29 00:00:00+00:00: scheduled__2020-07-29T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:17:50,240] {logging_mixin.py:112} INFO - [2020-08-26 12:17:50,240] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-29 00:00:00+00:00: scheduled__2020-07-29T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:17:50,349] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-30 00:00:00+00:00: scheduled__2020-07-30T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:17:50,373] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-31 00:00:00+00:00: scheduled__2020-07-31T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:17:50,398] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-01 00:00:00+00:00: scheduled__2020-08-01T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:17:50,430] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-02 00:00:00+00:00: scheduled__2020-08-02T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:17:50,518] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:17:50,522] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-30 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:17:50,526] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-07-31 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:17:50,531] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-08-01 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:17:50,535] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-08-02 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:17:50,735] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 12.813 seconds
+[2020-08-26 12:19:59,719] {scheduler_job.py:153} INFO - Started process (PID=94954) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:19:59,727] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:19:59,727] {logging_mixin.py:112} INFO - [2020-08-26 12:19:59,727] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:20:08,703] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:20:08,846] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:20:09,454] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-08-03 00:00:00+00:00: scheduled__2020-08-03T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:20:09,458] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-30 00:00:00+00:00: scheduled__2020-07-30T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:20:09,472] {logging_mixin.py:112} INFO - [2020-08-26 12:20:09,472] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-30 00:00:00+00:00: scheduled__2020-07-30T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:20:09,612] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-31 00:00:00+00:00: scheduled__2020-07-31T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:20:09,630] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-01 00:00:00+00:00: scheduled__2020-08-01T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:20:09,651] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-02 00:00:00+00:00: scheduled__2020-08-02T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:20:09,676] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-03 00:00:00+00:00: scheduled__2020-08-03T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:20:09,753] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:20:09,757] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-07-31 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:20:09,763] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-08-01 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:20:09,768] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-08-02 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:20:09,773] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-08-03 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:20:09,999] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 10.281 seconds
+[2020-08-26 12:22:53,732] {scheduler_job.py:153} INFO - Started process (PID=96763) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:22:53,736] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:22:53,736] {logging_mixin.py:112} INFO - [2020-08-26 12:22:53,736] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:23:01,533] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:23:01,792] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:23:02,202] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-08-04 00:00:00+00:00: scheduled__2020-08-04T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:23:02,207] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-07-31 00:00:00+00:00: scheduled__2020-07-31T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:23:02,220] {logging_mixin.py:112} INFO - [2020-08-26 12:23:02,220] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-07-31 00:00:00+00:00: scheduled__2020-07-31T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:23:02,490] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-01 00:00:00+00:00: scheduled__2020-08-01T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:23:02,513] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-02 00:00:00+00:00: scheduled__2020-08-02T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:23:02,542] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-03 00:00:00+00:00: scheduled__2020-08-03T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:23:02,581] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-04 00:00:00+00:00: scheduled__2020-08-04T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:23:02,696] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:23:02,703] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-08-01 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:23:02,711] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-08-02 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:23:02,719] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-08-03 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:23:02,726] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-08-04 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:23:02,910] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 9.177 seconds
+[2020-08-26 12:25:24,261] {scheduler_job.py:153} INFO - Started process (PID=98575) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:25:24,265] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:25:24,265] {logging_mixin.py:112} INFO - [2020-08-26 12:25:24,265] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:25:30,658] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:25:30,826] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:25:31,295] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-08-05 00:00:00+00:00: scheduled__2020-08-05T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:25:31,303] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-01 00:00:00+00:00: scheduled__2020-08-01T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:25:31,321] {logging_mixin.py:112} INFO - [2020-08-26 12:25:31,321] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-08-01 00:00:00+00:00: scheduled__2020-08-01T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:25:31,456] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-02 00:00:00+00:00: scheduled__2020-08-02T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:25:31,475] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-03 00:00:00+00:00: scheduled__2020-08-03T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:25:31,495] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-04 00:00:00+00:00: scheduled__2020-08-04T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:25:31,521] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-05 00:00:00+00:00: scheduled__2020-08-05T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:25:31,596] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:25:31,599] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-08-02 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:25:31,604] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-08-03 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:25:31,608] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-08-04 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:25:31,613] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-08-05 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:25:31,825] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 7.564 seconds
+[2020-08-26 12:27:52,703] {scheduler_job.py:153} INFO - Started process (PID=100222) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:27:52,708] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:27:52,709] {logging_mixin.py:112} INFO - [2020-08-26 12:27:52,708] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:27:58,840] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:27:59,023] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:27:59,501] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-08-06 00:00:00+00:00: scheduled__2020-08-06T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:27:59,504] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-02 00:00:00+00:00: scheduled__2020-08-02T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:27:59,518] {logging_mixin.py:112} INFO - [2020-08-26 12:27:59,518] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-08-02 00:00:00+00:00: scheduled__2020-08-02T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:27:59,670] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-03 00:00:00+00:00: scheduled__2020-08-03T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:27:59,690] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-04 00:00:00+00:00: scheduled__2020-08-04T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:27:59,709] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-05 00:00:00+00:00: scheduled__2020-08-05T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:27:59,735] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-06 00:00:00+00:00: scheduled__2020-08-06T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:27:59,810] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:27:59,816] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-08-03 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:27:59,820] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-08-04 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:27:59,826] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-08-05 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:27:59,830] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-08-06 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:28:00,050] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 7.347 seconds
+[2020-08-26 12:30:25,631] {scheduler_job.py:153} INFO - Started process (PID=101968) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:30:25,635] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:30:25,636] {logging_mixin.py:112} INFO - [2020-08-26 12:30:25,635] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:30:31,836] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:30:32,062] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:30:32,526] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-08-07 00:00:00+00:00: scheduled__2020-08-07T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:30:32,534] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-03 00:00:00+00:00: scheduled__2020-08-03T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:30:32,552] {logging_mixin.py:112} INFO - [2020-08-26 12:30:32,552] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-08-03 00:00:00+00:00: scheduled__2020-08-03T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:30:32,680] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-04 00:00:00+00:00: scheduled__2020-08-04T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:30:32,702] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-05 00:00:00+00:00: scheduled__2020-08-05T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:30:32,729] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-06 00:00:00+00:00: scheduled__2020-08-06T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:30:32,760] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-07 00:00:00+00:00: scheduled__2020-08-07T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:30:32,845] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:30:32,849] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-08-04 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:30:32,854] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-08-05 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:30:32,859] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-08-06 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:30:32,863] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-08-07 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:30:33,057] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 7.426 seconds
+[2020-08-26 12:32:49,549] {scheduler_job.py:153} INFO - Started process (PID=103679) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:32:49,553] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-08-26 12:32:49,553] {logging_mixin.py:112} INFO - [2020-08-26 12:32:49,553] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:32:57,617] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['FIRSTDAG']) retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-08-26 12:32:57,813] {scheduler_job.py:1284} INFO - Processing FIRSTDAG
+[2020-08-26 12:32:58,264] {scheduler_job.py:1294} INFO - Created <DagRun FIRSTDAG @ 2020-08-08 00:00:00+00:00: scheduled__2020-08-08T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:32:58,270] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-04 00:00:00+00:00: scheduled__2020-08-04T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:32:58,283] {logging_mixin.py:112} INFO - [2020-08-26 12:32:58,283] {dagrun.py:318} INFO - Marking run <DagRun FIRSTDAG @ 2020-08-04 00:00:00+00:00: scheduled__2020-08-04T00:00:00+00:00, externally triggered: False> successful
+[2020-08-26 12:32:58,412] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-05 00:00:00+00:00: scheduled__2020-08-05T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:32:58,435] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-06 00:00:00+00:00: scheduled__2020-08-06T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:32:58,468] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-07 00:00:00+00:00: scheduled__2020-08-07T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:32:58,503] {scheduler_job.py:759} INFO - Examining DAG run <DagRun FIRSTDAG @ 2020-08-08 00:00:00+00:00: scheduled__2020-08-08T00:00:00+00:00, externally triggered: False>
+[2020-08-26 12:32:58,591] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: FIRSTDAG> because no tasks in DAG have SLAs
+[2020-08-26 12:32:58,597] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.first_task 2020-08-05 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:32:58,605] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.second_task 2020-08-06 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:32:58,610] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.third_task 2020-08-07 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:32:58,616] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: FIRSTDAG.fourth_task 2020-08-08 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:32:58,808] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 9.260 seconds

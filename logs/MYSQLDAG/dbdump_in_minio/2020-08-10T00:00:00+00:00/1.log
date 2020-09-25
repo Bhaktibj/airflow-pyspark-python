@@ -1,0 +1,94 @@
+[2020-08-26 12:33:16,770] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-08-10T00:00:00+00:00 [queued]>
+[2020-08-26 12:33:16,784] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-08-10T00:00:00+00:00 [queued]>
+[2020-08-26 12:33:16,784] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 12:33:16,784] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-08-26 12:33:16,784] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 12:33:16,926] {taskinstance.py:900} INFO - Executing <Task(BashOperator): dbdump_in_minio> on 2020-08-10T00:00:00+00:00
+[2020-08-26 12:33:16,931] {standard_task_runner.py:53} INFO - Started process 104066 to run task
+[2020-08-26 12:33:17,118] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-08-10T00:00:00+00:00 [running]> bhakti-Vostro-3558
+[2020-08-26 12:33:17,134] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-08-26 12:33:17,136] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpfnh1qmlw/dbdump_in_minioqa0hz8c7
+[2020-08-26 12:33:17,136] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=
+dbname=airflow_db2
+root_dir="/home/bhakti/airflow/"
+location=$root_dir"input_data/dump_mysql_db.db"
+if [ $dbname != " " ]
+then
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+python3 $root_dir"minioconnect/minio_connection.py"
+echo 'File uploaded successfully'
+/opt/spark/bin/spark-submit $root_dir"config/settings.py"
+echo 'download file successfully'
+fi
+[2020-08-26 12:33:17,143] {bash_operator.py:122} INFO - Output:
+[2020-08-26 12:33:18,747] {bash_operator.py:126} INFO - mysqldump2020-08-26 12:33:18.747642.sql
+[2020-08-26 12:33:18,768] {bash_operator.py:126} INFO - Traceback (most recent call last):
+[2020-08-26 12:33:18,768] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/error.py", line 177, in _set_error_response_with_body
+[2020-08-26 12:33:18,768] {bash_operator.py:126} INFO -     root = ElementTree.fromstring(self._response.data)
+[2020-08-26 12:33:18,768] {bash_operator.py:126} INFO -   File "/usr/lib/python3.8/xml/etree/ElementTree.py", line 1320, in XML
+[2020-08-26 12:33:18,769] {bash_operator.py:126} INFO -     parser.feed(text)
+[2020-08-26 12:33:18,769] {bash_operator.py:126} INFO - xml.etree.ElementTree.ParseError: syntax error: line 1, column 0
+[2020-08-26 12:33:18,769] {bash_operator.py:126} INFO - 
+[2020-08-26 12:33:18,769] {bash_operator.py:126} INFO - During handling of the above exception, another exception occurred:
+[2020-08-26 12:33:18,769] {bash_operator.py:126} INFO - 
+[2020-08-26 12:33:18,769] {bash_operator.py:126} INFO - Traceback (most recent call last):
+[2020-08-26 12:33:18,769] {bash_operator.py:126} INFO -   File "/home/bhakti/airflow/minioconnect/minio_connection.py", line 25, in <module>
+[2020-08-26 12:33:18,769] {bash_operator.py:126} INFO -     minioClient.fput_object(bucket, bucket_file_name, '/home/bhakti/airflow/input_data/dump_mysql_db.db')
+[2020-08-26 12:33:18,770] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/api.py", line 698, in fput_object
+[2020-08-26 12:33:18,770] {bash_operator.py:126} INFO -     return self.put_object(bucket_name, object_name, file_data,
+[2020-08-26 12:33:18,770] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/api.py", line 969, in put_object
+[2020-08-26 12:33:18,770] {bash_operator.py:126} INFO -     return self._do_put_object(bucket_name, object_name,
+[2020-08-26 12:33:18,770] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/api.py", line 1682, in _do_put_object
+[2020-08-26 12:33:18,770] {bash_operator.py:126} INFO -     response = self._url_open(
+[2020-08-26 12:33:18,770] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/api.py", line 1984, in _url_open
+[2020-08-26 12:33:18,771] {bash_operator.py:126} INFO -     region = self._get_bucket_region(bucket_name)
+[2020-08-26 12:33:18,771] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/api.py", line 1919, in _get_bucket_region
+[2020-08-26 12:33:18,771] {bash_operator.py:126} INFO -     region = self._get_bucket_location(bucket_name)
+[2020-08-26 12:33:18,771] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/api.py", line 1957, in _get_bucket_location
+[2020-08-26 12:33:18,772] {bash_operator.py:126} INFO -     raise ResponseError(response, method, bucket_name).get_exception()
+[2020-08-26 12:33:18,772] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/error.py", line 139, in __init__
+[2020-08-26 12:33:18,772] {bash_operator.py:126} INFO -     self._handle_error_response(bucket_name)
+[2020-08-26 12:33:18,772] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/error.py", line 160, in _handle_error_response
+[2020-08-26 12:33:18,772] {bash_operator.py:126} INFO -     self._set_error_response_with_body(bucket_name)
+[2020-08-26 12:33:18,772] {bash_operator.py:126} INFO -   File "/usr/local/lib/python3.8/dist-packages/minio/error.py", line 179, in _set_error_response_with_body
+[2020-08-26 12:33:18,772] {bash_operator.py:126} INFO -     raise InvalidXMLError('"Error" XML is not parsable. '
+[2020-08-26 12:33:18,772] {bash_operator.py:126} INFO - minio.error.InvalidXMLError: InvalidXMLError: message: "Error" XML is not parsable. Message: syntax error: line 1, column 0
+[2020-08-26 12:33:18,906] {bash_operator.py:126} INFO - File uploaded successfully
+[2020-08-26 12:33:20,556] {bash_operator.py:126} INFO - 20/08/26 12:33:20 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-08-26 12:33:20,557] {bash_operator.py:126} INFO - 20/08/26 12:33:20 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-08-26 12:33:21,561] {bash_operator.py:126} INFO - 20/08/26 12:33:21 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2020-08-26 12:33:22,047] {bash_operator.py:126} INFO - Exception in thread "main" java.io.IOException: Cannot run program "python": error=2, No such file or directory
+[2020-08-26 12:33:22,047] {bash_operator.py:126} INFO - 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
+[2020-08-26 12:33:22,048] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.PythonRunner$.main(PythonRunner.scala:97)
+[2020-08-26 12:33:22,048] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.PythonRunner.main(PythonRunner.scala)
+[2020-08-26 12:33:22,048] {bash_operator.py:126} INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[2020-08-26 12:33:22,048] {bash_operator.py:126} INFO - 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[2020-08-26 12:33:22,048] {bash_operator.py:126} INFO - 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[2020-08-26 12:33:22,048] {bash_operator.py:126} INFO - 	at java.lang.reflect.Method.invoke(Method.java:498)
+[2020-08-26 12:33:22,048] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.JavaMainApplication.start(SparkApplication.scala:52)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.SparkSubmit.org$apache$spark$deploy$SparkSubmit$$runMain(SparkSubmit.scala:928)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.SparkSubmit.doRunMain$1(SparkSubmit.scala:180)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.SparkSubmit.submit(SparkSubmit.scala:203)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:90)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1007)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1016)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - Caused by: java.io.IOException: error=2, No such file or directory
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at java.lang.UNIXProcess.forkAndExec(Native Method)
+[2020-08-26 12:33:22,049] {bash_operator.py:126} INFO - 	at java.lang.UNIXProcess.<init>(UNIXProcess.java:247)
+[2020-08-26 12:33:22,050] {bash_operator.py:126} INFO - 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
+[2020-08-26 12:33:22,050] {bash_operator.py:126} INFO - 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
+[2020-08-26 12:33:22,050] {bash_operator.py:126} INFO - 	... 14 more
+[2020-08-26 12:33:22,057] {bash_operator.py:126} INFO - log4j:WARN No appenders could be found for logger (org.apache.spark.util.ShutdownHookManager).
+[2020-08-26 12:33:22,057] {bash_operator.py:126} INFO - log4j:WARN Please initialize the log4j system properly.
+[2020-08-26 12:33:22,058] {bash_operator.py:126} INFO - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[2020-08-26 12:33:22,109] {bash_operator.py:126} INFO - download file successfully
+[2020-08-26 12:33:22,109] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-08-26 12:33:22,122] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=MYSQLDAG, task_id=dbdump_in_minio, execution_date=20200810T000000, start_date=20200826T070316, end_date=20200826T070322
+[2020-08-26 12:33:26,632] {logging_mixin.py:112} INFO - [2020-08-26 12:33:26,631] {local_task_job.py:103} INFO - Task exited with return code 0

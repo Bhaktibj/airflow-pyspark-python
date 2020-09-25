@@ -1,0 +1,19 @@
+[2020-08-26 12:24:22,774] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: FIRSTDAG.second_task 2020-08-02T00:00:00+00:00 [queued]>
+[2020-08-26 12:24:22,804] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: FIRSTDAG.second_task 2020-08-02T00:00:00+00:00 [queued]>
+[2020-08-26 12:24:22,805] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 12:24:22,806] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-08-26 12:24:22,806] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 12:24:22,980] {taskinstance.py:900} INFO - Executing <Task(BashOperator): second_task> on 2020-08-02T00:00:00+00:00
+[2020-08-26 12:24:22,985] {standard_task_runner.py:53} INFO - Started process 97957 to run task
+[2020-08-26 12:24:23,325] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: FIRSTDAG.second_task 2020-08-02T00:00:00+00:00 [running]> bhakti-Vostro-3558
+[2020-08-26 12:24:23,354] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-08-26 12:24:23,356] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmp933sbwap/second_task8yx_r1xh
+[2020-08-26 12:24:23,356] {bash_operator.py:115} INFO - Running command: echo "This is Second Task"
+[2020-08-26 12:24:23,370] {bash_operator.py:122} INFO - Output:
+[2020-08-26 12:24:23,372] {bash_operator.py:126} INFO - This is Second Task
+[2020-08-26 12:24:23,372] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-08-26 12:24:23,385] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=FIRSTDAG, task_id=second_task, execution_date=20200802T000000, start_date=20200826T065422, end_date=20200826T065423
+[2020-08-26 12:24:32,620] {logging_mixin.py:112} INFO - [2020-08-26 12:24:32,619] {local_task_job.py:103} INFO - Task exited with return code 0

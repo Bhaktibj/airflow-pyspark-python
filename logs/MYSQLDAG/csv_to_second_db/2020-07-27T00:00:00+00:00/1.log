@@ -1,0 +1,31 @@
+[2020-08-26 11:47:32,185] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.csv_to_second_db 2020-07-27T00:00:00+00:00 [queued]>
+[2020-08-26 11:47:32,198] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.csv_to_second_db 2020-07-27T00:00:00+00:00 [queued]>
+[2020-08-26 11:47:32,198] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 11:47:32,198] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-08-26 11:47:32,198] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 11:47:32,391] {taskinstance.py:900} INFO - Executing <Task(BashOperator): csv_to_second_db> on 2020-07-27T00:00:00+00:00
+[2020-08-26 11:47:32,399] {standard_task_runner.py:53} INFO - Started process 73926 to run task
+[2020-08-26 11:47:32,627] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.csv_to_second_db 2020-07-27T00:00:00+00:00 [running]> bhakti-Vostro-3558
+[2020-08-26 11:47:32,644] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-08-26 11:47:32,645] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpycy7i0q7/csv_to_second_dbxr9rf_ck
+[2020-08-26 11:47:32,645] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=root
+dbname=airflow_db2
+host=mysql
+port=3306
+if [ $password != " " ]
+then
+docker exec -it mysqlCon \
+mysql -D$dbname -h$host -p$port -u$user -p$password -e'CREATE TABLE IF NOT EXISTS employees2(PERSON TEXT,JOINING_YEAR BIGINT, COMPANY TEXT);' -e'LOAD DATA INFILE "/input_files_mysql/sample1.csv" INTO TABLE employees2 FIELDS TERMINATED BY "," LINES TERMINATED BY "\n" IGNORE 1 ROWS;'
+echo "Task run successfully"
+fi
+[2020-08-26 11:47:32,652] {bash_operator.py:122} INFO - Output:
+[2020-08-26 11:47:33,171] {bash_operator.py:126} INFO - mysql: [Warning] Using a password on the command line interface can be insecure.
+[2020-08-26 11:47:33,395] {bash_operator.py:126} INFO - Task run successfully
+[2020-08-26 11:47:33,395] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-08-26 11:47:33,407] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=MYSQLDAG, task_id=csv_to_second_db, execution_date=20200727T000000, start_date=20200826T061732, end_date=20200826T061733
+[2020-08-26 11:47:41,959] {logging_mixin.py:112} INFO - [2020-08-26 11:47:41,958] {local_task_job.py:103} INFO - Task exited with return code 0

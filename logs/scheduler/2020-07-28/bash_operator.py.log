@@ -1,0 +1,222 @@
+[2020-07-28 16:10:50,005] {scheduler_job.py:153} INFO - Started process (PID=110576) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:10:50,008] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-07-28 16:10:50,008] {logging_mixin.py:112} INFO - [2020-07-28 16:10:50,008] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:11:20,011] {logging_mixin.py:112} INFO - [2020-07-28 16:11:20,011] {timeout.py:42} ERROR - Process timed out, PID: 110576
+[2020-07-28 16:11:20,716] {logging_mixin.py:112} INFO - [2020-07-28 16:11:20,012] {dagbag.py:239} ERROR - Failed to import: /home/bhakti/airflow/dags/bash_operator.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/bhakti/airflow/dags/bash_operator.py", line 10, in <module>
+    con = SparkContext()
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 128, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 320, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/java_gateway.py", line 102, in launch_gateway
+    time.sleep(0.1)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 110576
+[2020-07-28 16:11:20,717] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:11:22,017] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 32.012 seconds
+[2020-07-28 16:11:58,567] {scheduler_job.py:153} INFO - Started process (PID=110841) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:11:58,697] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-07-28 16:11:58,698] {logging_mixin.py:112} INFO - [2020-07-28 16:11:58,698] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:12:28,963] {logging_mixin.py:112} INFO - [2020-07-28 16:12:28,962] {timeout.py:42} ERROR - Process timed out, PID: 110841
+[2020-07-28 16:12:29,637] {logging_mixin.py:112} INFO - [2020-07-28 16:12:28,963] {java_gateway.py:1210} INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1200, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 110841
+[2020-07-28 16:12:29,638] {logging_mixin.py:112} INFO - [2020-07-28 16:12:29,637] {java_gateway.py:1050} ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1200, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 110841
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1033, in send_command
+    response = connection.send_command(command)
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1211, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while receiving
+[2020-07-28 16:12:29,710] {logging_mixin.py:112} INFO - [2020-07-28 16:12:29,638] {dagbag.py:239} ERROR - Failed to import: /home/bhakti/airflow/dags/bash_operator.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/bhakti/airflow/dags/bash_operator.py", line 10, in <module>
+    con = SparkContext()
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 130, in __init__
+    self._do_init(master, appName, sparkHome, pyFiles, environment, batchSize, serializer,
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 193, in _do_init
+    self._jsc = jsc or self._initialize_context(self._conf._jconf)
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 310, in _initialize_context
+    return self._jvm.JavaSparkContext(jconf)
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1568, in __call__
+    return_value = get_return_value(
+  File "/usr/local/lib/python3.8/dist-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext
+[2020-07-28 16:12:29,710] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:12:30,588] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 32.021 seconds
+[2020-07-28 16:12:59,833] {scheduler_job.py:153} INFO - Started process (PID=111041) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:12:59,837] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-07-28 16:12:59,838] {logging_mixin.py:112} INFO - [2020-07-28 16:12:59,837] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:13:29,841] {logging_mixin.py:112} INFO - [2020-07-28 16:13:29,840] {timeout.py:42} ERROR - Process timed out, PID: 111041
+[2020-07-28 16:13:30,206] {logging_mixin.py:112} INFO - [2020-07-28 16:13:29,966] {java_gateway.py:1210} INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1200, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 111041
+[2020-07-28 16:13:30,208] {logging_mixin.py:112} INFO - [2020-07-28 16:13:30,207] {java_gateway.py:1050} ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1200, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 111041
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1033, in send_command
+    response = connection.send_command(command)
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1211, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while receiving
+[2020-07-28 16:13:30,224] {logging_mixin.py:112} INFO - [2020-07-28 16:13:30,208] {dagbag.py:239} ERROR - Failed to import: /home/bhakti/airflow/dags/bash_operator.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/bhakti/airflow/dags/bash_operator.py", line 10, in <module>
+    con = SparkContext()
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 130, in __init__
+    self._do_init(master, appName, sparkHome, pyFiles, environment, batchSize, serializer,
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 193, in _do_init
+    self._jsc = jsc or self._initialize_context(self._conf._jconf)
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 310, in _initialize_context
+    return self._jvm.JavaSparkContext(jconf)
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1568, in __call__
+    return_value = get_return_value(
+  File "/usr/local/lib/python3.8/dist-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext
+[2020-07-28 16:13:30,225] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:13:30,874] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 31.041 seconds
+[2020-07-28 16:13:50,089] {scheduler_job.py:153} INFO - Started process (PID=111224) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:13:50,092] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-07-28 16:13:50,093] {logging_mixin.py:112} INFO - [2020-07-28 16:13:50,092] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:14:20,222] {logging_mixin.py:112} INFO - [2020-07-28 16:14:20,222] {timeout.py:42} ERROR - Process timed out, PID: 111224
+[2020-07-28 16:14:20,561] {logging_mixin.py:112} INFO - [2020-07-28 16:14:20,223] {java_gateway.py:1210} INFO - Error while receiving.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1200, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 111224
+[2020-07-28 16:14:20,562] {logging_mixin.py:112} INFO - [2020-07-28 16:14:20,561] {java_gateway.py:1050} ERROR - Exception while sending command.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1200, in send_command
+    answer = smart_decode(self.stream.readline()[:-1])
+  File "/usr/lib/python3.8/socket.py", line 669, in readinto
+    return self._sock.recv_into(b)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 111224
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1033, in send_command
+    response = connection.send_command(command)
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1211, in send_command
+    raise Py4JNetworkError(
+py4j.protocol.Py4JNetworkError: Error while receiving
+[2020-07-28 16:14:20,601] {logging_mixin.py:112} INFO - [2020-07-28 16:14:20,563] {dagbag.py:239} ERROR - Failed to import: /home/bhakti/airflow/dags/bash_operator.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/bhakti/airflow/dags/bash_operator.py", line 10, in <module>
+    con = SparkContext()
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 130, in __init__
+    self._do_init(master, appName, sparkHome, pyFiles, environment, batchSize, serializer,
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 193, in _do_init
+    self._jsc = jsc or self._initialize_context(self._conf._jconf)
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 310, in _initialize_context
+    return self._jvm.JavaSparkContext(jconf)
+  File "/usr/local/lib/python3.8/dist-packages/py4j/java_gateway.py", line 1568, in __call__
+    return_value = get_return_value(
+  File "/usr/local/lib/python3.8/dist-packages/py4j/protocol.py", line 334, in get_return_value
+    raise Py4JError(
+py4j.protocol.Py4JError: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext
+[2020-07-28 16:14:20,602] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:14:21,650] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 31.561 seconds
+[2020-07-28 16:15:31,221] {scheduler_job.py:153} INFO - Started process (PID=111526) to work on /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:15:31,758] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/bash_operator.py for tasks to queue
+[2020-07-28 16:15:31,759] {logging_mixin.py:112} INFO - [2020-07-28 16:15:31,759] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:16:01,774] {logging_mixin.py:112} INFO - [2020-07-28 16:16:01,773] {timeout.py:42} ERROR - Process timed out, PID: 111526
+[2020-07-28 16:16:01,947] {logging_mixin.py:112} INFO - [2020-07-28 16:16:01,793] {dagbag.py:239} ERROR - Failed to import: /home/bhakti/airflow/dags/bash_operator.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/bhakti/airflow/dags/bash_operator.py", line 10, in <module>
+    con = SparkContext()
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 128, in __init__
+    SparkContext._ensure_initialized(self, gateway=gateway, conf=conf)
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/context.py", line 320, in _ensure_initialized
+    SparkContext._gateway = gateway or launch_gateway(conf)
+  File "/usr/local/lib/python3.8/dist-packages/pyspark/java_gateway.py", line 102, in launch_gateway
+    time.sleep(0.1)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 111526
+[2020-07-28 16:16:01,947] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /home/bhakti/airflow/dags/bash_operator.py
+[2020-07-28 16:16:03,458] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/bash_operator.py took 32.237 seconds

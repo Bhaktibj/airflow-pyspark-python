@@ -1,0 +1,81 @@
+[2020-07-22 10:56:37,940] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T05:26:17.816273+00:00 [queued]>
+[2020-07-22 10:56:37,956] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T05:26:17.816273+00:00 [queued]>
+[2020-07-22 10:56:37,957] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 10:56:37,957] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-22 10:56:37,957] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 10:56:38,183] {taskinstance.py:900} INFO - Executing <Task(BashOperator): dbdump_in_minio> on 2020-07-22T05:26:17.816273+00:00
+[2020-07-22 10:56:38,190] {standard_task_runner.py:53} INFO - Started process 116858 to run task
+[2020-07-22 10:56:38,407] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T05:26:17.816273+00:00 [running]> bhakti-Vostro-3558
+[2020-07-22 10:56:38,464] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-22 10:56:38,467] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpxorpwvv1/dbdump_in_minio6ppnnji6
+[2020-07-22 10:56:38,469] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=
+dbname=airflow_db2
+root_dir="/home/bhakti/airflow/"
+location=$root_dir"input_data/dump_mysql_db.db"
+if [ $dbname != " " ]
+then
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+python3 $root_dir"minioconnect/minio_connection.py"
+echo 'File uploaded successfully'
+/opt/spark/bin/spark-submit $root_dir"config/settings.py"
+fi
+[2020-07-22 10:56:38,498] {bash_operator.py:122} INFO - Output:
+[2020-07-22 10:56:46,139] {bash_operator.py:126} INFO - mysqldump2020-07-22 10:56:46.138707.sql
+[2020-07-22 10:56:46,855] {bash_operator.py:126} INFO - File uploaded successfully
+[2020-07-22 10:56:50,311] {bash_operator.py:126} INFO - 20/07/22 10:56:50 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-07-22 10:56:50,320] {bash_operator.py:126} INFO - 20/07/22 10:56:50 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-07-22 10:56:51,668] {bash_operator.py:126} INFO - 20/07/22 10:56:51 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2020-07-22 10:56:53,345] {bash_operator.py:126} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2020-07-22 10:56:53,358] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO SparkContext: Running Spark version 3.0.0
+[2020-07-22 10:56:53,434] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO ResourceUtils: ==============================================================
+[2020-07-22 10:56:53,437] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO ResourceUtils: Resources for spark.driver:
+[2020-07-22 10:56:53,437] {bash_operator.py:126} INFO - 
+[2020-07-22 10:56:53,437] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO ResourceUtils: ==============================================================
+[2020-07-22 10:56:53,438] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO SparkContext: Submitted application: First App
+[2020-07-22 10:56:53,537] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO SecurityManager: Changing view acls to: bhakti
+[2020-07-22 10:56:53,537] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO SecurityManager: Changing modify acls to: bhakti
+[2020-07-22 10:56:53,538] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO SecurityManager: Changing view acls groups to:
+[2020-07-22 10:56:53,538] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO SecurityManager: Changing modify acls groups to:
+[2020-07-22 10:56:53,538] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bhakti); groups with view permissions: Set(); users  with modify permissions: Set(bhakti); groups with modify permissions: Set()
+[2020-07-22 10:56:53,974] {bash_operator.py:126} INFO - 20/07/22 10:56:53 INFO Utils: Successfully started service 'sparkDriver' on port 43823.
+[2020-07-22 10:56:54,018] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO SparkEnv: Registering MapOutputTracker
+[2020-07-22 10:56:54,076] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO SparkEnv: Registering BlockManagerMaster
+[2020-07-22 10:56:54,136] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2020-07-22 10:56:54,145] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2020-07-22 10:56:54,161] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2020-07-22 10:56:54,193] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-578e2508-3162-4951-858a-896989ac4629
+[2020-07-22 10:56:54,249] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2020-07-22 10:56:54,294] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO SparkEnv: Registering OutputCommitCoordinator
+[2020-07-22 10:56:54,747] {bash_operator.py:126} INFO - 20/07/22 10:56:54 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2020-07-22 10:56:54,748] {bash_operator.py:126} INFO - 20/07/22 10:56:54 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2020-07-22 10:56:54,759] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO Utils: Successfully started service 'SparkUI' on port 4042.
+[2020-07-22 10:56:54,847] {bash_operator.py:126} INFO - 20/07/22 10:56:54 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.43.94:4042
+[2020-07-22 10:56:55,312] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO Executor: Starting executor ID driver on host 192.168.43.94
+[2020-07-22 10:56:55,359] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 33003.
+[2020-07-22 10:56:55,360] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO NettyBlockTransferService: Server created on 192.168.43.94:33003
+[2020-07-22 10:56:55,363] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2020-07-22 10:56:55,378] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.43.94, 33003, None)
+[2020-07-22 10:56:55,392] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.43.94:33003 with 366.3 MiB RAM, BlockManagerId(driver, 192.168.43.94, 33003, None)
+[2020-07-22 10:56:55,396] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.43.94, 33003, None)
+[2020-07-22 10:56:55,399] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.43.94, 33003, None)
+[2020-07-22 10:56:55,944] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO SparkContext: Invoking stop() from shutdown hook
+[2020-07-22 10:56:55,968] {bash_operator.py:126} INFO - 20/07/22 10:56:55 INFO SparkUI: Stopped Spark web UI at http://192.168.43.94:4042
+[2020-07-22 10:56:56,015] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2020-07-22 10:56:56,075] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO MemoryStore: MemoryStore cleared
+[2020-07-22 10:56:56,076] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO BlockManager: BlockManager stopped
+[2020-07-22 10:56:56,109] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2020-07-22 10:56:56,138] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2020-07-22 10:56:56,237] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO SparkContext: Successfully stopped SparkContext
+[2020-07-22 10:56:56,238] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO ShutdownHookManager: Shutdown hook called
+[2020-07-22 10:56:56,243] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO ShutdownHookManager: Deleting directory /tmp/spark-2e54a224-64ce-4361-930a-8a5c012b7e26/pyspark-5ffb99bf-878a-4078-950f-22e50db96cb2
+[2020-07-22 10:56:56,252] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO ShutdownHookManager: Deleting directory /tmp/spark-c1ef6c20-117e-497c-ab65-12ba74af79ac
+[2020-07-22 10:56:56,259] {bash_operator.py:126} INFO - 20/07/22 10:56:56 INFO ShutdownHookManager: Deleting directory /tmp/spark-2e54a224-64ce-4361-930a-8a5c012b7e26
+[2020-07-22 10:56:56,398] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-22 10:56:56,409] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=MYSQLDAG, task_id=dbdump_in_minio, execution_date=20200722T052617, start_date=20200722T052637, end_date=20200722T052656
+[2020-07-22 10:56:58,032] {logging_mixin.py:112} INFO - [2020-07-22 10:56:58,031] {local_task_job.py:103} INFO - Task exited with return code 0

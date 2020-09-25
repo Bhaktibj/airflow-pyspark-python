@@ -1,0 +1,32 @@
+[2020-07-18 17:40:21,901] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.db1_to_csv 2020-07-18T12:05:03.412679+00:00 [queued]>
+[2020-07-18 17:40:21,911] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.db1_to_csv 2020-07-18T12:05:03.412679+00:00 [queued]>
+[2020-07-18 17:40:21,911] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 17:40:21,911] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-07-18 17:40:21,911] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 17:40:22,082] {taskinstance.py:900} INFO - Executing <Task(BashOperator): db1_to_csv> on 2020-07-18T12:05:03.412679+00:00
+[2020-07-18 17:40:22,091] {standard_task_runner.py:53} INFO - Started process 192404 to run task
+[2020-07-18 17:40:22,265] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: storing_data.db1_to_csv 2020-07-18T12:05:03.412679+00:00 [running]> bhakti-Vostro-3558
+[2020-07-18 17:40:22,281] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-18 17:40:22,283] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpis31e9jn/db1_to_csv38l6sams
+[2020-07-18 17:40:22,283] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=root
+dbname=airflow_db1
+docker exec -it mysqlCon \
+mysql -D$dbname -p$password -u$user -e'SELECT * FROM employees INTO OUTFILE /input_files_mysql/sample1.csv FIELDS TERMINATED BY "," LINES TERMINATED BY "\n";'
+[2020-07-18 17:40:22,297] {bash_operator.py:122} INFO - Output:
+[2020-07-18 17:40:23,108] {bash_operator.py:126} INFO - mysql: [Warning] Using a password on the command line interface can be insecure.
+[2020-07-18 17:40:23,116] {bash_operator.py:126} INFO - ERROR 1064 (42000) at line 1: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '/input_files_mysql/sample1.csv FIELDS TERMINATED BY "," LINES TERMINATED BY "\n"' at line 1
+[2020-07-18 17:40:23,195] {bash_operator.py:128} INFO - Command exited with return code 1
+[2020-07-18 17:40:23,207] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-07-18 17:40:23,210] {taskinstance.py:1174} INFO - All retries failed; marking task as FAILED.dag_id=storing_data, task_id=db1_to_csv, execution_date=20200718T120503, start_date=20200718T121021, end_date=20200718T121023
+[2020-07-18 17:40:31,762] {logging_mixin.py:112} INFO - [2020-07-18 17:40:31,762] {local_task_job.py:103} INFO - Task exited with return code 1

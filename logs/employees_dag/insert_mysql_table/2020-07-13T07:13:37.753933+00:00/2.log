@@ -1,0 +1,42 @@
+[2020-07-13 12:45:35,526] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: employees_dag.insert_mysql_table 2020-07-13T07:13:37.753933+00:00 [queued]>
+[2020-07-13 12:45:35,534] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: employees_dag.insert_mysql_table 2020-07-13T07:13:37.753933+00:00 [queued]>
+[2020-07-13 12:45:35,534] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-13 12:45:35,535] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-07-13 12:45:35,535] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-13 12:45:35,679] {taskinstance.py:900} INFO - Executing <Task(MySqlOperator): insert_mysql_table> on 2020-07-13T07:13:37.753933+00:00
+[2020-07-13 12:45:35,684] {standard_task_runner.py:53} INFO - Started process 26226 to run task
+[2020-07-13 12:45:35,844] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: employees_dag.insert_mysql_table 2020-07-13T07:13:37.753933+00:00 [running]> bhakti-Vostro-3558
+[2020-07-13 12:45:35,857] {mysql_operator.py:61} INFO - Executing: LOAD DATA LOCAL INFILE '/home/bhakti/airflow/input_data/sample.csv' INTO TABLE employees FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+[2020-07-13 12:45:35,904] {logging_mixin.py:112} INFO - [2020-07-13 12:45:35,903] {base_hook.py:87} INFO - Using connection to: id: mysql_conn. Host: localhost, Port: None, Schema: airflow_db, Login: root, Password: XXXXXXXX, extra: None
+[2020-07-13 12:45:35,906] {logging_mixin.py:112} INFO - [2020-07-13 12:45:35,906] {dbapi_hook.py:174} INFO - LOAD DATA LOCAL INFILE '/home/bhakti/airflow/input_data/sample.csv' INTO TABLE employees FIELDS TERMINATED BY ','
+LINES TERMINATED BY '\n' IGNORE 1 ROWS;
+[2020-07-13 12:45:35,907] {taskinstance.py:1145} ERROR - (3948, 'Loading local data is disabled; this must be enabled on both the client and server sides')
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/mysql_operator.py", line 64, in execute
+    hook.run(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/hooks/dbapi_hook.py", line 175, in run
+    cur.execute(s)
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/cursors.py", line 170, in execute
+    result = self._query(query)
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/cursors.py", line 328, in _query
+    conn.query(q)
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/connections.py", line 517, in query
+    self._affected_rows = self._read_query_result(unbuffered=unbuffered)
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/connections.py", line 732, in _read_query_result
+    result.read()
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/connections.py", line 1075, in read
+    first_packet = self.connection._read_packet()
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/connections.py", line 684, in _read_packet
+    packet.check_error()
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/protocol.py", line 220, in check_error
+    err.raise_mysql_exception(self._data)
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/err.py", line 109, in raise_mysql_exception
+    raise errorclass(errno, errval)
+pymysql.err.InternalError: (3948, 'Loading local data is disabled; this must be enabled on both the client and server sides')
+[2020-07-13 12:45:35,909] {taskinstance.py:1174} INFO - All retries failed; marking task as FAILED.dag_id=employees_dag, task_id=insert_mysql_table, execution_date=20200713T071337, start_date=20200713T071535, end_date=20200713T071535
+[2020-07-13 12:45:45,399] {logging_mixin.py:112} INFO - [2020-07-13 12:45:45,399] {local_task_job.py:103} INFO - Task exited with return code 1

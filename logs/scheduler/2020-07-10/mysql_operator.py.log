@@ -1,0 +1,63 @@
+[2020-07-10 19:04:23,121] {scheduler_job.py:153} INFO - Started process (PID=8795) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:04:23,125] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-10 19:04:23,125] {logging_mixin.py:112} INFO - [2020-07-10 19:04:23,125] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:04:23,138] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:04:23,147] {logging_mixin.py:112} INFO - [2020-07-10 19:04:23,147] {dag.py:1501} INFO - Creating ORM DAG for employees_dag
+[2020-07-10 19:04:23,248] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.126 seconds
+[2020-07-10 19:05:19,177] {scheduler_job.py:153} INFO - Started process (PID=8943) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:05:19,180] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-10 19:05:19,180] {logging_mixin.py:112} INFO - [2020-07-10 19:05:19,180] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:05:19,191] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:05:19,332] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.155 seconds
+[2020-07-10 19:06:15,234] {scheduler_job.py:153} INFO - Started process (PID=9021) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:06:15,237] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-10 19:06:15,238] {logging_mixin.py:112} INFO - [2020-07-10 19:06:15,238] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:06:15,255] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:06:16,160] {scheduler_job.py:1284} INFO - Processing employees_dag
+[2020-07-10 19:06:16,196] {scheduler_job.py:759} INFO - Examining DAG run <DagRun employees_dag @ 2020-07-10 13:35:30.080082+00:00: manual__2020-07-10T13:35:30.080082+00:00, externally triggered: True>
+[2020-07-10 19:06:16,237] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: employees_dag> because no tasks in DAG have SLAs
+[2020-07-10 19:06:16,244] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: employees_dag.check_file_exists 2020-07-10 13:35:30.080082+00:00 [scheduled]> in ORM
+[2020-07-10 19:06:16,357] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 1.123 seconds
+[2020-07-10 19:07:23,379] {scheduler_job.py:153} INFO - Started process (PID=9087) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:07:23,383] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-10 19:07:23,384] {logging_mixin.py:112} INFO - [2020-07-10 19:07:23,383] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:07:23,395] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:07:23,662] {scheduler_job.py:1284} INFO - Processing employees_dag
+[2020-07-10 19:07:23,683] {scheduler_job.py:759} INFO - Examining DAG run <DagRun employees_dag @ 2020-07-10 13:35:30.080082+00:00: manual__2020-07-10T13:35:30.080082+00:00, externally triggered: True>
+[2020-07-10 19:07:23,705] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: employees_dag> because no tasks in DAG have SLAs
+[2020-07-10 19:07:23,709] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: employees_dag.check_file_exists 2020-07-10 13:35:30.080082+00:00 [scheduled]> in ORM
+[2020-07-10 19:07:23,817] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.437 seconds
+[2020-07-10 19:08:30,955] {scheduler_job.py:153} INFO - Started process (PID=9164) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:08:30,960] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-10 19:08:30,960] {logging_mixin.py:112} INFO - [2020-07-10 19:08:30,960] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:08:30,973] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:08:31,222] {scheduler_job.py:1284} INFO - Processing employees_dag
+[2020-07-10 19:08:31,242] {scheduler_job.py:759} INFO - Examining DAG run <DagRun employees_dag @ 2020-07-10 13:35:30.080082+00:00: manual__2020-07-10T13:35:30.080082+00:00, externally triggered: True>
+[2020-07-10 19:08:31,264] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: employees_dag> because no tasks in DAG have SLAs
+[2020-07-10 19:08:31,268] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: employees_dag.check_file_exists 2020-07-10 13:35:30.080082+00:00 [scheduled]> in ORM
+[2020-07-10 19:08:31,385] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.430 seconds
+[2020-07-10 19:09:38,330] {scheduler_job.py:153} INFO - Started process (PID=9229) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:09:38,335] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-10 19:09:38,336] {logging_mixin.py:112} INFO - [2020-07-10 19:09:38,335] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:09:38,371] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:09:38,578] {scheduler_job.py:1284} INFO - Processing employees_dag
+[2020-07-10 19:09:38,606] {scheduler_job.py:759} INFO - Examining DAG run <DagRun employees_dag @ 2020-07-10 13:35:30.080082+00:00: manual__2020-07-10T13:35:30.080082+00:00, externally triggered: True>
+[2020-07-10 19:09:38,867] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: employees_dag> because no tasks in DAG have SLAs
+[2020-07-10 19:09:38,870] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.540 seconds
+[2020-07-10 19:10:22,549] {scheduler_job.py:153} INFO - Started process (PID=9284) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:10:22,552] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-10 19:10:22,553] {logging_mixin.py:112} INFO - [2020-07-10 19:10:22,552] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:10:22,574] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:10:22,719] {scheduler_job.py:1284} INFO - Processing employees_dag
+[2020-07-10 19:10:22,756] {scheduler_job.py:759} INFO - Examining DAG run <DagRun employees_dag @ 2020-07-10 13:35:30.080082+00:00: manual__2020-07-10T13:35:30.080082+00:00, externally triggered: True>
+[2020-07-10 19:10:22,766] {logging_mixin.py:112} INFO - [2020-07-10 19:10:22,766] {dagrun.py:374} WARNING - Failed to get task '<TaskInstance: employees_dag.check_file_exists 2020-07-10 13:35:30.080082+00:00 [failed]>' for dag '<DAG: employees_dag>'. Marking it as removed.
+[2020-07-10 19:10:22,916] {logging_mixin.py:112} INFO - [2020-07-10 19:10:22,915] {dagrun.py:309} INFO - Marking run <DagRun employees_dag @ 2020-07-10 13:35:30.080082+00:00: manual__2020-07-10T13:35:30.080082+00:00, externally triggered: True> failed
+[2020-07-10 19:10:23,015] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: employees_dag> because no tasks in DAG have SLAs
+[2020-07-10 19:10:23,020] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.471 seconds
+[2020-07-10 19:11:18,859] {scheduler_job.py:153} INFO - Started process (PID=9338) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:11:18,872] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-10 19:11:18,874] {logging_mixin.py:112} INFO - [2020-07-10 19:11:18,874] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:11:18,901] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-10 19:11:19,003] {scheduler_job.py:1284} INFO - Processing employees_dag
+[2020-07-10 19:11:19,467] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: employees_dag> because no tasks in DAG have SLAs
+[2020-07-10 19:11:19,473] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.614 seconds

@@ -1,0 +1,25 @@
+[2020-08-26 11:41:10,270] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: submit_data.spark_submit 2020-07-26T00:02:00+00:00 [queued]>
+[2020-08-26 11:41:10,278] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: submit_data.spark_submit 2020-07-26T00:02:00+00:00 [queued]>
+[2020-08-26 11:41:10,279] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 11:41:10,279] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-08-26 11:41:10,279] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 11:41:10,460] {taskinstance.py:900} INFO - Executing <Task(SparkSubmitOperator): spark_submit> on 2020-07-26T00:02:00+00:00
+[2020-08-26 11:41:10,465] {standard_task_runner.py:53} INFO - Started process 70041 to run task
+[2020-08-26 11:41:10,632] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: submit_data.spark_submit 2020-07-26T00:02:00+00:00 [running]> bhakti-Vostro-3558
+[2020-08-26 11:41:10,656] {logging_mixin.py:112} INFO - [2020-08-26 11:41:10,656] {base_hook.py:87} INFO - Using connection to: id: spark_local. Host: local, Port: None, Schema: None, Login: None, Password: None, extra: None
+[2020-08-26 11:41:10,657] {logging_mixin.py:112} INFO - [2020-08-26 11:41:10,657] {spark_submit_hook.py:325} INFO - Spark-Submit cmd: spark-submit --master local --name airflow-spark /home/bhakti/airflow/spark_jobs/spark_test.py
+[2020-08-26 11:41:10,670] {logging_mixin.py:112} INFO - [2020-08-26 11:41:10,669] {spark_submit_hook.py:479} INFO - /usr/local/bin/find-spark-home: line 40: python: command not found
+[2020-08-26 11:41:10,670] {logging_mixin.py:112} INFO - [2020-08-26 11:41:10,670] {spark_submit_hook.py:479} INFO - /usr/local/bin/spark-submit: line 27: /bin/spark-class: No such file or directory
+[2020-08-26 11:41:10,677] {taskinstance.py:1145} ERROR - Cannot execute: spark-submit --master local --name airflow-spark /home/bhakti/airflow/spark_jobs/spark_test.py. Error code is: 127.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/operators/spark_submit_operator.py", line 187, in execute
+    self._hook.submit(self._application)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/hooks/spark_submit_hook.py", line 403, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master local --name airflow-spark /home/bhakti/airflow/spark_jobs/spark_test.py. Error code is: 127.
+[2020-08-26 11:41:10,679] {taskinstance.py:1189} INFO - Marking task as FAILED.dag_id=submit_data, task_id=spark_submit, execution_date=20200726T000200, start_date=20200826T061110, end_date=20200826T061110
+[2020-08-26 11:41:20,150] {logging_mixin.py:112} INFO - [2020-08-26 11:41:20,150] {local_task_job.py:103} INFO - Task exited with return code 1

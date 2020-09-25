@@ -1,0 +1,34 @@
+[2020-07-18 12:23:54,665] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.db1_to_csv 2020-07-18T06:51:26.466442+00:00 [queued]>
+[2020-07-18 12:23:54,679] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.db1_to_csv 2020-07-18T06:51:26.466442+00:00 [queued]>
+[2020-07-18 12:23:54,680] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 12:23:54,680] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-07-18 12:23:54,680] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 12:23:55,055] {taskinstance.py:900} INFO - Executing <Task(BashOperator): db1_to_csv> on 2020-07-18T06:51:26.466442+00:00
+[2020-07-18 12:23:55,062] {standard_task_runner.py:53} INFO - Started process 12485 to run task
+[2020-07-18 12:23:55,348] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: storing_data.db1_to_csv 2020-07-18T06:51:26.466442+00:00 [running]> bhakti-Vostro-3558
+[2020-07-18 12:23:55,368] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-18 12:23:55,368] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpcp06lygc/db1_to_csvvighl1yu
+[2020-07-18 12:23:55,369] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=root
+dbname=airflow_db1
+host=mysql
+port=3306
+docker exec -it mysqlCon \
+mysql -D$dbname -h$host -p$port -u$user -p$password -e'SELECT * FROM employees INTO OUTFILE "/input_files_mysql/sample2.csv" FIELDS TERMINATED BY "," LINES TERMINATED BY "\r\n";'
+[2020-07-18 12:23:55,383] {bash_operator.py:122} INFO - Output:
+[2020-07-18 12:23:56,091] {bash_operator.py:126} INFO - mysql: [Warning] Using a password on the command line interface can be insecure.
+[2020-07-18 12:23:56,302] {bash_operator.py:126} INFO - ERROR 2005 (HY000): Unknown MySQL server host 'mysql' (22)
+[2020-07-18 12:23:56,378] {bash_operator.py:128} INFO - Command exited with return code 1
+[2020-07-18 12:23:56,398] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-07-18 12:23:56,400] {taskinstance.py:1174} INFO - All retries failed; marking task as FAILED.dag_id=storing_data, task_id=db1_to_csv, execution_date=20200718T065126, start_date=20200718T065354, end_date=20200718T065356
+[2020-07-18 12:24:04,311] {logging_mixin.py:112} INFO - [2020-07-18 12:24:04,310] {local_task_job.py:103} INFO - Task exited with return code 1

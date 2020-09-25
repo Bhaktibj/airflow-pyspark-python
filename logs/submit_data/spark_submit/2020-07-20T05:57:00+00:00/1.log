@@ -1,0 +1,33 @@
+[2020-07-22 16:09:39,642] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: submit_data.spark_submit 2020-07-20T05:57:00+00:00 [queued]>
+[2020-07-22 16:09:39,661] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: submit_data.spark_submit 2020-07-20T05:57:00+00:00 [queued]>
+[2020-07-22 16:09:39,662] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 16:09:39,662] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-07-22 16:09:39,662] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 16:09:39,857] {taskinstance.py:900} INFO - Executing <Task(SparkSubmitOperator): spark_submit> on 2020-07-20T05:57:00+00:00
+[2020-07-22 16:09:39,862] {standard_task_runner.py:53} INFO - Started process 556964 to run task
+[2020-07-22 16:09:40,237] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: submit_data.spark_submit 2020-07-20T05:57:00+00:00 [running]> bhakti-Vostro-3558
+[2020-07-22 16:09:40,327] {logging_mixin.py:112} INFO - [2020-07-22 16:09:40,327] {base_hook.py:87} INFO - Using connection to: id: spark_local. Host: local, Port: None, Schema: None, Login: None, Password: None, extra: None
+[2020-07-22 16:09:40,334] {logging_mixin.py:112} INFO - [2020-07-22 16:09:40,333] {spark_submit_hook.py:325} INFO - Spark-Submit cmd: spark-submit --master local --name airflow-spark /home/bhakti/airflow/spark_jobs/python/spark_test.py
+[2020-07-22 16:09:45,750] {logging_mixin.py:112} INFO - [2020-07-22 16:09:45,749] {spark_submit_hook.py:479} INFO - 20/07/22 16:09:45 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-07-22 16:09:45,752] {logging_mixin.py:112} INFO - [2020-07-22 16:09:45,752] {spark_submit_hook.py:479} INFO - 20/07/22 16:09:45 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-07-22 16:09:48,379] {logging_mixin.py:112} INFO - [2020-07-22 16:09:48,379] {spark_submit_hook.py:479} INFO - 20/07/22 16:09:48 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2020-07-22 16:09:50,727] {logging_mixin.py:112} INFO - [2020-07-22 16:09:50,727] {spark_submit_hook.py:479} INFO - File "/home/bhakti/airflow/spark_jobs/python/spark_test.py", line 12
+[2020-07-22 16:09:50,728] {logging_mixin.py:112} INFO - [2020-07-22 16:09:50,727] {spark_submit_hook.py:479} INFO - .builder \
+[2020-07-22 16:09:50,728] {logging_mixin.py:112} INFO - [2020-07-22 16:09:50,728] {spark_submit_hook.py:479} INFO - ^
+[2020-07-22 16:09:50,728] {logging_mixin.py:112} INFO - [2020-07-22 16:09:50,728] {spark_submit_hook.py:479} INFO - SyntaxError: unexpected character after line continuation character
+[2020-07-22 16:09:50,878] {logging_mixin.py:112} INFO - [2020-07-22 16:09:50,877] {spark_submit_hook.py:479} INFO - log4j:WARN No appenders could be found for logger (org.apache.spark.util.ShutdownHookManager).
+[2020-07-22 16:09:50,878] {logging_mixin.py:112} INFO - [2020-07-22 16:09:50,878] {spark_submit_hook.py:479} INFO - log4j:WARN Please initialize the log4j system properly.
+[2020-07-22 16:09:50,879] {logging_mixin.py:112} INFO - [2020-07-22 16:09:50,878] {spark_submit_hook.py:479} INFO - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[2020-07-22 16:09:50,982] {taskinstance.py:1145} ERROR - Cannot execute: spark-submit --master local --name airflow-spark /home/bhakti/airflow/spark_jobs/python/spark_test.py. Error code is: 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/operators/spark_submit_operator.py", line 187, in execute
+    self._hook.submit(self._application)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/hooks/spark_submit_hook.py", line 403, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master local --name airflow-spark /home/bhakti/airflow/spark_jobs/python/spark_test.py. Error code is: 1.
+[2020-07-22 16:09:50,990] {taskinstance.py:1189} INFO - Marking task as FAILED.dag_id=submit_data, task_id=spark_submit, execution_date=20200720T055700, start_date=20200722T103939, end_date=20200722T103950
+[2020-07-22 16:09:54,679] {logging_mixin.py:112} INFO - [2020-07-22 16:09:54,679] {local_task_job.py:103} INFO - Task exited with return code 1

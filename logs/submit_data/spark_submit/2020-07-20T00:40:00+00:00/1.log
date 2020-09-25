@@ -1,0 +1,105 @@
+[2020-07-22 13:14:59,968] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: submit_data.spark_submit 2020-07-20T00:40:00+00:00 [queued]>
+[2020-07-22 13:14:59,982] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: submit_data.spark_submit 2020-07-20T00:40:00+00:00 [queued]>
+[2020-07-22 13:14:59,982] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 13:14:59,982] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-07-22 13:14:59,982] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 13:15:00,158] {taskinstance.py:900} INFO - Executing <Task(SparkSubmitOperator): spark_submit> on 2020-07-20T00:40:00+00:00
+[2020-07-22 13:15:00,161] {standard_task_runner.py:53} INFO - Started process 325001 to run task
+[2020-07-22 13:15:00,367] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: submit_data.spark_submit 2020-07-20T00:40:00+00:00 [running]> bhakti-Vostro-3558
+[2020-07-22 13:15:00,397] {logging_mixin.py:112} INFO - [2020-07-22 13:15:00,396] {base_hook.py:87} INFO - Using connection to: id: spark_local. Host: localhost, Port: 4040, Schema: None, Login: None, Password: None, extra: None
+[2020-07-22 13:15:00,399] {logging_mixin.py:112} INFO - [2020-07-22 13:15:00,399] {spark_submit_hook.py:325} INFO - Spark-Submit cmd: spark-submit --master localhost:4040 --name airflow-spark /home/bhakti/airflow/spark_jobs/python/spark_test.py
+[2020-07-22 13:15:03,295] {logging_mixin.py:112} INFO - [2020-07-22 13:15:03,294] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:03 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-07-22 13:15:03,298] {logging_mixin.py:112} INFO - [2020-07-22 13:15:03,297] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-07-22 13:15:04,615] {logging_mixin.py:112} INFO - [2020-07-22 13:15:04,614] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:04 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2020-07-22 13:15:07,032] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,031] {spark_submit_hook.py:479} INFO - Spark_Test_Python
+[2020-07-22 13:15:07,032] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,032] {spark_submit_hook.py:479} INFO - Number of arguments: 0 arguments.
+[2020-07-22 13:15:07,033] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,032] {spark_submit_hook.py:479} INFO - Argument List: []
+[2020-07-22 13:15:07,125] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,125] {spark_submit_hook.py:479} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2020-07-22 13:15:07,138] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,138] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SparkContext: Running Spark version 3.0.0
+[2020-07-22 13:15:07,216] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,216] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO ResourceUtils: ==============================================================
+[2020-07-22 13:15:07,219] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,219] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO ResourceUtils: Resources for spark.driver:
+[2020-07-22 13:15:07,219] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,219] {spark_submit_hook.py:479} INFO - 
+[2020-07-22 13:15:07,220] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,220] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO ResourceUtils: ==============================================================
+[2020-07-22 13:15:07,221] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,220] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SparkContext: Submitted application: Spark_Test_Python
+[2020-07-22 13:15:07,307] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,307] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SecurityManager: Changing view acls to: bhakti
+[2020-07-22 13:15:07,308] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,307] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SecurityManager: Changing modify acls to: bhakti
+[2020-07-22 13:15:07,308] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,308] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SecurityManager: Changing view acls groups to:
+[2020-07-22 13:15:07,308] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,308] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SecurityManager: Changing modify acls groups to:
+[2020-07-22 13:15:07,309] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,309] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bhakti); groups with view permissions: Set(); users  with modify permissions: Set(bhakti); groups with modify permissions: Set()
+[2020-07-22 13:15:07,821] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,820] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO Utils: Successfully started service 'sparkDriver' on port 42219.
+[2020-07-22 13:15:07,874] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,873] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SparkEnv: Registering MapOutputTracker
+[2020-07-22 13:15:07,951] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,951] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO SparkEnv: Registering BlockManagerMaster
+[2020-07-22 13:15:07,999] {logging_mixin.py:112} INFO - [2020-07-22 13:15:07,999] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:07 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2020-07-22 13:15:08,001] {logging_mixin.py:112} INFO - [2020-07-22 13:15:08,000] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:08 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2020-07-22 13:15:08,010] {logging_mixin.py:112} INFO - [2020-07-22 13:15:08,009] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:08 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2020-07-22 13:15:08,038] {logging_mixin.py:112} INFO - [2020-07-22 13:15:08,037] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:08 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-64e675e1-df03-4bf2-afbc-134de3721f13
+[2020-07-22 13:15:08,096] {logging_mixin.py:112} INFO - [2020-07-22 13:15:08,096] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:08 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2020-07-22 13:15:08,126] {logging_mixin.py:112} INFO - [2020-07-22 13:15:08,126] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:08 INFO SparkEnv: Registering OutputCommitCoordinator
+[2020-07-22 13:15:08,677] {logging_mixin.py:112} INFO - [2020-07-22 13:15:08,677] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:08 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2020-07-22 13:15:08,707] {logging_mixin.py:112} INFO - [2020-07-22 13:15:08,707] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:08 INFO Utils: Successfully started service 'SparkUI' on port 4041.
+[2020-07-22 13:15:08,814] {logging_mixin.py:112} INFO - [2020-07-22 13:15:08,814] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:08 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.43.94:4041
+[2020-07-22 13:15:09,020] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,020] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 ERROR SparkContext: Error initializing SparkContext.
+[2020-07-22 13:15:09,021] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,021] {spark_submit_hook.py:479} INFO - org.apache.spark.SparkException: Could not parse Master URL: 'localhost:4040'
+[2020-07-22 13:15:09,021] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,021] {spark_submit_hook.py:479} INFO - at org.apache.spark.SparkContext$.org$apache$spark$SparkContext$$createTaskScheduler(SparkContext.scala:2924)
+[2020-07-22 13:15:09,021] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,021] {spark_submit_hook.py:479} INFO - at org.apache.spark.SparkContext.<init>(SparkContext.scala:528)
+[2020-07-22 13:15:09,022] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,021] {spark_submit_hook.py:479} INFO - at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+[2020-07-22 13:15:09,022] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,022] {spark_submit_hook.py:479} INFO - at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2020-07-22 13:15:09,022] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,022] {spark_submit_hook.py:479} INFO - at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[2020-07-22 13:15:09,022] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,022] {spark_submit_hook.py:479} INFO - at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2020-07-22 13:15:09,022] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,022] {spark_submit_hook.py:479} INFO - at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[2020-07-22 13:15:09,023] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,023] {spark_submit_hook.py:479} INFO - at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+[2020-07-22 13:15:09,023] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,023] {spark_submit_hook.py:479} INFO - at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+[2020-07-22 13:15:09,023] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,023] {spark_submit_hook.py:479} INFO - at py4j.Gateway.invoke(Gateway.java:238)
+[2020-07-22 13:15:09,023] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,023] {spark_submit_hook.py:479} INFO - at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+[2020-07-22 13:15:09,024] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,024] {spark_submit_hook.py:479} INFO - at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+[2020-07-22 13:15:09,024] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,024] {spark_submit_hook.py:479} INFO - at py4j.GatewayConnection.run(GatewayConnection.java:238)
+[2020-07-22 13:15:09,024] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,024] {spark_submit_hook.py:479} INFO - at java.lang.Thread.run(Thread.java:748)
+[2020-07-22 13:15:09,044] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,043] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO SparkUI: Stopped Spark web UI at http://192.168.43.94:4041
+[2020-07-22 13:15:09,073] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,073] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2020-07-22 13:15:09,090] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,090] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO MemoryStore: MemoryStore cleared
+[2020-07-22 13:15:09,091] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,091] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO BlockManager: BlockManager stopped
+[2020-07-22 13:15:09,133] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,132] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2020-07-22 13:15:09,134] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,133] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 WARN MetricsSystem: Stopping a MetricsSystem that is not running
+[2020-07-22 13:15:09,140] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,140] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2020-07-22 13:15:09,156] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,155] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO SparkContext: Successfully stopped SparkContext
+[2020-07-22 13:15:09,236] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,236] {spark_submit_hook.py:479} INFO - Traceback (most recent call last):
+[2020-07-22 13:15:09,236] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,236] {spark_submit_hook.py:479} INFO - File "/home/bhakti/airflow/spark_jobs/python/spark_test.py", line 12, in <module>
+[2020-07-22 13:15:09,237] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,236] {spark_submit_hook.py:479} INFO - sc = SparkContext(conf=conf)
+[2020-07-22 13:15:09,237] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,237] {spark_submit_hook.py:479} INFO - File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 130, in __init__
+[2020-07-22 13:15:09,237] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,237] {spark_submit_hook.py:479} INFO - File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 193, in _do_init
+[2020-07-22 13:15:09,237] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,237] {spark_submit_hook.py:479} INFO - File "/opt/spark/python/lib/pyspark.zip/pyspark/context.py", line 310, in _initialize_context
+[2020-07-22 13:15:09,237] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,237] {spark_submit_hook.py:479} INFO - File "/opt/spark/python/lib/py4j-0.10.9-src.zip/py4j/java_gateway.py", line 1568, in __call__
+[2020-07-22 13:15:09,238] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,237] {spark_submit_hook.py:479} INFO - File "/opt/spark/python/lib/py4j-0.10.9-src.zip/py4j/protocol.py", line 326, in get_return_value
+[2020-07-22 13:15:09,238] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,238] {spark_submit_hook.py:479} INFO - py4j.protocol.Py4JJavaError: An error occurred while calling None.org.apache.spark.api.java.JavaSparkContext.
+[2020-07-22 13:15:09,238] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,238] {spark_submit_hook.py:479} INFO - : org.apache.spark.SparkException: Could not parse Master URL: 'localhost:4040'
+[2020-07-22 13:15:09,238] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,238] {spark_submit_hook.py:479} INFO - at org.apache.spark.SparkContext$.org$apache$spark$SparkContext$$createTaskScheduler(SparkContext.scala:2924)
+[2020-07-22 13:15:09,238] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,238] {spark_submit_hook.py:479} INFO - at org.apache.spark.SparkContext.<init>(SparkContext.scala:528)
+[2020-07-22 13:15:09,239] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,238] {spark_submit_hook.py:479} INFO - at org.apache.spark.api.java.JavaSparkContext.<init>(JavaSparkContext.scala:58)
+[2020-07-22 13:15:09,239] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,239] {spark_submit_hook.py:479} INFO - at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+[2020-07-22 13:15:09,239] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,239] {spark_submit_hook.py:479} INFO - at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+[2020-07-22 13:15:09,239] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,239] {spark_submit_hook.py:479} INFO - at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+[2020-07-22 13:15:09,239] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,239] {spark_submit_hook.py:479} INFO - at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+[2020-07-22 13:15:09,239] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,239] {spark_submit_hook.py:479} INFO - at py4j.reflection.MethodInvoker.invoke(MethodInvoker.java:247)
+[2020-07-22 13:15:09,239] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,239] {spark_submit_hook.py:479} INFO - at py4j.reflection.ReflectionEngine.invoke(ReflectionEngine.java:357)
+[2020-07-22 13:15:09,240] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,239] {spark_submit_hook.py:479} INFO - at py4j.Gateway.invoke(Gateway.java:238)
+[2020-07-22 13:15:09,240] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,240] {spark_submit_hook.py:479} INFO - at py4j.commands.ConstructorCommand.invokeConstructor(ConstructorCommand.java:80)
+[2020-07-22 13:15:09,240] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,240] {spark_submit_hook.py:479} INFO - at py4j.commands.ConstructorCommand.execute(ConstructorCommand.java:69)
+[2020-07-22 13:15:09,240] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,240] {spark_submit_hook.py:479} INFO - at py4j.GatewayConnection.run(GatewayConnection.java:238)
+[2020-07-22 13:15:09,240] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,240] {spark_submit_hook.py:479} INFO - at java.lang.Thread.run(Thread.java:748)
+[2020-07-22 13:15:09,240] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,240] {spark_submit_hook.py:479} INFO - 
+[2020-07-22 13:15:09,378] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,378] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO ShutdownHookManager: Shutdown hook called
+[2020-07-22 13:15:09,379] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,379] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-4b0073ac-8b6f-4c1c-83ca-49a429e36c8c
+[2020-07-22 13:15:09,382] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,382] {spark_submit_hook.py:479} INFO - 20/07/22 13:15:09 INFO ShutdownHookManager: Deleting directory /tmp/spark-b225c07d-ff32-4c4f-ba62-853ffc8e4403
+[2020-07-22 13:15:09,423] {taskinstance.py:1145} ERROR - Cannot execute: spark-submit --master localhost:4040 --name airflow-spark /home/bhakti/airflow/spark_jobs/python/spark_test.py. Error code is: 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/operators/spark_submit_operator.py", line 187, in execute
+    self._hook.submit(self._application)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/hooks/spark_submit_hook.py", line 403, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master localhost:4040 --name airflow-spark /home/bhakti/airflow/spark_jobs/python/spark_test.py. Error code is: 1.
+[2020-07-22 13:15:09,426] {taskinstance.py:1189} INFO - Marking task as FAILED.dag_id=submit_data, task_id=spark_submit, execution_date=20200720T004000, start_date=20200722T074459, end_date=20200722T074509
+[2020-07-22 13:15:09,795] {logging_mixin.py:112} INFO - [2020-07-22 13:15:09,795] {local_task_job.py:103} INFO - Task exited with return code 1

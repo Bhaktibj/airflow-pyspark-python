@@ -1,0 +1,32 @@
+[2020-07-21 10:19:46,940] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-20T00:00:00+00:00 [queued]>
+[2020-07-21 10:19:46,952] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-20T00:00:00+00:00 [queued]>
+[2020-07-21 10:19:46,952] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-21 10:19:46,952] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-21 10:19:46,952] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-21 10:19:47,101] {taskinstance.py:900} INFO - Executing <Task(BashOperator): dbdump_in_minio> on 2020-07-20T00:00:00+00:00
+[2020-07-21 10:19:47,104] {standard_task_runner.py:53} INFO - Started process 23551 to run task
+[2020-07-21 10:19:47,327] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-20T00:00:00+00:00 [running]> bhakti-Vostro-3558
+[2020-07-21 10:19:47,343] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-21 10:19:47,344] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpugz9qb4p/dbdump_in_miniom2hl2fh3
+[2020-07-21 10:19:47,344] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=
+dbname=airflow_db2
+root_dir="/home/bhakti/airflow/"
+location=$root_dir"input_data/dump_mysql_db.db"
+if [ $dbname != " " ]
+then
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+python3 $root_dir"minioconnect/minio_connection.py"
+echo 'File uploaded successfully'
+fi
+[2020-07-21 10:19:47,350] {bash_operator.py:122} INFO - Output:
+[2020-07-21 10:19:49,286] {bash_operator.py:126} INFO - mysqldump2020-07-21 10:19:49.286184.sql
+[2020-07-21 10:19:49,548] {bash_operator.py:126} INFO - File uploaded successfully
+[2020-07-21 10:19:49,548] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-21 10:19:49,555] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=MYSQLDAG, task_id=dbdump_in_minio, execution_date=20200720T000000, start_date=20200721T044946, end_date=20200721T044949
+[2020-07-21 10:19:56,810] {logging_mixin.py:112} INFO - [2020-07-21 10:19:56,810] {local_task_job.py:103} INFO - Task exited with return code 0

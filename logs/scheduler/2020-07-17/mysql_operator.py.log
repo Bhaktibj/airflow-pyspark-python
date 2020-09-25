@@ -1,0 +1,1300 @@
+[2020-07-17 14:49:32,464] {scheduler_job.py:153} INFO - Started process (PID=485158) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:49:32,469] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:49:32,469] {logging_mixin.py:112} INFO - [2020-07-17 14:49:32,469] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:49:32,915] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:49:33,029] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.565 seconds
+[2020-07-17 14:50:30,525] {scheduler_job.py:153} INFO - Started process (PID=486702) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:50:30,529] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:50:30,530] {logging_mixin.py:112} INFO - [2020-07-17 14:50:30,530] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:50:30,545] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:50:30,822] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.298 seconds
+[2020-07-17 14:51:47,402] {scheduler_job.py:153} INFO - Started process (PID=488778) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:51:47,438] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:51:47,438] {logging_mixin.py:112} INFO - [2020-07-17 14:51:47,438] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:51:47,452] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:51:47,557] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.155 seconds
+[2020-07-17 14:53:00,018] {scheduler_job.py:153} INFO - Started process (PID=490707) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:53:00,021] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:53:00,022] {logging_mixin.py:112} INFO - [2020-07-17 14:53:00,022] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:53:00,032] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:53:00,143] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.126 seconds
+[2020-07-17 14:53:58,270] {scheduler_job.py:153} INFO - Started process (PID=492256) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:53:58,273] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:53:58,274] {logging_mixin.py:112} INFO - [2020-07-17 14:53:58,273] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:53:58,283] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:53:58,445] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.175 seconds
+[2020-07-17 14:54:56,132] {scheduler_job.py:153} INFO - Started process (PID=493879) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:54:56,136] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:54:56,137] {logging_mixin.py:112} INFO - [2020-07-17 14:54:56,137] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:54:56,146] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:54:56,342] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.211 seconds
+[2020-07-17 14:55:54,515] {scheduler_job.py:153} INFO - Started process (PID=495479) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:55:54,518] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:55:54,518] {logging_mixin.py:112} INFO - [2020-07-17 14:55:54,518] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:55:54,528] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:55:54,641] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.126 seconds
+[2020-07-17 14:56:52,577] {scheduler_job.py:153} INFO - Started process (PID=497000) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:56:52,580] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:56:52,581] {logging_mixin.py:112} INFO - [2020-07-17 14:56:52,580] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:56:52,590] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:56:52,839] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.262 seconds
+[2020-07-17 14:57:50,638] {scheduler_job.py:153} INFO - Started process (PID=498524) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:57:50,640] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:57:50,642] {logging_mixin.py:112} INFO - [2020-07-17 14:57:50,641] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:57:50,656] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:57:50,785] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.148 seconds
+[2020-07-17 14:58:48,691] {scheduler_job.py:153} INFO - Started process (PID=500089) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:58:48,696] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:58:48,697] {logging_mixin.py:112} INFO - [2020-07-17 14:58:48,696] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:58:48,707] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:58:48,948] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.256 seconds
+[2020-07-17 14:59:46,978] {scheduler_job.py:153} INFO - Started process (PID=501712) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:59:46,980] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 14:59:46,981] {logging_mixin.py:112} INFO - [2020-07-17 14:59:46,981] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:59:46,991] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 14:59:47,172] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.194 seconds
+[2020-07-17 15:00:44,797] {scheduler_job.py:153} INFO - Started process (PID=503224) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:00:44,802] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:00:44,803] {logging_mixin.py:112} INFO - [2020-07-17 15:00:44,803] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:00:44,816] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:00:45,654] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.857 seconds
+[2020-07-17 15:01:42,853] {scheduler_job.py:153} INFO - Started process (PID=504789) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:01:42,858] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:01:42,859] {logging_mixin.py:112} INFO - [2020-07-17 15:01:42,859] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:01:42,869] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:01:42,975] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.122 seconds
+[2020-07-17 15:02:40,909] {scheduler_job.py:153} INFO - Started process (PID=506334) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:02:40,912] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:02:40,912] {logging_mixin.py:112} INFO - [2020-07-17 15:02:40,912] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:02:40,922] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:02:41,189] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.280 seconds
+[2020-07-17 15:03:38,969] {scheduler_job.py:153} INFO - Started process (PID=507882) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:03:38,971] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:03:38,972] {logging_mixin.py:112} INFO - [2020-07-17 15:03:38,971] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:03:38,984] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:03:39,210] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.242 seconds
+[2020-07-17 15:04:37,038] {scheduler_job.py:153} INFO - Started process (PID=509459) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:04:37,042] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:04:37,042] {logging_mixin.py:112} INFO - [2020-07-17 15:04:37,042] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:04:37,063] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:04:37,311] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.273 seconds
+[2020-07-17 15:05:35,077] {scheduler_job.py:153} INFO - Started process (PID=510984) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:05:35,080] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:05:35,081] {logging_mixin.py:112} INFO - [2020-07-17 15:05:35,081] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:05:35,094] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:05:36,579] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 1.502 seconds
+[2020-07-17 15:06:33,142] {scheduler_job.py:153} INFO - Started process (PID=512542) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:06:33,145] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:06:33,146] {logging_mixin.py:112} INFO - [2020-07-17 15:06:33,145] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:06:33,156] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:06:33,329] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.187 seconds
+[2020-07-17 15:07:31,264] {scheduler_job.py:153} INFO - Started process (PID=514116) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:07:31,268] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:07:31,268] {logging_mixin.py:112} INFO - [2020-07-17 15:07:31,268] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:07:31,278] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:07:32,177] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.913 seconds
+[2020-07-17 15:08:29,321] {scheduler_job.py:153} INFO - Started process (PID=515690) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:08:29,326] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:08:29,327] {logging_mixin.py:112} INFO - [2020-07-17 15:08:29,326] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:08:29,346] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:08:29,710] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.389 seconds
+[2020-07-17 15:09:27,398] {scheduler_job.py:153} INFO - Started process (PID=517258) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:09:27,402] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:09:27,403] {logging_mixin.py:112} INFO - [2020-07-17 15:09:27,403] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:09:27,419] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:09:27,531] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.133 seconds
+[2020-07-17 15:10:37,319] {scheduler_job.py:153} INFO - Started process (PID=519126) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:10:37,322] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:10:37,323] {logging_mixin.py:112} INFO - [2020-07-17 15:10:37,323] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:10:37,335] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:10:37,520] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.201 seconds
+[2020-07-17 15:11:47,938] {scheduler_job.py:153} INFO - Started process (PID=521017) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:11:47,943] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:11:47,944] {logging_mixin.py:112} INFO - [2020-07-17 15:11:47,944] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:11:47,962] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:11:48,153] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.215 seconds
+[2020-07-17 15:12:57,731] {scheduler_job.py:153} INFO - Started process (PID=522891) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:12:57,734] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:12:57,735] {logging_mixin.py:112} INFO - [2020-07-17 15:12:57,735] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:12:57,746] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:12:57,997] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.266 seconds
+[2020-07-17 15:14:07,783] {scheduler_job.py:153} INFO - Started process (PID=524722) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:14:07,787] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:14:07,787] {logging_mixin.py:112} INFO - [2020-07-17 15:14:07,787] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:14:07,799] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:14:07,922] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.140 seconds
+[2020-07-17 15:15:05,975] {scheduler_job.py:153} INFO - Started process (PID=526284) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:15:05,979] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:15:05,980] {logging_mixin.py:112} INFO - [2020-07-17 15:15:05,980] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:15:05,991] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:15:06,111] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.136 seconds
+[2020-07-17 15:16:03,894] {scheduler_job.py:153} INFO - Started process (PID=527836) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:16:03,900] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:16:03,901] {logging_mixin.py:112} INFO - [2020-07-17 15:16:03,900] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:16:03,918] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:16:04,039] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.145 seconds
+[2020-07-17 15:17:17,563] {scheduler_job.py:153} INFO - Started process (PID=529961) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:17:17,567] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:17:17,567] {logging_mixin.py:112} INFO - [2020-07-17 15:17:17,567] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:17:17,577] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:17:17,874] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.311 seconds
+[2020-07-17 15:18:27,372] {scheduler_job.py:153} INFO - Started process (PID=531811) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:18:27,375] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:18:27,376] {logging_mixin.py:112} INFO - [2020-07-17 15:18:27,375] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:18:27,386] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:18:27,582] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.210 seconds
+[2020-07-17 15:19:25,418] {scheduler_job.py:153} INFO - Started process (PID=533416) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:19:25,421] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:19:25,422] {logging_mixin.py:112} INFO - [2020-07-17 15:19:25,421] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:19:25,436] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:19:25,778] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.360 seconds
+[2020-07-17 15:20:23,469] {scheduler_job.py:153} INFO - Started process (PID=534973) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:20:23,472] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:20:23,473] {logging_mixin.py:112} INFO - [2020-07-17 15:20:23,473] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:20:23,483] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:20:23,682] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.213 seconds
+[2020-07-17 15:21:21,573] {scheduler_job.py:153} INFO - Started process (PID=536530) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:21:21,577] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:21:21,577] {logging_mixin.py:112} INFO - [2020-07-17 15:21:21,577] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:21:21,588] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:21:21,696] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.123 seconds
+[2020-07-17 15:22:19,644] {scheduler_job.py:153} INFO - Started process (PID=538069) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:22:19,649] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:22:19,649] {logging_mixin.py:112} INFO - [2020-07-17 15:22:19,649] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:22:19,661] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:22:19,928] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.284 seconds
+[2020-07-17 15:23:17,701] {scheduler_job.py:153} INFO - Started process (PID=539607) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:23:17,705] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:23:17,705] {logging_mixin.py:112} INFO - [2020-07-17 15:23:17,705] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:23:17,721] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:23:18,110] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.410 seconds
+[2020-07-17 15:24:15,763] {scheduler_job.py:153} INFO - Started process (PID=541168) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:24:15,768] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:24:15,769] {logging_mixin.py:112} INFO - [2020-07-17 15:24:15,769] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:24:15,785] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:24:15,931] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.168 seconds
+[2020-07-17 15:25:13,836] {scheduler_job.py:153} INFO - Started process (PID=542648) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:25:13,840] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:25:13,841] {logging_mixin.py:112} INFO - [2020-07-17 15:25:13,841] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:25:13,863] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:25:14,201] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.365 seconds
+[2020-07-17 15:26:11,914] {scheduler_job.py:153} INFO - Started process (PID=544225) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:26:11,917] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:26:11,918] {logging_mixin.py:112} INFO - [2020-07-17 15:26:11,917] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:26:11,929] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:26:12,082] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.168 seconds
+[2020-07-17 15:27:09,970] {scheduler_job.py:153} INFO - Started process (PID=545775) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:27:09,973] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:27:09,974] {logging_mixin.py:112} INFO - [2020-07-17 15:27:09,974] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:27:09,983] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:27:10,167] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.197 seconds
+[2020-07-17 15:28:09,878] {scheduler_job.py:153} INFO - Started process (PID=547383) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:28:09,881] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:28:09,882] {logging_mixin.py:112} INFO - [2020-07-17 15:28:09,881] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:28:09,891] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:28:11,050] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 1.172 seconds
+[2020-07-17 15:29:06,898] {scheduler_job.py:153} INFO - Started process (PID=548906) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:29:06,903] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:29:06,903] {logging_mixin.py:112} INFO - [2020-07-17 15:29:06,903] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:29:06,920] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:29:07,057] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.159 seconds
+[2020-07-17 15:30:04,955] {scheduler_job.py:153} INFO - Started process (PID=550482) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:30:04,958] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:30:04,958] {logging_mixin.py:112} INFO - [2020-07-17 15:30:04,958] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:30:04,968] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:30:05,190] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.235 seconds
+[2020-07-17 15:31:03,028] {scheduler_job.py:153} INFO - Started process (PID=552024) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:31:03,030] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:31:03,031] {logging_mixin.py:112} INFO - [2020-07-17 15:31:03,031] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:31:03,042] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:31:03,258] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.230 seconds
+[2020-07-17 15:32:01,082] {scheduler_job.py:153} INFO - Started process (PID=553571) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:32:01,085] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:32:01,085] {logging_mixin.py:112} INFO - [2020-07-17 15:32:01,085] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:32:01,095] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:32:01,307] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.225 seconds
+[2020-07-17 15:32:59,142] {scheduler_job.py:153} INFO - Started process (PID=555122) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:32:59,146] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:32:59,147] {logging_mixin.py:112} INFO - [2020-07-17 15:32:59,146] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:32:59,158] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:32:59,319] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.177 seconds
+[2020-07-17 15:33:57,387] {scheduler_job.py:153} INFO - Started process (PID=556710) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:33:57,390] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:33:57,390] {logging_mixin.py:112} INFO - [2020-07-17 15:33:57,390] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:33:57,401] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:33:57,742] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.355 seconds
+[2020-07-17 15:34:55,459] {scheduler_job.py:153} INFO - Started process (PID=558281) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:34:55,462] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:34:55,463] {logging_mixin.py:112} INFO - [2020-07-17 15:34:55,462] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:34:55,473] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:34:55,570] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.111 seconds
+[2020-07-17 15:35:53,516] {scheduler_job.py:153} INFO - Started process (PID=559881) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:35:53,520] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:35:53,520] {logging_mixin.py:112} INFO - [2020-07-17 15:35:53,520] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:35:53,534] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:35:53,756] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.240 seconds
+[2020-07-17 15:36:51,761] {scheduler_job.py:153} INFO - Started process (PID=561473) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:36:51,766] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:36:51,766] {logging_mixin.py:112} INFO - [2020-07-17 15:36:51,766] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:36:51,783] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:36:51,928] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.167 seconds
+[2020-07-17 15:37:49,625] {scheduler_job.py:153} INFO - Started process (PID=563059) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:37:49,628] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:37:49,629] {logging_mixin.py:112} INFO - [2020-07-17 15:37:49,629] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:37:49,645] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:37:49,787] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.162 seconds
+[2020-07-17 15:38:47,682] {scheduler_job.py:153} INFO - Started process (PID=564626) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:38:47,685] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:38:47,686] {logging_mixin.py:112} INFO - [2020-07-17 15:38:47,685] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:38:47,697] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:38:47,883] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.201 seconds
+[2020-07-17 15:39:45,743] {scheduler_job.py:153} INFO - Started process (PID=566151) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:39:45,806] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:39:45,807] {logging_mixin.py:112} INFO - [2020-07-17 15:39:45,807] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:39:45,822] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:39:46,032] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.289 seconds
+[2020-07-17 15:40:43,801] {scheduler_job.py:153} INFO - Started process (PID=567676) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:40:43,807] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:40:43,808] {logging_mixin.py:112} INFO - [2020-07-17 15:40:43,808] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:40:43,828] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:40:44,001] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.200 seconds
+[2020-07-17 15:41:41,861] {scheduler_job.py:153} INFO - Started process (PID=569204) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:41:41,865] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:41:41,865] {logging_mixin.py:112} INFO - [2020-07-17 15:41:41,865] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:41:41,875] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:41:42,037] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.176 seconds
+[2020-07-17 15:42:39,952] {scheduler_job.py:153} INFO - Started process (PID=570773) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:42:39,978] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:42:39,980] {logging_mixin.py:112} INFO - [2020-07-17 15:42:39,980] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:42:40,007] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:42:40,269] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.318 seconds
+[2020-07-17 15:43:38,314] {scheduler_job.py:153} INFO - Started process (PID=572309) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:43:38,317] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:43:38,318] {logging_mixin.py:112} INFO - [2020-07-17 15:43:38,318] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:43:38,332] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:43:38,465] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.151 seconds
+[2020-07-17 15:44:36,370] {scheduler_job.py:153} INFO - Started process (PID=573916) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:44:36,373] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:44:36,374] {logging_mixin.py:112} INFO - [2020-07-17 15:44:36,374] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:44:36,384] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:44:36,526] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.156 seconds
+[2020-07-17 15:45:34,690] {scheduler_job.py:153} INFO - Started process (PID=575499) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:45:34,696] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:45:34,697] {logging_mixin.py:112} INFO - [2020-07-17 15:45:34,696] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:45:34,712] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:45:34,860] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.170 seconds
+[2020-07-17 15:46:32,488] {scheduler_job.py:153} INFO - Started process (PID=577054) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:46:32,492] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:46:32,492] {logging_mixin.py:112} INFO - [2020-07-17 15:46:32,492] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:46:32,503] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:46:32,643] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.156 seconds
+[2020-07-17 15:47:30,548] {scheduler_job.py:153} INFO - Started process (PID=578565) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:47:30,552] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:47:30,553] {logging_mixin.py:112} INFO - [2020-07-17 15:47:30,553] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:47:30,569] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:47:30,685] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.137 seconds
+[2020-07-17 15:48:28,604] {scheduler_job.py:153} INFO - Started process (PID=580137) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:48:28,608] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:48:28,609] {logging_mixin.py:112} INFO - [2020-07-17 15:48:28,608] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:48:28,624] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:48:29,199] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.596 seconds
+[2020-07-17 15:49:26,807] {scheduler_job.py:153} INFO - Started process (PID=581675) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:49:26,816] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:49:26,816] {logging_mixin.py:112} INFO - [2020-07-17 15:49:26,816] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:49:26,830] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:49:27,005] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.197 seconds
+[2020-07-17 15:50:24,863] {scheduler_job.py:153} INFO - Started process (PID=583225) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:50:24,868] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:50:24,868] {logging_mixin.py:112} INFO - [2020-07-17 15:50:24,868] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:50:24,884] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:50:25,014] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.151 seconds
+[2020-07-17 15:51:22,924] {scheduler_job.py:153} INFO - Started process (PID=584780) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:51:22,928] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:51:22,929] {logging_mixin.py:112} INFO - [2020-07-17 15:51:22,928] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:51:22,940] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:51:23,624] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.700 seconds
+[2020-07-17 15:52:20,984] {scheduler_job.py:153} INFO - Started process (PID=586389) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:52:20,999] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:52:21,001] {logging_mixin.py:112} INFO - [2020-07-17 15:52:21,001] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:52:21,025] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:52:21,166] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.182 seconds
+[2020-07-17 15:53:19,040] {scheduler_job.py:153} INFO - Started process (PID=587977) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:53:19,043] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:53:19,043] {logging_mixin.py:112} INFO - [2020-07-17 15:53:19,043] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:53:19,053] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:53:19,172] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.132 seconds
+[2020-07-17 15:54:17,106] {scheduler_job.py:153} INFO - Started process (PID=589493) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:54:17,110] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:54:17,111] {logging_mixin.py:112} INFO - [2020-07-17 15:54:17,111] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:54:17,129] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:54:17,493] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.388 seconds
+[2020-07-17 15:55:15,167] {scheduler_job.py:153} INFO - Started process (PID=591052) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:55:15,175] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:55:15,176] {logging_mixin.py:112} INFO - [2020-07-17 15:55:15,175] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:55:15,223] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:55:15,365] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.198 seconds
+[2020-07-17 15:56:13,226] {scheduler_job.py:153} INFO - Started process (PID=592600) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:56:13,230] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:56:13,231] {logging_mixin.py:112} INFO - [2020-07-17 15:56:13,230] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:56:13,241] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:56:13,434] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.208 seconds
+[2020-07-17 15:57:12,943] {scheduler_job.py:153} INFO - Started process (PID=594181) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:57:12,947] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:57:12,947] {logging_mixin.py:112} INFO - [2020-07-17 15:57:12,947] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:57:12,960] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:57:13,091] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.149 seconds
+[2020-07-17 15:58:09,964] {scheduler_job.py:153} INFO - Started process (PID=595738) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:58:09,967] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:58:09,968] {logging_mixin.py:112} INFO - [2020-07-17 15:58:09,968] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:58:09,984] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:58:10,108] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.144 seconds
+[2020-07-17 15:59:08,026] {scheduler_job.py:153} INFO - Started process (PID=597281) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:59:08,031] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 15:59:08,032] {logging_mixin.py:112} INFO - [2020-07-17 15:59:08,031] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:59:08,044] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 15:59:08,200] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.175 seconds
+[2020-07-17 16:00:06,083] {scheduler_job.py:153} INFO - Started process (PID=598809) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:00:06,086] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:00:06,087] {logging_mixin.py:112} INFO - [2020-07-17 16:00:06,086] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:00:06,098] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:00:06,345] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.262 seconds
+[2020-07-17 16:01:04,140] {scheduler_job.py:153} INFO - Started process (PID=600340) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:01:04,143] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:01:04,144] {logging_mixin.py:112} INFO - [2020-07-17 16:01:04,144] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:01:04,154] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:01:04,359] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.219 seconds
+[2020-07-17 16:02:02,200] {scheduler_job.py:153} INFO - Started process (PID=601840) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:02:02,206] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:02:02,206] {logging_mixin.py:112} INFO - [2020-07-17 16:02:02,206] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:02:02,221] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:02:02,512] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.312 seconds
+[2020-07-17 16:03:00,256] {scheduler_job.py:153} INFO - Started process (PID=603368) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:03:00,259] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:03:00,260] {logging_mixin.py:112} INFO - [2020-07-17 16:03:00,259] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:03:00,269] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:03:00,566] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.310 seconds
+[2020-07-17 16:03:58,318] {scheduler_job.py:153} INFO - Started process (PID=604892) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:03:58,321] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:03:58,322] {logging_mixin.py:112} INFO - [2020-07-17 16:03:58,322] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:03:58,332] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:03:58,585] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.267 seconds
+[2020-07-17 16:04:56,364] {scheduler_job.py:153} INFO - Started process (PID=606414) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:04:56,367] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:04:56,368] {logging_mixin.py:112} INFO - [2020-07-17 16:04:56,368] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:04:56,378] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:04:56,561] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.197 seconds
+[2020-07-17 16:05:54,624] {scheduler_job.py:153} INFO - Started process (PID=607978) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:05:54,628] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:05:54,628] {logging_mixin.py:112} INFO - [2020-07-17 16:05:54,628] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:05:54,639] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:05:54,756] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.131 seconds
+[2020-07-17 16:06:52,484] {scheduler_job.py:153} INFO - Started process (PID=609576) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:06:52,488] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:06:52,488] {logging_mixin.py:112} INFO - [2020-07-17 16:06:52,488] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:06:52,498] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:06:52,647] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.163 seconds
+[2020-07-17 16:07:50,543] {scheduler_job.py:153} INFO - Started process (PID=611151) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:07:50,546] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:07:50,547] {logging_mixin.py:112} INFO - [2020-07-17 16:07:50,547] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:07:50,562] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:07:50,742] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.199 seconds
+[2020-07-17 16:08:48,948] {scheduler_job.py:153} INFO - Started process (PID=612690) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:08:48,951] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:08:48,951] {logging_mixin.py:112} INFO - [2020-07-17 16:08:48,951] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:08:48,963] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:08:49,090] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.142 seconds
+[2020-07-17 16:10:06,987] {scheduler_job.py:153} INFO - Started process (PID=614725) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:10:06,991] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:10:06,992] {logging_mixin.py:112} INFO - [2020-07-17 16:10:06,991] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:10:07,003] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:10:07,172] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.186 seconds
+[2020-07-17 16:11:17,161] {scheduler_job.py:153} INFO - Started process (PID=616641) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:11:17,164] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:11:17,164] {logging_mixin.py:112} INFO - [2020-07-17 16:11:17,164] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:11:17,175] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:11:17,275] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.114 seconds
+[2020-07-17 16:12:26,971] {scheduler_job.py:153} INFO - Started process (PID=618521) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:12:26,976] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:12:26,978] {logging_mixin.py:112} INFO - [2020-07-17 16:12:26,978] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:12:26,994] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:12:27,196] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.225 seconds
+[2020-07-17 16:13:36,825] {scheduler_job.py:153} INFO - Started process (PID=620373) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:13:36,828] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:13:36,829] {logging_mixin.py:112} INFO - [2020-07-17 16:13:36,829] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:13:36,840] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:13:36,941] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.116 seconds
+[2020-07-17 16:14:34,876] {scheduler_job.py:153} INFO - Started process (PID=621918) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:14:34,879] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:14:34,879] {logging_mixin.py:112} INFO - [2020-07-17 16:14:34,879] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:14:34,889] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:14:35,190] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.314 seconds
+[2020-07-17 16:15:32,934] {scheduler_job.py:153} INFO - Started process (PID=623449) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:15:32,938] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:15:32,938] {logging_mixin.py:112} INFO - [2020-07-17 16:15:32,938] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:15:32,949] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:15:33,103] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.169 seconds
+[2020-07-17 16:16:30,991] {scheduler_job.py:153} INFO - Started process (PID=624994) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:16:30,996] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:16:30,996] {logging_mixin.py:112} INFO - [2020-07-17 16:16:30,996] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:16:31,015] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:16:31,161] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.170 seconds
+[2020-07-17 16:17:29,049] {scheduler_job.py:153} INFO - Started process (PID=626482) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:17:29,053] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:17:29,054] {logging_mixin.py:112} INFO - [2020-07-17 16:17:29,054] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:17:29,069] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:17:29,367] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.318 seconds
+[2020-07-17 16:18:27,110] {scheduler_job.py:153} INFO - Started process (PID=628046) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:18:27,114] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:18:27,115] {logging_mixin.py:112} INFO - [2020-07-17 16:18:27,115] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:18:27,125] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:18:27,260] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.149 seconds
+[2020-07-17 16:19:25,178] {scheduler_job.py:153} INFO - Started process (PID=629619) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:19:25,182] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:19:25,182] {logging_mixin.py:112} INFO - [2020-07-17 16:19:25,182] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:19:25,192] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:19:25,296] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.117 seconds
+[2020-07-17 16:20:23,435] {scheduler_job.py:153} INFO - Started process (PID=631210) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:20:23,440] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:20:23,441] {logging_mixin.py:112} INFO - [2020-07-17 16:20:23,440] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:20:23,459] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:20:23,603] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.167 seconds
+[2020-07-17 16:21:21,313] {scheduler_job.py:153} INFO - Started process (PID=632829) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:21:21,325] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:21:21,325] {logging_mixin.py:112} INFO - [2020-07-17 16:21:21,325] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:21:21,354] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:21:21,478] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.165 seconds
+[2020-07-17 16:22:31,462] {scheduler_job.py:153} INFO - Started process (PID=634666) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:22:31,464] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:22:31,465] {logging_mixin.py:112} INFO - [2020-07-17 16:22:31,465] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:22:31,475] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:22:31,590] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.129 seconds
+[2020-07-17 16:23:41,624] {scheduler_job.py:153} INFO - Started process (PID=636552) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:23:41,628] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:23:41,628] {logging_mixin.py:112} INFO - [2020-07-17 16:23:41,628] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:23:41,644] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:23:41,788] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.164 seconds
+[2020-07-17 16:24:39,876] {scheduler_job.py:153} INFO - Started process (PID=638031) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:24:39,879] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:24:39,880] {logging_mixin.py:112} INFO - [2020-07-17 16:24:39,880] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:24:39,890] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:24:39,995] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.119 seconds
+[2020-07-17 16:25:37,730] {scheduler_job.py:153} INFO - Started process (PID=639567) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:25:37,735] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:25:37,735] {logging_mixin.py:112} INFO - [2020-07-17 16:25:37,735] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:25:37,751] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:25:37,891] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.161 seconds
+[2020-07-17 16:26:35,887] {scheduler_job.py:153} INFO - Started process (PID=641118) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:26:35,893] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:26:35,893] {logging_mixin.py:112} INFO - [2020-07-17 16:26:35,893] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:26:35,912] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:26:36,093] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.206 seconds
+[2020-07-17 16:27:34,044] {scheduler_job.py:153} INFO - Started process (PID=642698) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:27:34,046] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:27:34,047] {logging_mixin.py:112} INFO - [2020-07-17 16:27:34,047] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:27:34,058] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:27:34,243] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.199 seconds
+[2020-07-17 16:28:31,986] {scheduler_job.py:153} INFO - Started process (PID=644243) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:28:31,990] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:28:31,991] {logging_mixin.py:112} INFO - [2020-07-17 16:28:31,991] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:28:32,003] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:28:32,137] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.151 seconds
+[2020-07-17 16:29:30,049] {scheduler_job.py:153} INFO - Started process (PID=645779) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:29:30,053] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:29:30,053] {logging_mixin.py:112} INFO - [2020-07-17 16:29:30,053] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:29:30,065] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:29:30,173] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.123 seconds
+[2020-07-17 16:30:39,715] {scheduler_job.py:153} INFO - Started process (PID=647610) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:30:39,718] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:30:39,718] {logging_mixin.py:112} INFO - [2020-07-17 16:30:39,718] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:30:39,729] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:30:39,865] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.150 seconds
+[2020-07-17 16:31:49,774] {scheduler_job.py:153} INFO - Started process (PID=649462) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:31:49,779] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:31:49,779] {logging_mixin.py:112} INFO - [2020-07-17 16:31:49,779] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:31:49,794] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:31:49,909] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.135 seconds
+[2020-07-17 16:32:47,964] {scheduler_job.py:153} INFO - Started process (PID=650981) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:32:47,967] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:32:47,968] {logging_mixin.py:112} INFO - [2020-07-17 16:32:47,968] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:32:47,979] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:32:48,094] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.130 seconds
+[2020-07-17 16:33:45,880] {scheduler_job.py:153} INFO - Started process (PID=652523) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:33:45,883] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:33:45,883] {logging_mixin.py:112} INFO - [2020-07-17 16:33:45,883] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:33:45,893] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:33:46,063] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.183 seconds
+[2020-07-17 16:34:43,942] {scheduler_job.py:153} INFO - Started process (PID=654053) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:34:43,946] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:34:43,947] {logging_mixin.py:112} INFO - [2020-07-17 16:34:43,947] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:34:43,964] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:34:44,340] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.398 seconds
+[2020-07-17 16:35:42,526] {scheduler_job.py:153} INFO - Started process (PID=655609) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:35:42,530] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:35:42,530] {logging_mixin.py:112} INFO - [2020-07-17 16:35:42,530] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:35:42,540] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:35:42,837] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.310 seconds
+[2020-07-17 16:36:53,574] {scheduler_job.py:153} INFO - Started process (PID=657499) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:36:53,577] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:36:53,577] {logging_mixin.py:112} INFO - [2020-07-17 16:36:53,577] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:36:53,588] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:36:53,697] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.123 seconds
+[2020-07-17 16:38:15,784] {scheduler_job.py:153} INFO - Started process (PID=659749) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:38:15,787] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:38:15,788] {logging_mixin.py:112} INFO - [2020-07-17 16:38:15,788] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:38:15,799] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:38:15,948] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.164 seconds
+[2020-07-17 16:39:14,172] {scheduler_job.py:153} INFO - Started process (PID=661296) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:39:14,177] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:39:14,177] {logging_mixin.py:112} INFO - [2020-07-17 16:39:14,177] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:39:14,191] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:39:14,290] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.118 seconds
+[2020-07-17 16:40:11,893] {scheduler_job.py:153} INFO - Started process (PID=662830) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:40:11,898] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:40:11,899] {logging_mixin.py:112} INFO - [2020-07-17 16:40:11,899] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:40:11,917] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:40:12,051] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.159 seconds
+[2020-07-17 16:41:09,944] {scheduler_job.py:153} INFO - Started process (PID=664401) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:41:09,947] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:41:09,947] {logging_mixin.py:112} INFO - [2020-07-17 16:41:09,947] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:41:09,958] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:41:10,227] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.283 seconds
+[2020-07-17 16:42:08,005] {scheduler_job.py:153} INFO - Started process (PID=665964) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:42:08,009] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:42:08,010] {logging_mixin.py:112} INFO - [2020-07-17 16:42:08,010] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:42:08,021] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:42:08,458] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.453 seconds
+[2020-07-17 16:43:06,062] {scheduler_job.py:153} INFO - Started process (PID=667535) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:43:06,065] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:43:06,066] {logging_mixin.py:112} INFO - [2020-07-17 16:43:06,066] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:43:06,076] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:43:06,293] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.231 seconds
+[2020-07-17 16:44:04,122] {scheduler_job.py:153} INFO - Started process (PID=669055) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:44:04,126] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:44:04,126] {logging_mixin.py:112} INFO - [2020-07-17 16:44:04,126] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:44:04,136] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:44:04,256] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.134 seconds
+[2020-07-17 16:45:02,536] {scheduler_job.py:153} INFO - Started process (PID=670613) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:45:02,539] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:45:02,539] {logging_mixin.py:112} INFO - [2020-07-17 16:45:02,539] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:45:02,553] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:45:02,798] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.262 seconds
+[2020-07-17 16:46:00,229] {scheduler_job.py:153} INFO - Started process (PID=672142) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:46:00,231] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:46:00,232] {logging_mixin.py:112} INFO - [2020-07-17 16:46:00,232] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:46:00,242] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:46:00,349] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.121 seconds
+[2020-07-17 16:46:58,292] {scheduler_job.py:153} INFO - Started process (PID=673666) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:46:58,295] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:46:58,296] {logging_mixin.py:112} INFO - [2020-07-17 16:46:58,295] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:46:58,307] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:46:58,401] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.109 seconds
+[2020-07-17 16:47:56,347] {scheduler_job.py:153} INFO - Started process (PID=675216) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:47:56,350] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:47:56,351] {logging_mixin.py:112} INFO - [2020-07-17 16:47:56,351] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:47:56,361] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:47:56,606] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.259 seconds
+[2020-07-17 16:48:54,411] {scheduler_job.py:153} INFO - Started process (PID=676692) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:48:54,414] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:48:54,415] {logging_mixin.py:112} INFO - [2020-07-17 16:48:54,415] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:48:54,426] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:48:54,610] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.198 seconds
+[2020-07-17 16:49:52,470] {scheduler_job.py:153} INFO - Started process (PID=678230) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:49:52,475] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:49:52,475] {logging_mixin.py:112} INFO - [2020-07-17 16:49:52,475] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:49:52,492] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:49:52,711] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.241 seconds
+[2020-07-17 16:50:50,528] {scheduler_job.py:153} INFO - Started process (PID=679777) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:50:50,531] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:50:50,531] {logging_mixin.py:112} INFO - [2020-07-17 16:50:50,531] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:50:50,543] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:50:50,831] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.303 seconds
+[2020-07-17 16:51:48,586] {scheduler_job.py:153} INFO - Started process (PID=681300) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:51:48,590] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:51:48,590] {logging_mixin.py:112} INFO - [2020-07-17 16:51:48,590] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:51:48,602] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:51:48,713] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.127 seconds
+[2020-07-17 16:52:46,646] {scheduler_job.py:153} INFO - Started process (PID=682844) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:52:46,649] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:52:46,650] {logging_mixin.py:112} INFO - [2020-07-17 16:52:46,650] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:52:46,665] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:52:46,853] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.208 seconds
+[2020-07-17 16:53:44,706] {scheduler_job.py:153} INFO - Started process (PID=684405) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:53:44,709] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:53:44,709] {logging_mixin.py:112} INFO - [2020-07-17 16:53:44,709] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:53:44,719] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:53:45,009] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.304 seconds
+[2020-07-17 16:54:42,766] {scheduler_job.py:153} INFO - Started process (PID=685949) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:54:42,770] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:54:42,771] {logging_mixin.py:112} INFO - [2020-07-17 16:54:42,771] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:54:42,788] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:54:42,931] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.165 seconds
+[2020-07-17 16:55:40,825] {scheduler_job.py:153} INFO - Started process (PID=687490) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:55:40,830] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:55:40,830] {logging_mixin.py:112} INFO - [2020-07-17 16:55:40,830] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:55:40,850] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:55:41,025] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.200 seconds
+[2020-07-17 16:56:39,068] {scheduler_job.py:153} INFO - Started process (PID=688988) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:56:39,071] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:56:39,071] {logging_mixin.py:112} INFO - [2020-07-17 16:56:39,071] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:56:39,083] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:56:39,189] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.121 seconds
+[2020-07-17 16:57:36,937] {scheduler_job.py:153} INFO - Started process (PID=690519) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:57:36,941] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:57:36,942] {logging_mixin.py:112} INFO - [2020-07-17 16:57:36,942] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:57:36,953] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:57:37,121] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.185 seconds
+[2020-07-17 16:58:35,000] {scheduler_job.py:153} INFO - Started process (PID=692051) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:58:35,005] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:58:35,006] {logging_mixin.py:112} INFO - [2020-07-17 16:58:35,006] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:58:35,024] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:58:35,277] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.278 seconds
+[2020-07-17 16:59:33,064] {scheduler_job.py:153} INFO - Started process (PID=693656) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:59:33,070] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 16:59:33,070] {logging_mixin.py:112} INFO - [2020-07-17 16:59:33,070] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:59:33,088] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 16:59:33,315] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.251 seconds
+[2020-07-17 17:00:31,413] {scheduler_job.py:153} INFO - Started process (PID=695186) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:00:31,416] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:00:31,416] {logging_mixin.py:112} INFO - [2020-07-17 17:00:31,416] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:00:31,427] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:00:31,562] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.150 seconds
+[2020-07-17 17:01:29,463] {scheduler_job.py:153} INFO - Started process (PID=696722) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:01:29,466] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:01:29,466] {logging_mixin.py:112} INFO - [2020-07-17 17:01:29,466] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:01:29,477] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:01:29,620] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.158 seconds
+[2020-07-17 17:02:27,533] {scheduler_job.py:153} INFO - Started process (PID=698262) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:02:27,538] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:02:27,538] {logging_mixin.py:112} INFO - [2020-07-17 17:02:27,538] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:02:27,555] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:02:28,009] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.476 seconds
+[2020-07-17 17:03:25,577] {scheduler_job.py:153} INFO - Started process (PID=699793) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:03:25,580] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:03:25,581] {logging_mixin.py:112} INFO - [2020-07-17 17:03:25,581] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:03:25,591] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:03:25,774] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.197 seconds
+[2020-07-17 17:04:23,636] {scheduler_job.py:153} INFO - Started process (PID=701323) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:04:23,639] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:04:23,639] {logging_mixin.py:112} INFO - [2020-07-17 17:04:23,639] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:04:23,649] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:04:23,794] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.157 seconds
+[2020-07-17 17:05:21,703] {scheduler_job.py:153} INFO - Started process (PID=702812) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:05:21,706] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:05:21,707] {logging_mixin.py:112} INFO - [2020-07-17 17:05:21,707] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:05:21,717] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:05:21,956] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.253 seconds
+[2020-07-17 17:06:19,764] {scheduler_job.py:153} INFO - Started process (PID=704343) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:06:19,767] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:06:19,767] {logging_mixin.py:112} INFO - [2020-07-17 17:06:19,767] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:06:19,777] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:06:19,958] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.194 seconds
+[2020-07-17 17:07:17,815] {scheduler_job.py:153} INFO - Started process (PID=705882) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:07:17,820] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:07:17,821] {logging_mixin.py:112} INFO - [2020-07-17 17:07:17,820] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:07:17,840] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:07:18,042] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.227 seconds
+[2020-07-17 17:08:15,875] {scheduler_job.py:153} INFO - Started process (PID=707823) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:08:15,878] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:08:15,878] {logging_mixin.py:112} INFO - [2020-07-17 17:08:15,878] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:08:15,888] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:08:16,182] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.307 seconds
+[2020-07-17 17:09:13,933] {scheduler_job.py:153} INFO - Started process (PID=709385) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:09:13,936] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:09:13,937] {logging_mixin.py:112} INFO - [2020-07-17 17:09:13,937] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:09:13,948] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:09:14,115] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.182 seconds
+[2020-07-17 17:10:11,993] {scheduler_job.py:153} INFO - Started process (PID=710931) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:10:11,996] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:10:11,997] {logging_mixin.py:112} INFO - [2020-07-17 17:10:11,997] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:10:12,008] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:10:12,170] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.178 seconds
+[2020-07-17 17:11:10,248] {scheduler_job.py:153} INFO - Started process (PID=712456) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:11:10,251] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:11:10,251] {logging_mixin.py:112} INFO - [2020-07-17 17:11:10,251] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:11:10,264] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:11:10,382] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.134 seconds
+[2020-07-17 17:12:08,115] {scheduler_job.py:153} INFO - Started process (PID=714009) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:12:08,118] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:12:08,118] {logging_mixin.py:112} INFO - [2020-07-17 17:12:08,118] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:12:08,129] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:12:08,272] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.158 seconds
+[2020-07-17 17:13:06,170] {scheduler_job.py:153} INFO - Started process (PID=715531) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:13:06,174] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:13:06,175] {logging_mixin.py:112} INFO - [2020-07-17 17:13:06,175] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:13:06,191] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:13:06,338] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.169 seconds
+[2020-07-17 17:14:04,225] {scheduler_job.py:153} INFO - Started process (PID=717060) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:14:04,228] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:14:04,228] {logging_mixin.py:112} INFO - [2020-07-17 17:14:04,228] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:14:04,239] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:14:04,476] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.251 seconds
+[2020-07-17 17:15:02,607] {scheduler_job.py:153} INFO - Started process (PID=718603) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:15:02,611] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:15:02,611] {logging_mixin.py:112} INFO - [2020-07-17 17:15:02,611] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:15:02,622] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:15:02,750] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.143 seconds
+[2020-07-17 17:16:00,672] {scheduler_job.py:153} INFO - Started process (PID=720139) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:16:00,677] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:16:00,678] {logging_mixin.py:112} INFO - [2020-07-17 17:16:00,678] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:16:00,695] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:16:00,872] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.199 seconds
+[2020-07-17 17:16:58,734] {scheduler_job.py:153} INFO - Started process (PID=721685) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:16:58,737] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:16:58,738] {logging_mixin.py:112} INFO - [2020-07-17 17:16:58,738] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:16:58,749] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:16:59,036] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.302 seconds
+[2020-07-17 17:17:56,915] {scheduler_job.py:153} INFO - Started process (PID=723216) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:17:56,919] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:17:56,920] {logging_mixin.py:112} INFO - [2020-07-17 17:17:56,919] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:17:56,929] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:17:57,036] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.121 seconds
+[2020-07-17 17:18:54,972] {scheduler_job.py:153} INFO - Started process (PID=724751) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:18:54,976] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:18:54,976] {logging_mixin.py:112} INFO - [2020-07-17 17:18:54,976] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:18:54,986] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:18:55,115] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.143 seconds
+[2020-07-17 17:19:53,223] {scheduler_job.py:153} INFO - Started process (PID=726296) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:19:53,228] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:19:53,228] {logging_mixin.py:112} INFO - [2020-07-17 17:19:53,228] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:19:53,245] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:19:53,470] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.247 seconds
+[2020-07-17 17:20:51,090] {scheduler_job.py:153} INFO - Started process (PID=727770) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:20:51,095] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:20:51,096] {logging_mixin.py:112} INFO - [2020-07-17 17:20:51,095] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:20:51,115] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:20:51,336] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.247 seconds
+[2020-07-17 17:21:49,144] {scheduler_job.py:153} INFO - Started process (PID=729301) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:21:49,154] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:21:49,154] {logging_mixin.py:112} INFO - [2020-07-17 17:21:49,154] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:21:49,172] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:21:49,867] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.723 seconds
+[2020-07-17 17:22:47,202] {scheduler_job.py:153} INFO - Started process (PID=730823) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:22:47,205] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:22:47,206] {logging_mixin.py:112} INFO - [2020-07-17 17:22:47,206] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:22:47,221] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:22:47,485] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.283 seconds
+[2020-07-17 17:23:45,262] {scheduler_job.py:153} INFO - Started process (PID=732358) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:23:45,266] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:23:45,266] {logging_mixin.py:112} INFO - [2020-07-17 17:23:45,266] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:23:45,276] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:23:45,387] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.126 seconds
+[2020-07-17 17:24:43,314] {scheduler_job.py:153} INFO - Started process (PID=733890) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:24:43,318] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:24:43,318] {logging_mixin.py:112} INFO - [2020-07-17 17:24:43,318] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:24:43,329] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:24:43,444] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.130 seconds
+[2020-07-17 17:25:41,376] {scheduler_job.py:153} INFO - Started process (PID=735417) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:25:41,379] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:25:41,380] {logging_mixin.py:112} INFO - [2020-07-17 17:25:41,379] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:25:41,389] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:25:41,716] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.341 seconds
+[2020-07-17 17:26:39,427] {scheduler_job.py:153} INFO - Started process (PID=736961) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:26:39,435] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:26:39,435] {logging_mixin.py:112} INFO - [2020-07-17 17:26:39,435] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:26:39,450] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:26:39,593] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.166 seconds
+[2020-07-17 17:27:37,483] {scheduler_job.py:153} INFO - Started process (PID=738492) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:27:37,487] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:27:37,487] {logging_mixin.py:112} INFO - [2020-07-17 17:27:37,487] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:27:37,498] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:27:37,617] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.134 seconds
+[2020-07-17 17:28:35,545] {scheduler_job.py:153} INFO - Started process (PID=740023) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:28:35,549] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:28:35,549] {logging_mixin.py:112} INFO - [2020-07-17 17:28:35,549] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:28:35,561] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:28:35,805] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.260 seconds
+[2020-07-17 17:29:33,601] {scheduler_job.py:153} INFO - Started process (PID=741578) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:29:33,605] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:29:33,606] {logging_mixin.py:112} INFO - [2020-07-17 17:29:33,606] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:29:33,617] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:29:33,751] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.150 seconds
+[2020-07-17 17:30:31,657] {scheduler_job.py:153} INFO - Started process (PID=743100) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:30:31,662] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:30:31,662] {logging_mixin.py:112} INFO - [2020-07-17 17:30:31,662] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:30:31,678] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:30:31,875] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.218 seconds
+[2020-07-17 17:31:29,716] {scheduler_job.py:153} INFO - Started process (PID=744659) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:31:29,721] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:31:29,721] {logging_mixin.py:112} INFO - [2020-07-17 17:31:29,721] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:31:29,733] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:31:30,121] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.405 seconds
+[2020-07-17 17:32:27,776] {scheduler_job.py:153} INFO - Started process (PID=746233) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:32:27,779] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:32:27,779] {logging_mixin.py:112} INFO - [2020-07-17 17:32:27,779] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:32:27,790] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:32:28,244] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.468 seconds
+[2020-07-17 17:33:25,842] {scheduler_job.py:153} INFO - Started process (PID=747823) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:33:25,845] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:33:25,845] {logging_mixin.py:112} INFO - [2020-07-17 17:33:25,845] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:33:25,855] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:33:25,958] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.117 seconds
+[2020-07-17 17:34:24,099] {scheduler_job.py:153} INFO - Started process (PID=749427) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:34:24,102] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:34:24,103] {logging_mixin.py:112} INFO - [2020-07-17 17:34:24,103] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:34:24,113] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:34:24,236] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.136 seconds
+[2020-07-17 17:35:21,966] {scheduler_job.py:153} INFO - Started process (PID=750985) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:35:21,978] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:35:21,978] {logging_mixin.py:112} INFO - [2020-07-17 17:35:21,978] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:35:22,010] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:35:22,193] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.227 seconds
+[2020-07-17 17:36:20,018] {scheduler_job.py:153} INFO - Started process (PID=752496) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:36:20,023] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:36:20,023] {logging_mixin.py:112} INFO - [2020-07-17 17:36:20,023] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:36:20,036] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:36:20,147] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.129 seconds
+[2020-07-17 17:37:18,074] {scheduler_job.py:153} INFO - Started process (PID=754100) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:37:18,077] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:37:18,077] {logging_mixin.py:112} INFO - [2020-07-17 17:37:18,077] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:37:18,089] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:37:18,464] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.390 seconds
+[2020-07-17 17:38:16,135] {scheduler_job.py:153} INFO - Started process (PID=755648) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:38:16,140] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:38:16,141] {logging_mixin.py:112} INFO - [2020-07-17 17:38:16,141] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:38:16,151] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:38:16,324] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.189 seconds
+[2020-07-17 17:39:14,190] {scheduler_job.py:153} INFO - Started process (PID=757203) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:39:14,192] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:39:14,193] {logging_mixin.py:112} INFO - [2020-07-17 17:39:14,193] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:39:14,207] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:39:14,350] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.161 seconds
+[2020-07-17 17:40:12,445] {scheduler_job.py:153} INFO - Started process (PID=758739) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:40:12,448] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:40:12,448] {logging_mixin.py:112} INFO - [2020-07-17 17:40:12,448] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:40:12,464] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:40:12,559] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.114 seconds
+[2020-07-17 17:41:10,309] {scheduler_job.py:153} INFO - Started process (PID=760329) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:41:10,312] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:41:10,313] {logging_mixin.py:112} INFO - [2020-07-17 17:41:10,313] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:41:10,327] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:41:10,752] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.442 seconds
+[2020-07-17 17:42:08,368] {scheduler_job.py:153} INFO - Started process (PID=761919) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:42:08,372] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:42:08,372] {logging_mixin.py:112} INFO - [2020-07-17 17:42:08,372] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:42:08,382] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:42:08,564] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.196 seconds
+[2020-07-17 17:43:06,433] {scheduler_job.py:153} INFO - Started process (PID=763473) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:43:06,438] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:43:06,438] {logging_mixin.py:112} INFO - [2020-07-17 17:43:06,438] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:43:06,449] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:43:06,699] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.266 seconds
+[2020-07-17 17:44:04,487] {scheduler_job.py:153} INFO - Started process (PID=764968) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:44:04,490] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:44:04,491] {logging_mixin.py:112} INFO - [2020-07-17 17:44:04,491] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:44:04,502] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:44:04,632] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.145 seconds
+[2020-07-17 17:45:02,568] {scheduler_job.py:153} INFO - Started process (PID=766511) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:45:02,571] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:45:02,571] {logging_mixin.py:112} INFO - [2020-07-17 17:45:02,571] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:45:02,581] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:45:02,729] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.161 seconds
+[2020-07-17 17:46:00,631] {scheduler_job.py:153} INFO - Started process (PID=768075) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:46:00,634] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:46:00,635] {logging_mixin.py:112} INFO - [2020-07-17 17:46:00,634] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:46:00,646] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:46:00,931] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.300 seconds
+[2020-07-17 17:46:58,688] {scheduler_job.py:153} INFO - Started process (PID=769607) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:46:58,690] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:46:58,691] {logging_mixin.py:112} INFO - [2020-07-17 17:46:58,691] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:46:58,702] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:46:58,953] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.265 seconds
+[2020-07-17 17:47:56,752] {scheduler_job.py:153} INFO - Started process (PID=771188) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:47:56,760] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:47:56,762] {logging_mixin.py:112} INFO - [2020-07-17 17:47:56,761] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:47:56,785] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:47:56,944] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.192 seconds
+[2020-07-17 17:48:54,998] {scheduler_job.py:153} INFO - Started process (PID=772702) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:48:55,003] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:48:55,004] {logging_mixin.py:112} INFO - [2020-07-17 17:48:55,003] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:48:55,017] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:48:55,130] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.133 seconds
+[2020-07-17 17:49:52,864] {scheduler_job.py:153} INFO - Started process (PID=774283) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:49:52,867] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:49:52,867] {logging_mixin.py:112} INFO - [2020-07-17 17:49:52,867] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:49:52,877] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:49:53,041] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.177 seconds
+[2020-07-17 17:50:50,925] {scheduler_job.py:153} INFO - Started process (PID=775909) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:50:50,930] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:50:50,930] {logging_mixin.py:112} INFO - [2020-07-17 17:50:50,930] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:50:50,947] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:50:51,358] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.433 seconds
+[2020-07-17 17:51:48,981] {scheduler_job.py:153} INFO - Started process (PID=777429) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:51:48,986] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:51:48,987] {logging_mixin.py:112} INFO - [2020-07-17 17:51:48,987] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:51:49,005] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:51:50,313] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 1.332 seconds
+[2020-07-17 17:52:47,039] {scheduler_job.py:153} INFO - Started process (PID=778942) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:52:47,044] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:52:47,045] {logging_mixin.py:112} INFO - [2020-07-17 17:52:47,044] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:52:47,063] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:52:47,253] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.215 seconds
+[2020-07-17 17:53:45,097] {scheduler_job.py:153} INFO - Started process (PID=780498) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:53:45,103] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:53:45,103] {logging_mixin.py:112} INFO - [2020-07-17 17:53:45,103] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:53:45,113] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:53:45,221] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.124 seconds
+[2020-07-17 17:54:43,158] {scheduler_job.py:153} INFO - Started process (PID=782094) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:54:43,160] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:54:43,161] {logging_mixin.py:112} INFO - [2020-07-17 17:54:43,161] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:54:43,172] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:54:43,550] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.392 seconds
+[2020-07-17 17:55:41,242] {scheduler_job.py:153} INFO - Started process (PID=783632) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:55:41,245] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:55:41,246] {logging_mixin.py:112} INFO - [2020-07-17 17:55:41,246] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:55:41,258] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:55:41,475] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.233 seconds
+[2020-07-17 17:56:39,292] {scheduler_job.py:153} INFO - Started process (PID=785194) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:56:39,295] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:56:39,296] {logging_mixin.py:112} INFO - [2020-07-17 17:56:39,295] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:56:39,307] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:56:39,424] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.131 seconds
+[2020-07-17 17:57:37,543] {scheduler_job.py:153} INFO - Started process (PID=786751) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:57:37,545] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:57:37,546] {logging_mixin.py:112} INFO - [2020-07-17 17:57:37,546] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:57:37,555] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:57:37,674] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.131 seconds
+[2020-07-17 17:58:35,419] {scheduler_job.py:153} INFO - Started process (PID=788330) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:58:35,423] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:58:35,423] {logging_mixin.py:112} INFO - [2020-07-17 17:58:35,423] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:58:35,433] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:58:35,552] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.134 seconds
+[2020-07-17 17:59:33,481] {scheduler_job.py:153} INFO - Started process (PID=789838) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:59:33,486] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 17:59:33,486] {logging_mixin.py:112} INFO - [2020-07-17 17:59:33,486] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:59:33,504] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 17:59:33,608] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.127 seconds
+[2020-07-17 18:00:31,544] {scheduler_job.py:153} INFO - Started process (PID=791474) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:00:31,547] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:00:31,548] {logging_mixin.py:112} INFO - [2020-07-17 18:00:31,548] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:00:31,559] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:00:31,892] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.348 seconds
+[2020-07-17 18:01:29,601] {scheduler_job.py:153} INFO - Started process (PID=793023) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:01:29,605] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:01:29,606] {logging_mixin.py:112} INFO - [2020-07-17 18:01:29,605] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:01:29,621] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:01:29,787] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.186 seconds
+[2020-07-17 18:02:27,655] {scheduler_job.py:153} INFO - Started process (PID=794559) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:02:27,658] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:02:27,658] {logging_mixin.py:112} INFO - [2020-07-17 18:02:27,658] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:02:27,668] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:02:27,772] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.117 seconds
+[2020-07-17 18:03:25,860] {scheduler_job.py:153} INFO - Started process (PID=796156) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:03:25,863] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:03:25,864] {logging_mixin.py:112} INFO - [2020-07-17 18:03:25,864] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:03:25,874] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:03:25,994] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.134 seconds
+[2020-07-17 18:04:23,772] {scheduler_job.py:153} INFO - Started process (PID=797685) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:04:23,777] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:04:23,777] {logging_mixin.py:112} INFO - [2020-07-17 18:04:23,777] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:04:23,787] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:04:23,894] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.122 seconds
+[2020-07-17 18:05:21,840] {scheduler_job.py:153} INFO - Started process (PID=799248) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:05:21,844] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:05:21,844] {logging_mixin.py:112} INFO - [2020-07-17 18:05:21,844] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:05:21,860] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:05:21,983] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.143 seconds
+[2020-07-17 18:06:19,903] {scheduler_job.py:153} INFO - Started process (PID=800788) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:06:19,908] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:06:19,909] {logging_mixin.py:112} INFO - [2020-07-17 18:06:19,909] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:06:19,922] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:06:20,320] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.416 seconds
+[2020-07-17 18:07:17,952] {scheduler_job.py:153} INFO - Started process (PID=802356) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:07:17,955] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:07:17,955] {logging_mixin.py:112} INFO - [2020-07-17 18:07:17,955] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:07:17,966] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:07:18,106] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.154 seconds
+[2020-07-17 18:08:16,008] {scheduler_job.py:153} INFO - Started process (PID=803890) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:08:16,011] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:08:16,012] {logging_mixin.py:112} INFO - [2020-07-17 18:08:16,012] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:08:16,023] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:08:16,213] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.205 seconds
+[2020-07-17 18:09:14,301] {scheduler_job.py:153} INFO - Started process (PID=805421) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:09:14,304] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:09:14,304] {logging_mixin.py:112} INFO - [2020-07-17 18:09:14,304] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:09:14,315] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:09:14,445] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.144 seconds
+[2020-07-17 18:10:12,126] {scheduler_job.py:153} INFO - Started process (PID=806947) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:10:12,132] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:10:12,132] {logging_mixin.py:112} INFO - [2020-07-17 18:10:12,132] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:10:12,142] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:10:12,293] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.167 seconds
+[2020-07-17 18:11:10,184] {scheduler_job.py:153} INFO - Started process (PID=808486) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:11:10,187] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:11:10,187] {logging_mixin.py:112} INFO - [2020-07-17 18:11:10,187] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:11:10,198] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:11:10,315] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.131 seconds
+[2020-07-17 18:12:08,246] {scheduler_job.py:153} INFO - Started process (PID=810021) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:12:08,249] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:12:08,249] {logging_mixin.py:112} INFO - [2020-07-17 18:12:08,249] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:12:08,261] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:12:08,643] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.398 seconds
+[2020-07-17 18:13:06,296] {scheduler_job.py:153} INFO - Started process (PID=811552) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:13:06,299] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:13:06,299] {logging_mixin.py:112} INFO - [2020-07-17 18:13:06,299] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:13:06,310] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:13:06,434] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.138 seconds
+[2020-07-17 18:14:04,356] {scheduler_job.py:153} INFO - Started process (PID=813073) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:14:04,360] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:14:04,361] {logging_mixin.py:112} INFO - [2020-07-17 18:14:04,361] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:14:04,378] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:14:05,043] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.687 seconds
+[2020-07-17 18:15:02,612] {scheduler_job.py:153} INFO - Started process (PID=814545) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:15:02,616] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:15:02,616] {logging_mixin.py:112} INFO - [2020-07-17 18:15:02,616] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:15:02,626] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:15:02,746] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.133 seconds
+[2020-07-17 18:16:00,483] {scheduler_job.py:153} INFO - Started process (PID=816078) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:16:00,488] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:16:00,489] {logging_mixin.py:112} INFO - [2020-07-17 18:16:00,489] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:16:00,498] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:16:00,621] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.138 seconds
+[2020-07-17 18:16:58,533] {scheduler_job.py:153} INFO - Started process (PID=817604) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:16:58,536] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:16:58,537] {logging_mixin.py:112} INFO - [2020-07-17 18:16:58,536] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:16:58,547] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:16:58,654] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.121 seconds
+[2020-07-17 18:17:56,782] {scheduler_job.py:153} INFO - Started process (PID=819185) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:17:56,785] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:17:56,786] {logging_mixin.py:112} INFO - [2020-07-17 18:17:56,785] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:17:56,796] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:17:56,961] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.179 seconds
+[2020-07-17 18:18:54,698] {scheduler_job.py:153} INFO - Started process (PID=820761) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:18:54,701] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:18:54,702] {logging_mixin.py:112} INFO - [2020-07-17 18:18:54,702] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:18:54,713] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:18:54,927] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.229 seconds
+[2020-07-17 18:19:52,775] {scheduler_job.py:153} INFO - Started process (PID=822325) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:19:52,778] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:19:52,778] {logging_mixin.py:112} INFO - [2020-07-17 18:19:52,778] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:19:52,788] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:19:52,958] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.183 seconds
+[2020-07-17 18:20:50,828] {scheduler_job.py:153} INFO - Started process (PID=823854) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:20:50,832] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:20:50,832] {logging_mixin.py:112} INFO - [2020-07-17 18:20:50,832] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:20:50,842] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:20:51,159] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.330 seconds
+[2020-07-17 18:21:48,890] {scheduler_job.py:153} INFO - Started process (PID=825405) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:21:48,911] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:21:48,912] {logging_mixin.py:112} INFO - [2020-07-17 18:21:48,912] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:21:48,929] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:21:49,064] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.174 seconds
+[2020-07-17 18:22:46,942] {scheduler_job.py:153} INFO - Started process (PID=826889) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:22:46,948] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:22:46,948] {logging_mixin.py:112} INFO - [2020-07-17 18:22:46,948] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:22:46,967] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:22:47,105] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.163 seconds
+[2020-07-17 18:23:45,134] {scheduler_job.py:153} INFO - Started process (PID=828426) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:23:45,137] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:23:45,138] {logging_mixin.py:112} INFO - [2020-07-17 18:23:45,138] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:23:45,149] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:23:45,263] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.129 seconds
+[2020-07-17 18:24:43,055] {scheduler_job.py:153} INFO - Started process (PID=829959) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:24:43,058] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:24:43,059] {logging_mixin.py:112} INFO - [2020-07-17 18:24:43,059] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:24:43,069] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:24:43,179] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.124 seconds
+[2020-07-17 18:25:41,112] {scheduler_job.py:153} INFO - Started process (PID=831495) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:25:41,117] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:25:41,117] {logging_mixin.py:112} INFO - [2020-07-17 18:25:41,117] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:25:41,128] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:25:41,340] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.228 seconds
+[2020-07-17 18:26:39,166] {scheduler_job.py:153} INFO - Started process (PID=833035) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:26:39,170] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:26:39,171] {logging_mixin.py:112} INFO - [2020-07-17 18:26:39,170] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:26:39,181] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:26:39,571] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.405 seconds
+[2020-07-17 18:27:37,221] {scheduler_job.py:153} INFO - Started process (PID=834564) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:27:37,224] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:27:37,224] {logging_mixin.py:112} INFO - [2020-07-17 18:27:37,224] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:27:37,235] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:27:37,407] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.186 seconds
+[2020-07-17 18:28:35,295] {scheduler_job.py:153} INFO - Started process (PID=836092) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:28:35,298] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:28:35,299] {logging_mixin.py:112} INFO - [2020-07-17 18:28:35,299] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:28:35,310] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:28:35,427] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.133 seconds
+[2020-07-17 18:29:33,354] {scheduler_job.py:153} INFO - Started process (PID=837622) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:29:33,356] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:29:33,357] {logging_mixin.py:112} INFO - [2020-07-17 18:29:33,357] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:29:33,367] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:29:33,619] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.265 seconds
+[2020-07-17 18:30:31,411] {scheduler_job.py:153} INFO - Started process (PID=839136) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:30:31,414] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:30:31,415] {logging_mixin.py:112} INFO - [2020-07-17 18:30:31,415] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:30:31,430] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:30:31,569] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.158 seconds
+[2020-07-17 18:31:29,471] {scheduler_job.py:153} INFO - Started process (PID=840654) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:31:29,476] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:31:29,477] {logging_mixin.py:112} INFO - [2020-07-17 18:31:29,477] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:31:29,489] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:31:29,638] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.167 seconds
+[2020-07-17 18:32:27,522] {scheduler_job.py:153} INFO - Started process (PID=842218) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:32:27,525] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:32:27,525] {logging_mixin.py:112} INFO - [2020-07-17 18:32:27,525] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:32:27,537] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:32:27,830] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.309 seconds
+[2020-07-17 18:33:25,588] {scheduler_job.py:153} INFO - Started process (PID=843750) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:33:25,592] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:33:25,592] {logging_mixin.py:112} INFO - [2020-07-17 18:33:25,592] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:33:25,603] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:33:25,708] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.121 seconds
+[2020-07-17 18:34:23,645] {scheduler_job.py:153} INFO - Started process (PID=845286) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:34:23,648] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:34:23,648] {logging_mixin.py:112} INFO - [2020-07-17 18:34:23,648] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:34:23,659] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:34:23,785] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.140 seconds
+[2020-07-17 18:35:21,704] {scheduler_job.py:153} INFO - Started process (PID=846831) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:35:21,707] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:35:21,707] {logging_mixin.py:112} INFO - [2020-07-17 18:35:21,707] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:35:21,717] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:35:22,036] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.332 seconds
+[2020-07-17 18:36:19,764] {scheduler_job.py:153} INFO - Started process (PID=848372) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:36:19,769] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:36:19,769] {logging_mixin.py:112} INFO - [2020-07-17 18:36:19,769] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:36:19,785] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:36:19,973] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.208 seconds
+[2020-07-17 18:37:17,819] {scheduler_job.py:153} INFO - Started process (PID=849904) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:37:17,822] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:37:17,822] {logging_mixin.py:112} INFO - [2020-07-17 18:37:17,822] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:37:17,833] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:37:17,930] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.111 seconds
+[2020-07-17 18:38:15,999] {scheduler_job.py:153} INFO - Started process (PID=851440) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:38:16,001] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:38:16,002] {logging_mixin.py:112} INFO - [2020-07-17 18:38:16,002] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:38:16,012] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:38:16,115] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.116 seconds
+[2020-07-17 18:39:13,936] {scheduler_job.py:153} INFO - Started process (PID=852924) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:39:13,940] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:39:13,941] {logging_mixin.py:112} INFO - [2020-07-17 18:39:13,940] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:39:13,950] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:39:14,064] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.128 seconds
+[2020-07-17 18:40:11,992] {scheduler_job.py:153} INFO - Started process (PID=854449) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:40:11,996] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:40:11,997] {logging_mixin.py:112} INFO - [2020-07-17 18:40:11,997] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:40:12,007] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:40:12,266] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.274 seconds
+[2020-07-17 18:41:10,050] {scheduler_job.py:153} INFO - Started process (PID=855973) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:41:10,053] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:41:10,054] {logging_mixin.py:112} INFO - [2020-07-17 18:41:10,054] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:41:10,070] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:41:10,343] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.293 seconds
+[2020-07-17 18:42:08,100] {scheduler_job.py:153} INFO - Started process (PID=857524) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:42:08,103] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:42:08,104] {logging_mixin.py:112} INFO - [2020-07-17 18:42:08,103] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:42:08,114] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:42:08,210] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.109 seconds
+[2020-07-17 18:43:06,165] {scheduler_job.py:153} INFO - Started process (PID=859133) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:43:06,169] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:43:06,169] {logging_mixin.py:112} INFO - [2020-07-17 18:43:06,169] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:43:06,182] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:43:06,371] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.206 seconds
+[2020-07-17 18:44:04,366] {scheduler_job.py:153} INFO - Started process (PID=860758) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:44:04,369] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:44:04,369] {logging_mixin.py:112} INFO - [2020-07-17 18:44:04,369] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:44:04,380] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:44:04,470] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.105 seconds
+[2020-07-17 18:45:02,290] {scheduler_job.py:153} INFO - Started process (PID=862284) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:45:02,295] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:45:02,300] {logging_mixin.py:112} INFO - [2020-07-17 18:45:02,295] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:45:02,316] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:45:02,465] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.174 seconds
+[2020-07-17 18:46:00,357] {scheduler_job.py:153} INFO - Started process (PID=863819) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:46:00,361] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:46:00,362] {logging_mixin.py:112} INFO - [2020-07-17 18:46:00,362] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:46:00,371] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:46:00,525] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.168 seconds
+[2020-07-17 18:46:58,411] {scheduler_job.py:153} INFO - Started process (PID=865314) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:46:58,416] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:46:58,417] {logging_mixin.py:112} INFO - [2020-07-17 18:46:58,417] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:46:58,444] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:46:58,736] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.325 seconds
+[2020-07-17 18:47:56,462] {scheduler_job.py:153} INFO - Started process (PID=866854) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:47:56,465] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:47:56,466] {logging_mixin.py:112} INFO - [2020-07-17 18:47:56,466] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:47:56,476] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:47:56,583] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.121 seconds
+[2020-07-17 18:48:54,522] {scheduler_job.py:153} INFO - Started process (PID=868381) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:48:54,526] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:48:54,526] {logging_mixin.py:112} INFO - [2020-07-17 18:48:54,526] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:48:54,536] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:48:54,728] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.206 seconds
+[2020-07-17 18:49:52,581] {scheduler_job.py:153} INFO - Started process (PID=869908) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:49:52,584] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:49:52,585] {logging_mixin.py:112} INFO - [2020-07-17 18:49:52,585] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:49:52,594] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:49:52,853] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.272 seconds
+[2020-07-17 18:50:50,646] {scheduler_job.py:153} INFO - Started process (PID=871437) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:50:50,651] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:50:50,651] {logging_mixin.py:112} INFO - [2020-07-17 18:50:50,651] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:50:50,661] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:50:50,804] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.158 seconds
+[2020-07-17 18:51:48,705] {scheduler_job.py:153} INFO - Started process (PID=872983) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:51:48,710] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:51:48,710] {logging_mixin.py:112} INFO - [2020-07-17 18:51:48,710] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:51:48,722] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:51:48,846] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.141 seconds
+[2020-07-17 18:52:46,790] {scheduler_job.py:153} INFO - Started process (PID=874619) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:52:46,805] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:52:46,807] {logging_mixin.py:112} INFO - [2020-07-17 18:52:46,806] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:52:46,825] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:52:47,114] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.324 seconds
+[2020-07-17 18:53:44,829] {scheduler_job.py:153} INFO - Started process (PID=876157) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:53:44,833] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:53:44,833] {logging_mixin.py:112} INFO - [2020-07-17 18:53:44,833] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:53:44,843] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:53:44,984] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.155 seconds
+[2020-07-17 18:54:42,882] {scheduler_job.py:153} INFO - Started process (PID=877695) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:54:42,885] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:54:42,885] {logging_mixin.py:112} INFO - [2020-07-17 18:54:42,885] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:54:42,896] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:54:43,086] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.204 seconds
+[2020-07-17 18:55:41,092] {scheduler_job.py:153} INFO - Started process (PID=879319) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:55:41,095] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:55:41,096] {logging_mixin.py:112} INFO - [2020-07-17 18:55:41,096] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:55:41,114] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:55:41,308] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.215 seconds
+[2020-07-17 18:56:39,536] {scheduler_job.py:153} INFO - Started process (PID=880956) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:56:39,560] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:56:39,561] {logging_mixin.py:112} INFO - [2020-07-17 18:56:39,561] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:56:39,603] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:56:39,917] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.381 seconds
+[2020-07-17 18:57:37,670] {scheduler_job.py:153} INFO - Started process (PID=882500) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:57:37,673] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:57:37,673] {logging_mixin.py:112} INFO - [2020-07-17 18:57:37,673] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:57:37,685] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:57:37,807] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.138 seconds
+[2020-07-17 18:58:35,732] {scheduler_job.py:153} INFO - Started process (PID=884131) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:58:35,736] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:58:35,736] {logging_mixin.py:112} INFO - [2020-07-17 18:58:35,736] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:58:35,747] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:58:37,045] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 1.314 seconds
+[2020-07-17 18:59:33,848] {scheduler_job.py:153} INFO - Started process (PID=885726) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:59:33,858] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 18:59:33,859] {logging_mixin.py:112} INFO - [2020-07-17 18:59:33,859] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:59:33,879] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 18:59:34,005] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.157 seconds
+[2020-07-17 19:01:11,098] {scheduler_job.py:153} INFO - Started process (PID=888397) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:01:11,102] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 19:01:11,103] {logging_mixin.py:112} INFO - [2020-07-17 19:01:11,103] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:01:11,118] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:01:11,304] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.207 seconds
+[2020-07-17 19:02:21,014] {scheduler_job.py:153} INFO - Started process (PID=890264) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:02:21,019] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 19:02:21,019] {logging_mixin.py:112} INFO - [2020-07-17 19:02:21,019] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:02:21,030] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:02:21,169] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.154 seconds
+[2020-07-17 19:03:19,329] {scheduler_job.py:153} INFO - Started process (PID=891801) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:03:19,332] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 19:03:19,332] {logging_mixin.py:112} INFO - [2020-07-17 19:03:19,332] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:03:19,343] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:03:19,449] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.120 seconds
+[2020-07-17 19:04:19,290] {scheduler_job.py:153} INFO - Started process (PID=893677) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:04:19,296] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 19:04:19,296] {logging_mixin.py:112} INFO - [2020-07-17 19:04:19,296] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:04:19,314] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:04:19,782] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.491 seconds
+[2020-07-17 19:05:20,348] {scheduler_job.py:153} INFO - Started process (PID=895343) to work on /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:05:20,352] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/mysql_operator.py for tasks to queue
+[2020-07-17 19:05:20,353] {logging_mixin.py:112} INFO - [2020-07-17 19:05:20,353] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:05:20,369] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['employees_dag']) retrieved from /home/bhakti/airflow/dags/mysql_operator.py
+[2020-07-17 19:05:21,123] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/mysql_operator.py took 0.776 seconds

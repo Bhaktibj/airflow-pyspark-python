@@ -1,0 +1,42 @@
+[2020-07-23 16:12:58,089] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-23T10:37:59.123736+00:00 [queued]>
+[2020-07-23 16:12:58,125] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-23T10:37:59.123736+00:00 [queued]>
+[2020-07-23 16:12:58,126] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-23 16:12:58,126] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-23 16:12:58,126] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-23 16:12:58,378] {taskinstance.py:900} INFO - Executing <Task(BashOperator): dbdump_in_minio> on 2020-07-23T10:37:59.123736+00:00
+[2020-07-23 16:12:58,384] {standard_task_runner.py:53} INFO - Started process 327273 to run task
+[2020-07-23 16:12:58,788] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-23T10:37:59.123736+00:00 [running]> bhakti-Vostro-3558
+[2020-07-23 16:12:58,819] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-23 16:12:58,821] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpjy5j74sn/dbdump_in_minio1xw2_wdo
+[2020-07-23 16:12:58,823] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=
+dbname=airflow_db2
+root_dir="/home/bhakti/airflow/"
+location=$root_dir"input_data/dump_mysql_db.db"
+if [ $dbname != " " ]
+then
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+python3 $root_dir"minioconnect/minio_connection.py"
+echo 'File uploaded successfully'
+/opt/spark/bin/spark-submit $root_dir"config/settings.py"
+echo 'download file successfully'
+fi
+[2020-07-23 16:12:58,924] {bash_operator.py:122} INFO - Output:
+[2020-07-23 16:13:02,995] {bash_operator.py:126} INFO - mysqldump2020-07-23 16:13:02.994833.sql
+[2020-07-23 16:13:03,753] {bash_operator.py:126} INFO - File uploaded successfully
+[2020-07-23 16:13:07,602] {bash_operator.py:126} INFO - 20/07/23 16:13:07 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-07-23 16:13:07,603] {bash_operator.py:126} INFO - 20/07/23 16:13:07 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-07-23 16:13:08,686] {bash_operator.py:126} INFO - 20/07/23 16:13:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2020-07-23 16:13:09,578] {bash_operator.py:126} INFO - python3: can't open file '/home/bhakti/airflow/config/settings.py': [Errno 2] No such file or directory
+[2020-07-23 16:13:09,592] {bash_operator.py:126} INFO - log4j:WARN No appenders could be found for logger (org.apache.spark.util.ShutdownHookManager).
+[2020-07-23 16:13:09,592] {bash_operator.py:126} INFO - log4j:WARN Please initialize the log4j system properly.
+[2020-07-23 16:13:09,592] {bash_operator.py:126} INFO - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[2020-07-23 16:13:09,637] {bash_operator.py:126} INFO - download file successfully
+[2020-07-23 16:13:09,638] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-23 16:13:09,657] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=MYSQLDAG, task_id=dbdump_in_minio, execution_date=20200723T103759, start_date=20200723T104258, end_date=20200723T104309
+[2020-07-23 16:13:13,010] {logging_mixin.py:112} INFO - [2020-07-23 16:13:13,009] {local_task_job.py:103} INFO - Task exited with return code 0

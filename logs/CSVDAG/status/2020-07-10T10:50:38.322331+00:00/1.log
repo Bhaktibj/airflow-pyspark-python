@@ -1,0 +1,13 @@
+[2020-07-10 16:23:40,707] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: CSVDAG.status 2020-07-10T10:50:38.322331+00:00 [queued]>
+[2020-07-10 16:23:40,718] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: CSVDAG.status 2020-07-10T10:50:38.322331+00:00 [queued]>
+[2020-07-10 16:23:40,719] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-10 16:23:40,719] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-10 16:23:40,719] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-10 16:23:40,853] {taskinstance.py:900} INFO - Executing <Task(PythonOperator): status> on 2020-07-10T10:50:38.322331+00:00
+[2020-07-10 16:23:40,858] {standard_task_runner.py:53} INFO - Started process 65247 to run task
+[2020-07-10 16:23:41,043] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: CSVDAG.status 2020-07-10T10:50:38.322331+00:00 [running]> bhakti-Vostro-3558
+[2020-07-10 16:23:41,056] {python_operator.py:114} INFO - Done. Returned value was: {'status': 200, 'success': True}
+[2020-07-10 16:23:41,161] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=CSVDAG, task_id=status, execution_date=20200710T105038, start_date=20200710T105340, end_date=20200710T105341
+[2020-07-10 16:23:50,538] {logging_mixin.py:112} INFO - [2020-07-10 16:23:50,537] {local_task_job.py:103} INFO - Task exited with return code 0

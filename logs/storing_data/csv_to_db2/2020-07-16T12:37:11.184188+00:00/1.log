@@ -1,0 +1,26 @@
+[2020-07-16 18:08:17,763] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.csv_to_db2 2020-07-16T12:37:11.184188+00:00 [queued]>
+[2020-07-16 18:08:17,773] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.csv_to_db2 2020-07-16T12:37:11.184188+00:00 [queued]>
+[2020-07-16 18:08:17,774] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-16 18:08:17,774] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-16 18:08:17,774] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-16 18:08:18,100] {taskinstance.py:900} INFO - Executing <Task(BashOperator): csv_to_db2> on 2020-07-16T12:37:11.184188+00:00
+[2020-07-16 18:08:18,103] {standard_task_runner.py:53} INFO - Started process 841497 to run task
+[2020-07-16 18:08:18,266] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: storing_data.csv_to_db2 2020-07-16T12:37:11.184188+00:00 [running]> bhakti-Vostro-3558
+[2020-07-16 18:08:18,279] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-16 18:08:18,280] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmp0cimmab8/csv_to_db28l8l5u5m
+[2020-07-16 18:08:18,280] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=root
+dbname=airflow_db2
+host=mysql
+port=3306
+docker exec -it mysqlCon \
+mysql -D$dbname -h$host -p$port -u$user -p$password -e'CREATE TABLE IF NOT EXISTS employees2(PERSON TEXT,JOINING_YEAR BIGINT, COMPANY TEXT);' -e'LOAD DATA INFILE "/input_files_mysql/sample.csv" INTO TABLE employees2 FIELDS TERMINATED BY "," LINES TERMINATED BY "\n" IGNORE 1 ROWS;'
+[2020-07-16 18:08:18,288] {bash_operator.py:122} INFO - Output:
+[2020-07-16 18:08:18,816] {bash_operator.py:126} INFO - mysql: [Warning] Using a password on the command line interface can be insecure.
+[2020-07-16 18:08:18,959] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-16 18:08:18,971] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=storing_data, task_id=csv_to_db2, execution_date=20200716T123711, start_date=20200716T123817, end_date=20200716T123818
+[2020-07-16 18:08:27,614] {logging_mixin.py:112} INFO - [2020-07-16 18:08:27,614] {local_task_job.py:103} INFO - Task exited with return code 0

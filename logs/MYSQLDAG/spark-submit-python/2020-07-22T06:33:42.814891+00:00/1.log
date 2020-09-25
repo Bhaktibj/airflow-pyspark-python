@@ -1,0 +1,36 @@
+[2020-07-22 12:03:59,434] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.spark-submit-python 2020-07-22T06:33:42.814891+00:00 [queued]>
+[2020-07-22 12:03:59,458] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.spark-submit-python 2020-07-22T06:33:42.814891+00:00 [queued]>
+[2020-07-22 12:03:59,458] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 12:03:59,459] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-22 12:03:59,459] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 12:03:59,636] {taskinstance.py:900} INFO - Executing <Task(SparkSubmitOperator): spark-submit-python> on 2020-07-22T06:33:42.814891+00:00
+[2020-07-22 12:03:59,640] {standard_task_runner.py:53} INFO - Started process 220023 to run task
+[2020-07-22 12:04:00,129] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.spark-submit-python 2020-07-22T06:33:42.814891+00:00 [running]> bhakti-Vostro-3558
+[2020-07-22 12:04:00,212] {logging_mixin.py:112} INFO - [2020-07-22 12:04:00,211] {base_hook.py:87} INFO - Using connection to: id: spark_default. Host: yarn, Port: None, Schema: None, Login: None, Password: None, extra: XXXXXXXX
+[2020-07-22 12:04:00,215] {logging_mixin.py:112} INFO - [2020-07-22 12:04:00,214] {spark_submit_hook.py:325} INFO - Spark-Submit cmd: spark-submit --master yarn --name airflow-spark --queue default  10 10
+[2020-07-22 12:04:03,079] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,079] {spark_submit_hook.py:479} INFO - 20/07/22 12:04:03 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-07-22 12:04:03,081] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,081] {spark_submit_hook.py:479} INFO - 20/07/22 12:04:03 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-07-22 12:04:03,697] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,697] {spark_submit_hook.py:479} INFO - Exception in thread "main" org.apache.spark.SparkException: When running with master 'yarn' either HADOOP_CONF_DIR or YARN_CONF_DIR must be set in the environment.
+[2020-07-22 12:04:03,698] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,698] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmitArguments.error(SparkSubmitArguments.scala:630)
+[2020-07-22 12:04:03,698] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,698] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmitArguments.validateSubmitArguments(SparkSubmitArguments.scala:270)
+[2020-07-22 12:04:03,698] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,698] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmitArguments.validateArguments(SparkSubmitArguments.scala:233)
+[2020-07-22 12:04:03,698] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,698] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmitArguments.<init>(SparkSubmitArguments.scala:119)
+[2020-07-22 12:04:03,699] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,699] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2$$anon$3.<init>(SparkSubmit.scala:990)
+[2020-07-22 12:04:03,699] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,699] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2.parseArguments(SparkSubmit.scala:990)
+[2020-07-22 12:04:03,699] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,699] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmit.doSubmit(SparkSubmit.scala:85)
+[2020-07-22 12:04:03,699] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,699] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmit$$anon$2.doSubmit(SparkSubmit.scala:1007)
+[2020-07-22 12:04:03,700] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,700] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmit$.main(SparkSubmit.scala:1016)
+[2020-07-22 12:04:03,700] {logging_mixin.py:112} INFO - [2020-07-22 12:04:03,700] {spark_submit_hook.py:479} INFO - at org.apache.spark.deploy.SparkSubmit.main(SparkSubmit.scala)
+[2020-07-22 12:04:03,734] {taskinstance.py:1145} ERROR - Cannot execute: spark-submit --master yarn --name airflow-spark --queue default  10 10. Error code is: 1.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/operators/spark_submit_operator.py", line 187, in execute
+    self._hook.submit(self._application)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/hooks/spark_submit_hook.py", line 403, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master yarn --name airflow-spark --queue default  10 10. Error code is: 1.
+[2020-07-22 12:04:03,737] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-07-22 12:04:09,252] {logging_mixin.py:112} INFO - [2020-07-22 12:04:09,252] {local_task_job.py:103} INFO - Task exited with return code 1

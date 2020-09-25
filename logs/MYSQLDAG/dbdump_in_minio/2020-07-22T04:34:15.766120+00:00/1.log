@@ -1,0 +1,151 @@
+[2020-07-22 10:04:30,611] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T04:34:15.766120+00:00 [queued]>
+[2020-07-22 10:04:30,627] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T04:34:15.766120+00:00 [queued]>
+[2020-07-22 10:04:30,628] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 10:04:30,628] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-22 10:04:30,628] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 10:04:30,811] {taskinstance.py:900} INFO - Executing <Task(BashOperator): dbdump_in_minio> on 2020-07-22T04:34:15.766120+00:00
+[2020-07-22 10:04:30,815] {standard_task_runner.py:53} INFO - Started process 35373 to run task
+[2020-07-22 10:04:31,032] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T04:34:15.766120+00:00 [running]> bhakti-Vostro-3558
+[2020-07-22 10:04:31,054] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-22 10:04:31,056] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmp7xf9lutj/dbdump_in_minioj50t1r71
+[2020-07-22 10:04:31,056] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=
+dbname=airflow_db2
+root_dir="/home/bhakti/airflow/"
+location=$root_dir"input_data/dump_mysql_db.db"
+if [ $dbname != " " ]
+then
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+python3 $root_dir"minioconnect/minio_connection.py"
+echo 'File uploaded successfully'
+/opt/spark/bin/spark-submit $root_dir"config/settings.py"
+fi
+[2020-07-22 10:04:31,067] {bash_operator.py:122} INFO - Output:
+[2020-07-22 10:04:33,737] {bash_operator.py:126} INFO - mysqldump2020-07-22 10:04:33.737587.sql
+[2020-07-22 10:04:34,074] {bash_operator.py:126} INFO - File uploaded successfully
+[2020-07-22 10:04:36,373] {bash_operator.py:126} INFO - 20/07/22 10:04:36 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-07-22 10:04:36,374] {bash_operator.py:126} INFO - 20/07/22 10:04:36 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-07-22 10:04:38,000] {bash_operator.py:126} INFO - 20/07/22 10:04:38 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2020-07-22 10:04:39,948] {bash_operator.py:126} INFO - Using Spark's default log4j profile: org/apache/spark/log4j-defaults.properties
+[2020-07-22 10:04:39,962] {bash_operator.py:126} INFO - 20/07/22 10:04:39 INFO SparkContext: Running Spark version 3.0.0
+[2020-07-22 10:04:40,045] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO ResourceUtils: ==============================================================
+[2020-07-22 10:04:40,048] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO ResourceUtils: Resources for spark.driver:
+[2020-07-22 10:04:40,048] {bash_operator.py:126} INFO - 
+[2020-07-22 10:04:40,049] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO ResourceUtils: ==============================================================
+[2020-07-22 10:04:40,050] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO SparkContext: Submitted application: First App
+[2020-07-22 10:04:40,186] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO SecurityManager: Changing view acls to: bhakti
+[2020-07-22 10:04:40,187] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO SecurityManager: Changing modify acls to: bhakti
+[2020-07-22 10:04:40,189] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO SecurityManager: Changing view acls groups to:
+[2020-07-22 10:04:40,190] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO SecurityManager: Changing modify acls groups to:
+[2020-07-22 10:04:40,190] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO SecurityManager: SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(bhakti); groups with view permissions: Set(); users  with modify permissions: Set(bhakti); groups with modify permissions: Set()
+[2020-07-22 10:04:40,899] {bash_operator.py:126} INFO - 20/07/22 10:04:40 INFO Utils: Successfully started service 'sparkDriver' on port 44887.
+[2020-07-22 10:04:41,047] {bash_operator.py:126} INFO - 20/07/22 10:04:41 INFO SparkEnv: Registering MapOutputTracker
+[2020-07-22 10:04:41,185] {bash_operator.py:126} INFO - 20/07/22 10:04:41 INFO SparkEnv: Registering BlockManagerMaster
+[2020-07-22 10:04:41,242] {bash_operator.py:126} INFO - 20/07/22 10:04:41 INFO BlockManagerMasterEndpoint: Using org.apache.spark.storage.DefaultTopologyMapper for getting topology information
+[2020-07-22 10:04:41,243] {bash_operator.py:126} INFO - 20/07/22 10:04:41 INFO BlockManagerMasterEndpoint: BlockManagerMasterEndpoint up
+[2020-07-22 10:04:41,253] {bash_operator.py:126} INFO - 20/07/22 10:04:41 INFO SparkEnv: Registering BlockManagerMasterHeartbeat
+[2020-07-22 10:04:41,288] {bash_operator.py:126} INFO - 20/07/22 10:04:41 INFO DiskBlockManager: Created local directory at /tmp/blockmgr-242e110f-3a95-4934-b17d-2445421b3cbe
+[2020-07-22 10:04:41,362] {bash_operator.py:126} INFO - 20/07/22 10:04:41 INFO MemoryStore: MemoryStore started with capacity 366.3 MiB
+[2020-07-22 10:04:41,423] {bash_operator.py:126} INFO - 20/07/22 10:04:41 INFO SparkEnv: Registering OutputCommitCoordinator
+[2020-07-22 10:04:42,134] {bash_operator.py:126} INFO - 20/07/22 10:04:42 WARN Utils: Service 'SparkUI' could not bind on port 4040. Attempting port 4041.
+[2020-07-22 10:04:42,136] {bash_operator.py:126} INFO - 20/07/22 10:04:42 WARN Utils: Service 'SparkUI' could not bind on port 4041. Attempting port 4042.
+[2020-07-22 10:04:42,137] {bash_operator.py:126} INFO - 20/07/22 10:04:42 WARN Utils: Service 'SparkUI' could not bind on port 4042. Attempting port 4043.
+[2020-07-22 10:04:42,158] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO Utils: Successfully started service 'SparkUI' on port 4043.
+[2020-07-22 10:04:42,287] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO SparkUI: Bound SparkUI to 0.0.0.0, and started at http://192.168.43.94:4043
+[2020-07-22 10:04:42,860] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO Executor: Starting executor ID driver on host 192.168.43.94
+[2020-07-22 10:04:42,924] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO Utils: Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 42171.
+[2020-07-22 10:04:42,926] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO NettyBlockTransferService: Server created on 192.168.43.94:42171
+[2020-07-22 10:04:42,930] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO BlockManager: Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+[2020-07-22 10:04:42,959] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO BlockManagerMaster: Registering BlockManager BlockManagerId(driver, 192.168.43.94, 42171, None)
+[2020-07-22 10:04:42,984] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO BlockManagerMasterEndpoint: Registering block manager 192.168.43.94:42171 with 366.3 MiB RAM, BlockManagerId(driver, 192.168.43.94, 42171, None)
+[2020-07-22 10:04:42,993] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO BlockManagerMaster: Registered BlockManager BlockManagerId(driver, 192.168.43.94, 42171, None)
+[2020-07-22 10:04:42,996] {bash_operator.py:126} INFO - 20/07/22 10:04:42 INFO BlockManager: Initialized BlockManager: BlockManagerId(driver, 192.168.43.94, 42171, None)
+[2020-07-22 10:04:48,949] {bash_operator.py:126} INFO - 20/07/22 10:04:48 INFO MemoryStore: Block broadcast_0 stored as values in memory (estimated size 241.5 KiB, free 366.1 MiB)
+[2020-07-22 10:04:49,256] {bash_operator.py:126} INFO - 20/07/22 10:04:49 INFO MemoryStore: Block broadcast_0_piece0 stored as bytes in memory (estimated size 23.4 KiB, free 366.0 MiB)
+[2020-07-22 10:04:49,262] {bash_operator.py:126} INFO - 20/07/22 10:04:49 INFO BlockManagerInfo: Added broadcast_0_piece0 in memory on 192.168.43.94:42171 (size: 23.4 KiB, free: 366.3 MiB)
+[2020-07-22 10:04:49,268] {bash_operator.py:126} INFO - 20/07/22 10:04:49 INFO SparkContext: Created broadcast 0 from textFile at NativeMethodAccessorImpl.java:0
+[2020-07-22 10:04:50,153] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO FileInputFormat: Total input paths to process : 1
+[2020-07-22 10:04:50,361] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO SparkContext: Starting job: count at /home/bhakti/airflow/config/settings.py:8
+[2020-07-22 10:04:50,412] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO DAGScheduler: Got job 0 (count at /home/bhakti/airflow/config/settings.py:8) with 2 output partitions
+[2020-07-22 10:04:50,422] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO DAGScheduler: Final stage: ResultStage 0 (count at /home/bhakti/airflow/config/settings.py:8)
+[2020-07-22 10:04:50,431] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO DAGScheduler: Parents of final stage: List()
+[2020-07-22 10:04:50,450] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO DAGScheduler: Missing parents: List()
+[2020-07-22 10:04:50,475] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO DAGScheduler: Submitting ResultStage 0 (PythonRDD[2] at count at /home/bhakti/airflow/config/settings.py:8), which has no missing parents
+[2020-07-22 10:04:50,620] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO MemoryStore: Block broadcast_1 stored as values in memory (estimated size 8.1 KiB, free 366.0 MiB)
+[2020-07-22 10:04:50,627] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO MemoryStore: Block broadcast_1_piece0 stored as bytes in memory (estimated size 4.8 KiB, free 366.0 MiB)
+[2020-07-22 10:04:50,628] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO BlockManagerInfo: Added broadcast_1_piece0 in memory on 192.168.43.94:42171 (size: 4.8 KiB, free: 366.3 MiB)
+[2020-07-22 10:04:50,630] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO SparkContext: Created broadcast 1 from broadcast at DAGScheduler.scala:1200
+[2020-07-22 10:04:50,709] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 0 (PythonRDD[2] at count at /home/bhakti/airflow/config/settings.py:8) (first 15 tasks are for partitions Vector(0, 1))
+[2020-07-22 10:04:50,712] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO TaskSchedulerImpl: Adding task set 0.0 with 2 tasks
+[2020-07-22 10:04:50,955] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO TaskSetManager: Starting task 0.0 in stage 0.0 (TID 0, 192.168.43.94, executor driver, partition 0, PROCESS_LOCAL, 7383 bytes)
+[2020-07-22 10:04:50,964] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO TaskSetManager: Starting task 1.0 in stage 0.0 (TID 1, 192.168.43.94, executor driver, partition 1, PROCESS_LOCAL, 7383 bytes)
+[2020-07-22 10:04:50,990] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO Executor: Running task 1.0 in stage 0.0 (TID 1)
+[2020-07-22 10:04:50,990] {bash_operator.py:126} INFO - 20/07/22 10:04:50 INFO Executor: Running task 0.0 in stage 0.0 (TID 0)
+[2020-07-22 10:04:51,915] {bash_operator.py:126} INFO - 20/07/22 10:04:51 INFO HadoopRDD: Input split: file:/home/bhakti/airflow/config/hello.txt:32+33
+[2020-07-22 10:04:51,918] {bash_operator.py:126} INFO - 20/07/22 10:04:51 INFO HadoopRDD: Input split: file:/home/bhakti/airflow/config/hello.txt:0+32
+[2020-07-22 10:04:53,881] {bash_operator.py:126} INFO - 20/07/22 10:04:53 INFO MemoryStore: Block rdd_1_0 stored as values in memory (estimated size 86.0 B, free 366.0 MiB)
+[2020-07-22 10:04:53,881] {bash_operator.py:126} INFO - 20/07/22 10:04:53 INFO MemoryStore: Block rdd_1_1 stored as values in memory (estimated size 69.0 B, free 366.0 MiB)
+[2020-07-22 10:04:53,882] {bash_operator.py:126} INFO - 20/07/22 10:04:53 INFO BlockManagerInfo: Added rdd_1_0 in memory on 192.168.43.94:42171 (size: 86.0 B, free: 366.3 MiB)
+[2020-07-22 10:04:53,884] {bash_operator.py:126} INFO - 20/07/22 10:04:53 INFO BlockManagerInfo: Added rdd_1_1 in memory on 192.168.43.94:42171 (size: 69.0 B, free: 366.3 MiB)
+[2020-07-22 10:04:55,100] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO PythonRunner: Times: total = 1184, boot = 1115, init = 69, finish = 0
+[2020-07-22 10:04:55,111] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO PythonRunner: Times: total = 1192, boot = 1134, init = 58, finish = 0
+[2020-07-22 10:04:55,215] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO Executor: Finished task 1.0 in stage 0.0 (TID 1). 1635 bytes result sent to driver
+[2020-07-22 10:04:55,233] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO Executor: Finished task 0.0 in stage 0.0 (TID 0). 1635 bytes result sent to driver
+[2020-07-22 10:04:55,267] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSetManager: Finished task 0.0 in stage 0.0 (TID 0) in 4393 ms on 192.168.43.94 (executor driver) (1/2)
+[2020-07-22 10:04:55,273] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSetManager: Finished task 1.0 in stage 0.0 (TID 1) in 4307 ms on 192.168.43.94 (executor driver) (2/2)
+[2020-07-22 10:04:55,275] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSchedulerImpl: Removed TaskSet 0.0, whose tasks have all completed, from pool
+[2020-07-22 10:04:55,305] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO PythonAccumulatorV2: Connected to AccumulatorServer at host: 127.0.0.1 port: 40201
+[2020-07-22 10:04:55,328] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: ResultStage 0 (count at /home/bhakti/airflow/config/settings.py:8) finished in 4.712 s
+[2020-07-22 10:04:55,342] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Job 0 is finished. Cancelling potential speculative or zombie tasks for this job
+[2020-07-22 10:04:55,343] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSchedulerImpl: Killing all running tasks in stage 0: Stage finished
+[2020-07-22 10:04:55,354] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Job 0 finished: count at /home/bhakti/airflow/config/settings.py:8, took 4.989976 s
+[2020-07-22 10:04:55,464] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO SparkContext: Starting job: count at /home/bhakti/airflow/config/settings.py:9
+[2020-07-22 10:04:55,468] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Got job 1 (count at /home/bhakti/airflow/config/settings.py:9) with 2 output partitions
+[2020-07-22 10:04:55,468] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Final stage: ResultStage 1 (count at /home/bhakti/airflow/config/settings.py:9)
+[2020-07-22 10:04:55,468] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Parents of final stage: List()
+[2020-07-22 10:04:55,476] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Missing parents: List()
+[2020-07-22 10:04:55,483] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Submitting ResultStage 1 (PythonRDD[3] at count at /home/bhakti/airflow/config/settings.py:9), which has no missing parents
+[2020-07-22 10:04:55,496] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO MemoryStore: Block broadcast_2 stored as values in memory (estimated size 8.1 KiB, free 366.0 MiB)
+[2020-07-22 10:04:55,505] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO MemoryStore: Block broadcast_2_piece0 stored as bytes in memory (estimated size 4.8 KiB, free 366.0 MiB)
+[2020-07-22 10:04:55,515] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO BlockManagerInfo: Added broadcast_2_piece0 in memory on 192.168.43.94:42171 (size: 4.8 KiB, free: 366.3 MiB)
+[2020-07-22 10:04:55,519] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO SparkContext: Created broadcast 2 from broadcast at DAGScheduler.scala:1200
+[2020-07-22 10:04:55,533] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Submitting 2 missing tasks from ResultStage 1 (PythonRDD[3] at count at /home/bhakti/airflow/config/settings.py:9) (first 15 tasks are for partitions Vector(0, 1))
+[2020-07-22 10:04:55,534] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSchedulerImpl: Adding task set 1.0 with 2 tasks
+[2020-07-22 10:04:55,567] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSetManager: Starting task 0.0 in stage 1.0 (TID 2, 192.168.43.94, executor driver, partition 0, PROCESS_LOCAL, 7383 bytes)
+[2020-07-22 10:04:55,571] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSetManager: Starting task 1.0 in stage 1.0 (TID 3, 192.168.43.94, executor driver, partition 1, PROCESS_LOCAL, 7383 bytes)
+[2020-07-22 10:04:55,575] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO Executor: Running task 1.0 in stage 1.0 (TID 3)
+[2020-07-22 10:04:55,576] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO Executor: Running task 0.0 in stage 1.0 (TID 2)
+[2020-07-22 10:04:55,610] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO BlockManager: Found block rdd_1_1 locally
+[2020-07-22 10:04:55,616] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO BlockManager: Found block rdd_1_0 locally
+[2020-07-22 10:04:55,661] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO PythonRunner: Times: total = 24, boot = -446, init = 470, finish = 0
+[2020-07-22 10:04:55,667] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO Executor: Finished task 0.0 in stage 1.0 (TID 2). 1592 bytes result sent to driver
+[2020-07-22 10:04:55,672] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO PythonRunner: Times: total = 25, boot = -460, init = 485, finish = 0
+[2020-07-22 10:04:55,679] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO Executor: Finished task 1.0 in stage 1.0 (TID 3). 1592 bytes result sent to driver
+[2020-07-22 10:04:55,693] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSetManager: Finished task 1.0 in stage 1.0 (TID 3) in 126 ms on 192.168.43.94 (executor driver) (1/2)
+[2020-07-22 10:04:55,695] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSetManager: Finished task 0.0 in stage 1.0 (TID 2) in 140 ms on 192.168.43.94 (executor driver) (2/2)
+[2020-07-22 10:04:55,696] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSchedulerImpl: Removed TaskSet 1.0, whose tasks have all completed, from pool
+[2020-07-22 10:04:55,699] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: ResultStage 1 (count at /home/bhakti/airflow/config/settings.py:9) finished in 0.212 s
+[2020-07-22 10:04:55,700] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Job 1 is finished. Cancelling potential speculative or zombie tasks for this job
+[2020-07-22 10:04:55,700] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO TaskSchedulerImpl: Killing all running tasks in stage 1: Stage finished
+[2020-07-22 10:04:55,701] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO DAGScheduler: Job 1 finished: count at /home/bhakti/airflow/config/settings.py:9, took 0.236336 s
+[2020-07-22 10:04:55,704] {bash_operator.py:126} INFO - Lines with a: 1, lines with b: 1
+[2020-07-22 10:04:55,765] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO SparkContext: Invoking stop() from shutdown hook
+[2020-07-22 10:04:55,775] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO SparkUI: Stopped Spark web UI at http://192.168.43.94:4043
+[2020-07-22 10:04:55,797] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO MapOutputTrackerMasterEndpoint: MapOutputTrackerMasterEndpoint stopped!
+[2020-07-22 10:04:55,823] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO MemoryStore: MemoryStore cleared
+[2020-07-22 10:04:55,823] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO BlockManager: BlockManager stopped
+[2020-07-22 10:04:55,833] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO BlockManagerMaster: BlockManagerMaster stopped
+[2020-07-22 10:04:55,839] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO OutputCommitCoordinator$OutputCommitCoordinatorEndpoint: OutputCommitCoordinator stopped!
+[2020-07-22 10:04:55,854] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO SparkContext: Successfully stopped SparkContext
+[2020-07-22 10:04:55,854] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO ShutdownHookManager: Shutdown hook called
+[2020-07-22 10:04:55,856] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO ShutdownHookManager: Deleting directory /tmp/spark-ed534d06-102f-49c1-a11b-0e3d1d6f74b5/pyspark-de02a050-f8d3-46b0-b764-f9c1aed3ac5e
+[2020-07-22 10:04:55,861] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO ShutdownHookManager: Deleting directory /tmp/spark-ed534d06-102f-49c1-a11b-0e3d1d6f74b5
+[2020-07-22 10:04:55,867] {bash_operator.py:126} INFO - 20/07/22 10:04:55 INFO ShutdownHookManager: Deleting directory /tmp/spark-e23ca532-5725-498e-80e8-b35e56ee9e1c
+[2020-07-22 10:04:55,902] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-22 10:04:55,910] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=MYSQLDAG, task_id=dbdump_in_minio, execution_date=20200722T043415, start_date=20200722T043430, end_date=20200722T043455
+[2020-07-22 10:04:57,467] {logging_mixin.py:112} INFO - [2020-07-22 10:04:57,467] {local_task_job.py:103} INFO - Task exited with return code 0

@@ -1,0 +1,31 @@
+[2020-07-22 12:20:02,720] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.spark-submit-python 2020-07-22T06:49:52.005027+00:00 [queued]>
+[2020-07-22 12:20:02,746] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.spark-submit-python 2020-07-22T06:49:52.005027+00:00 [queued]>
+[2020-07-22 12:20:02,748] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 12:20:02,748] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-22 12:20:02,748] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 12:20:02,971] {taskinstance.py:900} INFO - Executing <Task(SparkSubmitOperator): spark-submit-python> on 2020-07-22T06:49:52.005027+00:00
+[2020-07-22 12:20:02,984] {standard_task_runner.py:53} INFO - Started process 243861 to run task
+[2020-07-22 12:20:03,333] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.spark-submit-python 2020-07-22T06:49:52.005027+00:00 [running]> bhakti-Vostro-3558
+[2020-07-22 12:20:03,377] {logging_mixin.py:112} INFO - [2020-07-22 12:20:03,376] {base_hook.py:87} INFO - Using connection to: id: spark_default. Host: localhost, Port: None, Schema: None, Login: None, Password: None, extra: XXXXXXXX
+[2020-07-22 12:20:03,379] {logging_mixin.py:112} INFO - [2020-07-22 12:20:03,379] {spark_submit_hook.py:325} INFO - Spark-Submit cmd: spark-submit --master localhost --conf master=http://localhost:7000 --name airflow-spark --class org.apache.spark.examples.SparkPi --queue root.default  1000
+[2020-07-22 12:20:06,419] {logging_mixin.py:112} INFO - [2020-07-22 12:20:06,419] {spark_submit_hook.py:479} INFO - Warning: Ignoring non-Spark config property: master
+[2020-07-22 12:20:06,635] {logging_mixin.py:112} INFO - [2020-07-22 12:20:06,635] {spark_submit_hook.py:479} INFO - 20/07/22 12:20:06 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-07-22 12:20:06,636] {logging_mixin.py:112} INFO - [2020-07-22 12:20:06,636] {spark_submit_hook.py:479} INFO - 20/07/22 12:20:06 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-07-22 12:20:08,723] {logging_mixin.py:112} INFO - [2020-07-22 12:20:08,723] {spark_submit_hook.py:479} INFO - 20/07/22 12:20:08 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2020-07-22 12:20:10,065] {logging_mixin.py:112} INFO - [2020-07-22 12:20:10,065] {spark_submit_hook.py:479} INFO - Error: Failed to load class org.apache.spark.examples.SparkPi.
+[2020-07-22 12:20:10,101] {logging_mixin.py:112} INFO - [2020-07-22 12:20:10,100] {spark_submit_hook.py:479} INFO - log4j:WARN No appenders could be found for logger (org.apache.spark.util.ShutdownHookManager).
+[2020-07-22 12:20:10,101] {logging_mixin.py:112} INFO - [2020-07-22 12:20:10,101] {spark_submit_hook.py:479} INFO - log4j:WARN Please initialize the log4j system properly.
+[2020-07-22 12:20:10,102] {logging_mixin.py:112} INFO - [2020-07-22 12:20:10,102] {spark_submit_hook.py:479} INFO - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[2020-07-22 12:20:10,311] {taskinstance.py:1145} ERROR - Cannot execute: spark-submit --master localhost --conf master=http://localhost:7000 --name airflow-spark --class org.apache.spark.examples.SparkPi --queue root.default  1000. Error code is: 101.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/operators/spark_submit_operator.py", line 187, in execute
+    self._hook.submit(self._application)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/contrib/hooks/spark_submit_hook.py", line 403, in submit
+    raise AirflowException(
+airflow.exceptions.AirflowException: Cannot execute: spark-submit --master localhost --conf master=http://localhost:7000 --name airflow-spark --class org.apache.spark.examples.SparkPi --queue root.default  1000. Error code is: 101.
+[2020-07-22 12:20:10,314] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-07-22 12:20:12,508] {logging_mixin.py:112} INFO - [2020-07-22 12:20:12,507] {local_task_job.py:103} INFO - Task exited with return code 1

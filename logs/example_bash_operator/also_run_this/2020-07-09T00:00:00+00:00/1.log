@@ -1,0 +1,19 @@
+[2020-07-10 10:52:00,633] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.also_run_this 2020-07-09T00:00:00+00:00 [queued]>
+[2020-07-10 10:52:00,641] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: example_bash_operator.also_run_this 2020-07-09T00:00:00+00:00 [queued]>
+[2020-07-10 10:52:00,641] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-10 10:52:00,641] {taskinstance.py:880} INFO - Starting attempt 1 of 1
+[2020-07-10 10:52:00,641] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-10 10:52:00,746] {taskinstance.py:900} INFO - Executing <Task(BashOperator): also_run_this> on 2020-07-09T00:00:00+00:00
+[2020-07-10 10:52:00,751] {standard_task_runner.py:53} INFO - Started process 12613 to run task
+[2020-07-10 10:52:00,883] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: example_bash_operator.also_run_this 2020-07-09T00:00:00+00:00 [running]> bhakti-Vostro-3558
+[2020-07-10 10:52:00,901] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-10 10:52:00,901] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpn_wh6_4q/also_run_thismyklji2_
+[2020-07-10 10:52:00,902] {bash_operator.py:115} INFO - Running command: echo "run_id=scheduled__2020-07-09T00:00:00+00:00 | dag_run=<DagRun example_bash_operator @ 2020-07-09 00:00:00+00:00: scheduled__2020-07-09T00:00:00+00:00, externally triggered: False>"
+[2020-07-10 10:52:00,908] {bash_operator.py:122} INFO - Output:
+[2020-07-10 10:52:00,909] {bash_operator.py:126} INFO - run_id=scheduled__2020-07-09T00:00:00+00:00 | dag_run=<DagRun example_bash_operator @ 2020-07-09 00:00:00+00:00: scheduled__2020-07-09T00:00:00+00:00, externally triggered: False>
+[2020-07-10 10:52:00,909] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-10 10:52:00,916] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=example_bash_operator, task_id=also_run_this, execution_date=20200709T000000, start_date=20200710T052200, end_date=20200710T052200
+[2020-07-10 10:52:10,516] {logging_mixin.py:112} INFO - [2020-07-10 10:52:10,515] {local_task_job.py:103} INFO - Task exited with return code 0

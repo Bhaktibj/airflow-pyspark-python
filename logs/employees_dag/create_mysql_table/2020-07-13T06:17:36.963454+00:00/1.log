@@ -1,0 +1,17 @@
+[2020-07-13 11:48:29,284] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: employees_dag.create_mysql_table 2020-07-13T06:17:36.963454+00:00 [queued]>
+[2020-07-13 11:48:29,295] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: employees_dag.create_mysql_table 2020-07-13T06:17:36.963454+00:00 [queued]>
+[2020-07-13 11:48:29,295] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-13 11:48:29,295] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-13 11:48:29,295] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-13 11:48:29,427] {taskinstance.py:900} INFO - Executing <Task(MySqlOperator): create_mysql_table> on 2020-07-13T06:17:36.963454+00:00
+[2020-07-13 11:48:29,430] {standard_task_runner.py:53} INFO - Started process 21307 to run task
+[2020-07-13 11:48:29,617] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: employees_dag.create_mysql_table 2020-07-13T06:17:36.963454+00:00 [running]> bhakti-Vostro-3558
+[2020-07-13 11:48:29,630] {mysql_operator.py:61} INFO - Executing: CREATE TABLE IF NOT EXISTS employees(PERSON TEXT,JOINING_YEAR BIGINT, COMPANY TEXT);
+[2020-07-13 11:48:29,677] {logging_mixin.py:112} INFO - [2020-07-13 11:48:29,676] {base_hook.py:87} INFO - Using connection to: id: mysql_conn. Host: localhost, Port: None, Schema: airflow_db, Login: root, Password: XXXXXXXX, extra: None
+[2020-07-13 11:48:29,679] {logging_mixin.py:112} INFO - [2020-07-13 11:48:29,679] {dbapi_hook.py:174} INFO - CREATE TABLE IF NOT EXISTS employees(PERSON TEXT,JOINING_YEAR BIGINT, COMPANY TEXT);
+[2020-07-13 11:48:29,736] {logging_mixin.py:112} WARNING - /usr/local/lib/python3.8/dist-packages/pymysql/cursors.py:170: Warning: (1050, "Table 'employees' already exists")
+  result = self._query(query)
+[2020-07-13 11:48:29,747] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=employees_dag, task_id=create_mysql_table, execution_date=20200713T061736, start_date=20200713T061829, end_date=20200713T061829
+[2020-07-13 11:48:39,150] {logging_mixin.py:112} INFO - [2020-07-13 11:48:39,150] {local_task_job.py:103} INFO - Task exited with return code 0

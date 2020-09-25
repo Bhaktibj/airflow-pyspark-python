@@ -1,0 +1,26 @@
+[2020-07-16 14:32:22,396] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: employees_dag.check_file_exists 2020-07-16T09:01:35.755358+00:00 [queued]>
+[2020-07-16 14:32:22,419] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: employees_dag.check_file_exists 2020-07-16T09:01:35.755358+00:00 [queued]>
+[2020-07-16 14:32:22,420] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-16 14:32:22,422] {taskinstance.py:880} INFO - Starting attempt 1 of 3
+[2020-07-16 14:32:22,423] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-16 14:32:22,580] {taskinstance.py:900} INFO - Executing <Task(BashOperator): check_file_exists> on 2020-07-16T09:01:35.755358+00:00
+[2020-07-16 14:32:22,585] {standard_task_runner.py:53} INFO - Started process 498279 to run task
+[2020-07-16 14:32:22,877] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: employees_dag.check_file_exists 2020-07-16T09:01:35.755358+00:00 [running]> bhakti-Vostro-3558
+[2020-07-16 14:32:22,906] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-16 14:32:22,921] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmp28m59qbk/check_file_existsi2i6rl5z
+[2020-07-16 14:32:22,922] {bash_operator.py:115} INFO - Running command: shasum ~/input_files_airflow/sample.csv
+[2020-07-16 14:32:22,953] {bash_operator.py:122} INFO - Output:
+[2020-07-16 14:32:23,668] {bash_operator.py:126} INFO - shasum: /home/bhakti/input_files_airflow/sample.csv: No such file or directory
+[2020-07-16 14:32:23,672] {bash_operator.py:128} INFO - Command exited with return code 1
+[2020-07-16 14:32:23,716] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-07-16 14:32:23,749] {taskinstance.py:1168} INFO - Marking task as UP_FOR_RETRY
+[2020-07-16 14:32:32,263] {logging_mixin.py:112} INFO - [2020-07-16 14:32:32,262] {local_task_job.py:103} INFO - Task exited with return code 1

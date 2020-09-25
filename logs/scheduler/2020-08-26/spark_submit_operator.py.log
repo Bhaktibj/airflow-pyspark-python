@@ -1,0 +1,251 @@
+[2020-08-26 11:39:19,971] {scheduler_job.py:153} INFO - Started process (PID=69170) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:39:19,974] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 11:39:19,974] {logging_mixin.py:112} INFO - [2020-08-26 11:39:19,974] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:39:20,062] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:39:20,221] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 11:39:21,117] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24 00:00:00+00:00: scheduled__2020-08-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:39:21,123] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-21 02:29:00+00:00: scheduled__2020-07-21T02:29:00+00:00, externally triggered: False>
+[2020-08-26 11:39:21,133] {logging_mixin.py:112} INFO - [2020-08-26 11:39:21,133] {dagrun.py:318} INFO - Marking run <DagRun submit_data @ 2020-07-21 02:29:00+00:00: scheduled__2020-07-21T02:29:00+00:00, externally triggered: False> successful
+[2020-08-26 11:39:21,284] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:39:21,298] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:01:00+00:00: scheduled__2020-07-26T00:01:00+00:00, externally triggered: False>
+[2020-08-26 11:39:21,306] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:02:00+00:00: scheduled__2020-07-26T00:02:00+00:00, externally triggered: False>
+[2020-08-26 11:39:21,316] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:03:00+00:00: scheduled__2020-07-26T00:03:00+00:00, externally triggered: False>
+[2020-08-26 11:39:21,325] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:04:00+00:00: scheduled__2020-07-26T00:04:00+00:00, externally triggered: False>
+[2020-08-26 11:39:21,333] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-28 10:40:56.704132+00:00: manual__2020-07-28T10:40:56.704132+00:00, externally triggered: True>
+[2020-08-26 11:39:21,341] {logging_mixin.py:112} INFO - [2020-08-26 11:39:21,341] {dagrun.py:318} INFO - Marking run <DagRun submit_data @ 2020-07-28 10:40:56.704132+00:00: manual__2020-07-28T10:40:56.704132+00:00, externally triggered: True> successful
+[2020-08-26 11:39:21,473] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-28 10:41:06.333189+00:00: manual__2020-07-28T10:41:06.333189+00:00, externally triggered: True>
+[2020-08-26 11:39:21,488] {logging_mixin.py:112} INFO - [2020-08-26 11:39:21,488] {dagrun.py:318} INFO - Marking run <DagRun submit_data @ 2020-07-28 10:41:06.333189+00:00: manual__2020-07-28T10:41:06.333189+00:00, externally triggered: True> successful
+[2020-08-26 11:39:21,617] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-28 10:41:13.109943+00:00: manual__2020-07-28T10:41:13.109943+00:00, externally triggered: True>
+[2020-08-26 11:39:21,632] {logging_mixin.py:112} INFO - [2020-08-26 11:39:21,632] {dagrun.py:318} INFO - Marking run <DagRun submit_data @ 2020-07-28 10:41:13.109943+00:00: manual__2020-07-28T10:41:13.109943+00:00, externally triggered: True> successful
+[2020-08-26 11:39:21,762] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:00:00+00:00: scheduled__2020-08-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:39:21,796] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 11:39:21,800] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-07-26 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,805] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-07-26 00:01:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,809] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-07-26 00:01:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,813] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-07-26 00:02:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,818] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-07-26 00:02:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,823] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-07-26 00:03:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,827] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-07-26 00:03:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,831] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-07-26 00:04:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,835] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-07-26 00:04:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,840] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:21,843] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:00:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:39:22,109] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 2.139 seconds
+[2020-08-26 11:43:48,039] {scheduler_job.py:153} INFO - Started process (PID=71864) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:43:48,090] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 11:43:48,091] {logging_mixin.py:112} INFO - [2020-08-26 11:43:48,091] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:43:48,102] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:43:49,347] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 11:43:50,111] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:01:00+00:00: scheduled__2020-08-24T00:01:00+00:00, externally triggered: False>
+[2020-08-26 11:43:50,115] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:43:50,124] {logging_mixin.py:112} INFO - [2020-08-26 11:43:50,124] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-07-26 00:00:00+00:00: scheduled__2020-07-26T00:00:00+00:00, externally triggered: False> failed
+[2020-08-26 11:43:50,569] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:01:00+00:00: scheduled__2020-07-26T00:01:00+00:00, externally triggered: False>
+[2020-08-26 11:43:50,583] {logging_mixin.py:112} INFO - [2020-08-26 11:43:50,582] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-07-26 00:01:00+00:00: scheduled__2020-07-26T00:01:00+00:00, externally triggered: False> failed
+[2020-08-26 11:43:51,410] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:02:00+00:00: scheduled__2020-07-26T00:02:00+00:00, externally triggered: False>
+[2020-08-26 11:43:51,425] {logging_mixin.py:112} INFO - [2020-08-26 11:43:51,425] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-07-26 00:02:00+00:00: scheduled__2020-07-26T00:02:00+00:00, externally triggered: False> failed
+[2020-08-26 11:43:52,107] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:03:00+00:00: scheduled__2020-07-26T00:03:00+00:00, externally triggered: False>
+[2020-08-26 11:43:52,124] {logging_mixin.py:112} INFO - [2020-08-26 11:43:52,124] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-07-26 00:03:00+00:00: scheduled__2020-07-26T00:03:00+00:00, externally triggered: False> failed
+[2020-08-26 11:43:52,416] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-07-26 00:04:00+00:00: scheduled__2020-07-26T00:04:00+00:00, externally triggered: False>
+[2020-08-26 11:43:52,429] {logging_mixin.py:112} INFO - [2020-08-26 11:43:52,429] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-07-26 00:04:00+00:00: scheduled__2020-07-26T00:04:00+00:00, externally triggered: False> failed
+[2020-08-26 11:43:52,898] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:00:00+00:00: scheduled__2020-08-24T00:00:00+00:00, externally triggered: False>
+[2020-08-26 11:43:52,912] {logging_mixin.py:112} INFO - [2020-08-26 11:43:52,912] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:00:00+00:00: scheduled__2020-08-24T00:00:00+00:00, externally triggered: False> failed
+[2020-08-26 11:43:53,370] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:01:00+00:00: scheduled__2020-08-24T00:01:00+00:00, externally triggered: False>
+[2020-08-26 11:43:53,390] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 11:43:53,394] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:01:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:43:53,399] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:01:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:43:53,765] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 5.725 seconds
+[2020-08-26 11:47:45,595] {scheduler_job.py:153} INFO - Started process (PID=73992) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:47:45,616] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 11:47:45,617] {logging_mixin.py:112} INFO - [2020-08-26 11:47:45,616] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:47:45,630] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:47:46,147] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 11:47:46,561] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:02:00+00:00: scheduled__2020-08-24T00:02:00+00:00, externally triggered: False>
+[2020-08-26 11:47:46,570] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:01:00+00:00: scheduled__2020-08-24T00:01:00+00:00, externally triggered: False>
+[2020-08-26 11:47:46,626] {logging_mixin.py:112} INFO - [2020-08-26 11:47:46,625] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:01:00+00:00: scheduled__2020-08-24T00:01:00+00:00, externally triggered: False> failed
+[2020-08-26 11:47:46,769] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:02:00+00:00: scheduled__2020-08-24T00:02:00+00:00, externally triggered: False>
+[2020-08-26 11:47:46,797] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 11:47:46,804] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:02:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:47:46,813] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:02:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:47:46,998] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.403 seconds
+[2020-08-26 11:51:31,196] {scheduler_job.py:153} INFO - Started process (PID=76593) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:51:31,203] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 11:51:31,203] {logging_mixin.py:112} INFO - [2020-08-26 11:51:31,203] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:51:31,218] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:51:31,434] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 11:51:31,847] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:03:00+00:00: scheduled__2020-08-24T00:03:00+00:00, externally triggered: False>
+[2020-08-26 11:51:31,857] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:02:00+00:00: scheduled__2020-08-24T00:02:00+00:00, externally triggered: False>
+[2020-08-26 11:51:31,878] {logging_mixin.py:112} INFO - [2020-08-26 11:51:31,877] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:02:00+00:00: scheduled__2020-08-24T00:02:00+00:00, externally triggered: False> failed
+[2020-08-26 11:51:32,012] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:03:00+00:00: scheduled__2020-08-24T00:03:00+00:00, externally triggered: False>
+[2020-08-26 11:51:32,030] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 11:51:32,035] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:03:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:51:32,040] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:03:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:51:32,232] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.036 seconds
+[2020-08-26 11:56:32,867] {scheduler_job.py:153} INFO - Started process (PID=79431) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:56:32,871] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 11:56:32,872] {logging_mixin.py:112} INFO - [2020-08-26 11:56:32,871] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:56:32,883] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 11:56:34,103] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 11:56:35,076] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:04:00+00:00: scheduled__2020-08-24T00:04:00+00:00, externally triggered: False>
+[2020-08-26 11:56:35,081] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:03:00+00:00: scheduled__2020-08-24T00:03:00+00:00, externally triggered: False>
+[2020-08-26 11:56:35,090] {logging_mixin.py:112} INFO - [2020-08-26 11:56:35,090] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:03:00+00:00: scheduled__2020-08-24T00:03:00+00:00, externally triggered: False> failed
+[2020-08-26 11:56:35,581] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:04:00+00:00: scheduled__2020-08-24T00:04:00+00:00, externally triggered: False>
+[2020-08-26 11:56:35,619] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 11:56:35,631] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:04:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:56:35,641] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:04:00+00:00 [scheduled]> in ORM
+[2020-08-26 11:56:35,886] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 3.019 seconds
+[2020-08-26 12:01:56,220] {scheduler_job.py:153} INFO - Started process (PID=82467) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:01:56,224] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:01:56,225] {logging_mixin.py:112} INFO - [2020-08-26 12:01:56,225] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:01:56,236] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:01:56,372] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:01:56,769] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:05:00+00:00: scheduled__2020-08-24T00:05:00+00:00, externally triggered: False>
+[2020-08-26 12:01:56,775] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:04:00+00:00: scheduled__2020-08-24T00:04:00+00:00, externally triggered: False>
+[2020-08-26 12:01:56,788] {logging_mixin.py:112} INFO - [2020-08-26 12:01:56,788] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:04:00+00:00: scheduled__2020-08-24T00:04:00+00:00, externally triggered: False> failed
+[2020-08-26 12:01:56,899] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:05:00+00:00: scheduled__2020-08-24T00:05:00+00:00, externally triggered: False>
+[2020-08-26 12:01:56,920] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:01:56,926] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:05:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:01:56,933] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:05:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:01:57,260] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.041 seconds
+[2020-08-26 12:05:35,579] {scheduler_job.py:153} INFO - Started process (PID=84653) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:05:35,585] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:05:35,586] {logging_mixin.py:112} INFO - [2020-08-26 12:05:35,586] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:05:35,596] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:05:36,545] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:05:37,030] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:06:00+00:00: scheduled__2020-08-24T00:06:00+00:00, externally triggered: False>
+[2020-08-26 12:05:37,033] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:05:00+00:00: scheduled__2020-08-24T00:05:00+00:00, externally triggered: False>
+[2020-08-26 12:05:37,041] {logging_mixin.py:112} INFO - [2020-08-26 12:05:37,041] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:05:00+00:00: scheduled__2020-08-24T00:05:00+00:00, externally triggered: False> failed
+[2020-08-26 12:05:37,189] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:06:00+00:00: scheduled__2020-08-24T00:06:00+00:00, externally triggered: False>
+[2020-08-26 12:05:37,209] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:05:37,213] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:06:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:05:37,220] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:06:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:05:37,408] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.830 seconds
+[2020-08-26 12:08:38,761] {scheduler_job.py:153} INFO - Started process (PID=86780) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:08:38,765] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:08:38,765] {logging_mixin.py:112} INFO - [2020-08-26 12:08:38,765] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:08:38,782] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:08:39,133] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:08:40,246] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:07:00+00:00: scheduled__2020-08-24T00:07:00+00:00, externally triggered: False>
+[2020-08-26 12:08:40,253] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:06:00+00:00: scheduled__2020-08-24T00:06:00+00:00, externally triggered: False>
+[2020-08-26 12:08:40,274] {logging_mixin.py:112} INFO - [2020-08-26 12:08:40,274] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:06:00+00:00: scheduled__2020-08-24T00:06:00+00:00, externally triggered: False> failed
+[2020-08-26 12:08:40,546] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:07:00+00:00: scheduled__2020-08-24T00:07:00+00:00, externally triggered: False>
+[2020-08-26 12:08:40,570] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:08:40,576] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:07:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:08:40,581] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:07:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:08:40,830] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 2.068 seconds
+[2020-08-26 12:11:44,572] {scheduler_job.py:153} INFO - Started process (PID=89182) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:11:44,644] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:11:44,645] {logging_mixin.py:112} INFO - [2020-08-26 12:11:44,645] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:11:44,657] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:11:45,266] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:11:45,903] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:08:00+00:00: scheduled__2020-08-24T00:08:00+00:00, externally triggered: False>
+[2020-08-26 12:11:45,907] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:07:00+00:00: scheduled__2020-08-24T00:07:00+00:00, externally triggered: False>
+[2020-08-26 12:11:45,916] {logging_mixin.py:112} INFO - [2020-08-26 12:11:45,915] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:07:00+00:00: scheduled__2020-08-24T00:07:00+00:00, externally triggered: False> failed
+[2020-08-26 12:11:46,199] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:08:00+00:00: scheduled__2020-08-24T00:08:00+00:00, externally triggered: False>
+[2020-08-26 12:11:46,225] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:11:46,233] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:08:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:11:46,238] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:08:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:11:46,475] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.903 seconds
+[2020-08-26 12:14:30,690] {scheduler_job.py:153} INFO - Started process (PID=91075) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:14:30,693] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:14:30,693] {logging_mixin.py:112} INFO - [2020-08-26 12:14:30,693] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:14:30,703] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:14:31,034] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:14:31,472] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:09:00+00:00: scheduled__2020-08-24T00:09:00+00:00, externally triggered: False>
+[2020-08-26 12:14:31,478] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:08:00+00:00: scheduled__2020-08-24T00:08:00+00:00, externally triggered: False>
+[2020-08-26 12:14:31,485] {logging_mixin.py:112} INFO - [2020-08-26 12:14:31,485] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:08:00+00:00: scheduled__2020-08-24T00:08:00+00:00, externally triggered: False> failed
+[2020-08-26 12:14:31,591] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:09:00+00:00: scheduled__2020-08-24T00:09:00+00:00, externally triggered: False>
+[2020-08-26 12:14:31,611] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:14:31,614] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:09:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:14:31,619] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:09:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:14:31,801] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.112 seconds
+[2020-08-26 12:17:08,008] {scheduler_job.py:153} INFO - Started process (PID=92999) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:17:08,063] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:17:08,064] {logging_mixin.py:112} INFO - [2020-08-26 12:17:08,064] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:17:08,089] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:17:08,407] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:17:08,890] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:10:00+00:00: scheduled__2020-08-24T00:10:00+00:00, externally triggered: False>
+[2020-08-26 12:17:08,912] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:09:00+00:00: scheduled__2020-08-24T00:09:00+00:00, externally triggered: False>
+[2020-08-26 12:17:08,954] {logging_mixin.py:112} INFO - [2020-08-26 12:17:08,954] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:09:00+00:00: scheduled__2020-08-24T00:09:00+00:00, externally triggered: False> failed
+[2020-08-26 12:17:09,101] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:10:00+00:00: scheduled__2020-08-24T00:10:00+00:00, externally triggered: False>
+[2020-08-26 12:17:09,126] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:17:09,134] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:10:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:17:09,145] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:10:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:17:09,318] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.311 seconds
+[2020-08-26 12:19:55,675] {scheduler_job.py:153} INFO - Started process (PID=94919) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:19:55,678] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:19:55,679] {logging_mixin.py:112} INFO - [2020-08-26 12:19:55,679] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:19:55,690] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:19:56,008] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:19:57,310] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:11:00+00:00: scheduled__2020-08-24T00:11:00+00:00, externally triggered: False>
+[2020-08-26 12:19:57,315] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:10:00+00:00: scheduled__2020-08-24T00:10:00+00:00, externally triggered: False>
+[2020-08-26 12:19:57,323] {logging_mixin.py:112} INFO - [2020-08-26 12:19:57,322] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:10:00+00:00: scheduled__2020-08-24T00:10:00+00:00, externally triggered: False> failed
+[2020-08-26 12:19:57,721] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:11:00+00:00: scheduled__2020-08-24T00:11:00+00:00, externally triggered: False>
+[2020-08-26 12:19:57,738] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:19:57,742] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:11:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:19:57,748] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:11:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:19:58,017] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 2.342 seconds
+[2020-08-26 12:22:25,766] {scheduler_job.py:153} INFO - Started process (PID=96661) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:22:25,769] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:22:25,770] {logging_mixin.py:112} INFO - [2020-08-26 12:22:25,770] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:22:25,780] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:22:26,084] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:22:26,521] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:12:00+00:00: scheduled__2020-08-24T00:12:00+00:00, externally triggered: False>
+[2020-08-26 12:22:26,525] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:11:00+00:00: scheduled__2020-08-24T00:11:00+00:00, externally triggered: False>
+[2020-08-26 12:22:26,533] {logging_mixin.py:112} INFO - [2020-08-26 12:22:26,533] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:11:00+00:00: scheduled__2020-08-24T00:11:00+00:00, externally triggered: False> failed
+[2020-08-26 12:22:26,665] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:12:00+00:00: scheduled__2020-08-24T00:12:00+00:00, externally triggered: False>
+[2020-08-26 12:22:26,683] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:22:26,687] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:12:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:22:26,692] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:12:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:22:26,938] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.172 seconds
+[2020-08-26 12:24:56,011] {scheduler_job.py:153} INFO - Started process (PID=98228) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:24:56,015] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:24:56,016] {logging_mixin.py:112} INFO - [2020-08-26 12:24:56,015] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:24:56,025] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:24:56,305] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:24:56,713] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:13:00+00:00: scheduled__2020-08-24T00:13:00+00:00, externally triggered: False>
+[2020-08-26 12:24:56,718] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:12:00+00:00: scheduled__2020-08-24T00:12:00+00:00, externally triggered: False>
+[2020-08-26 12:24:56,728] {logging_mixin.py:112} INFO - [2020-08-26 12:24:56,728] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:12:00+00:00: scheduled__2020-08-24T00:12:00+00:00, externally triggered: False> failed
+[2020-08-26 12:24:56,862] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:13:00+00:00: scheduled__2020-08-24T00:13:00+00:00, externally triggered: False>
+[2020-08-26 12:24:56,880] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:24:56,884] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:13:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:24:56,889] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:13:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:24:57,082] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.071 seconds
+[2020-08-26 12:27:24,044] {scheduler_job.py:153} INFO - Started process (PID=100035) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:27:24,048] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:27:24,048] {logging_mixin.py:112} INFO - [2020-08-26 12:27:24,048] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:27:24,057] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:27:24,334] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:27:24,674] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:14:00+00:00: scheduled__2020-08-24T00:14:00+00:00, externally triggered: False>
+[2020-08-26 12:27:24,681] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:13:00+00:00: scheduled__2020-08-24T00:13:00+00:00, externally triggered: False>
+[2020-08-26 12:27:24,692] {logging_mixin.py:112} INFO - [2020-08-26 12:27:24,692] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:13:00+00:00: scheduled__2020-08-24T00:13:00+00:00, externally triggered: False> failed
+[2020-08-26 12:27:24,839] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:14:00+00:00: scheduled__2020-08-24T00:14:00+00:00, externally triggered: False>
+[2020-08-26 12:27:24,857] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:27:24,862] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:14:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:27:24,866] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:14:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:27:25,014] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 0.971 seconds
+[2020-08-26 12:29:57,744] {scheduler_job.py:153} INFO - Started process (PID=101743) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:29:57,748] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:29:57,748] {logging_mixin.py:112} INFO - [2020-08-26 12:29:57,748] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:29:57,757] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:29:58,051] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:29:58,500] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:15:00+00:00: scheduled__2020-08-24T00:15:00+00:00, externally triggered: False>
+[2020-08-26 12:29:58,506] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:14:00+00:00: scheduled__2020-08-24T00:14:00+00:00, externally triggered: False>
+[2020-08-26 12:29:58,515] {logging_mixin.py:112} INFO - [2020-08-26 12:29:58,515] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:14:00+00:00: scheduled__2020-08-24T00:14:00+00:00, externally triggered: False> failed
+[2020-08-26 12:29:58,607] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:15:00+00:00: scheduled__2020-08-24T00:15:00+00:00, externally triggered: False>
+[2020-08-26 12:29:58,623] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:29:58,627] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:15:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:29:58,632] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:15:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:29:58,815] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.071 seconds
+[2020-08-26 12:32:21,493] {scheduler_job.py:153} INFO - Started process (PID=103450) to work on /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:32:21,498] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/spark_submit_operator.py for tasks to queue
+[2020-08-26 12:32:21,498] {logging_mixin.py:112} INFO - [2020-08-26 12:32:21,498] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:32:21,511] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['submit_data']) retrieved from /home/bhakti/airflow/dags/spark_submit_operator.py
+[2020-08-26 12:32:22,002] {scheduler_job.py:1284} INFO - Processing submit_data
+[2020-08-26 12:32:22,360] {scheduler_job.py:1294} INFO - Created <DagRun submit_data @ 2020-08-24T00:16:00+00:00: scheduled__2020-08-24T00:16:00+00:00, externally triggered: False>
+[2020-08-26 12:32:22,366] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:15:00+00:00: scheduled__2020-08-24T00:15:00+00:00, externally triggered: False>
+[2020-08-26 12:32:22,374] {logging_mixin.py:112} INFO - [2020-08-26 12:32:22,374] {dagrun.py:309} INFO - Marking run <DagRun submit_data @ 2020-08-24 00:15:00+00:00: scheduled__2020-08-24T00:15:00+00:00, externally triggered: False> failed
+[2020-08-26 12:32:22,501] {scheduler_job.py:759} INFO - Examining DAG run <DagRun submit_data @ 2020-08-24 00:16:00+00:00: scheduled__2020-08-24T00:16:00+00:00, externally triggered: False>
+[2020-08-26 12:32:22,521] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: submit_data> because no tasks in DAG have SLAs
+[2020-08-26 12:32:22,528] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit 2020-08-24 00:16:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:32:22,533] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: submit_data.spark_submit2 2020-08-24 00:16:00+00:00 [scheduled]> in ORM
+[2020-08-26 12:32:22,710] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/spark_submit_operator.py took 1.217 seconds

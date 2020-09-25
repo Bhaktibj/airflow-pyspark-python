@@ -1,0 +1,33 @@
+[2020-07-18 14:13:41,658] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.mysql_status 2020-07-18T08:43:05.930380+00:00 [queued]>
+[2020-07-18 14:13:41,668] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.mysql_status 2020-07-18T08:43:05.930380+00:00 [queued]>
+[2020-07-18 14:13:41,668] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 14:13:41,668] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-18 14:13:41,668] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-18 14:13:41,837] {taskinstance.py:900} INFO - Executing <Task(BashOperator): mysql_status> on 2020-07-18T08:43:05.930380+00:00
+[2020-07-18 14:13:41,841] {standard_task_runner.py:53} INFO - Started process 120070 to run task
+[2020-07-18 14:13:41,986] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: storing_data.mysql_status 2020-07-18T08:43:05.930380+00:00 [running]> bhakti-Vostro-3558
+[2020-07-18 14:13:42,002] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-18 14:13:42,004] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmp81vsuy32/mysql_status1_mscq79
+[2020-07-18 14:13:42,004] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+dbname=airflow_db2
+condition=122
+airflow_condition=123
+location='/home/bhakti/airflow/input_data/dump_mysql_db.db'
+if [ $condition -eq $airflow_condition ]
+then
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+python3 '/home/bhakti/airflow/minioconnect/minio_connection.py'
+echo 'File uploaded successfully'
+else
+  echo 'something went wrong'
+fi
+[2020-07-18 14:13:42,011] {bash_operator.py:122} INFO - Output:
+[2020-07-18 14:13:42,013] {bash_operator.py:126} INFO - something went wrong
+[2020-07-18 14:13:42,013] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-18 14:13:42,021] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=storing_data, task_id=mysql_status, execution_date=20200718T084305, start_date=20200718T084341, end_date=20200718T084342
+[2020-07-18 14:13:51,524] {logging_mixin.py:112} INFO - [2020-07-18 14:13:51,523] {local_task_job.py:103} INFO - Task exited with return code 0

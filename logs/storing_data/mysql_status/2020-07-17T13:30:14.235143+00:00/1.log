@@ -1,0 +1,24 @@
+[2020-07-17 19:00:47,817] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.mysql_status 2020-07-17T13:30:14.235143+00:00 [queued]>
+[2020-07-17 19:00:47,826] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.mysql_status 2020-07-17T13:30:14.235143+00:00 [queued]>
+[2020-07-17 19:00:47,827] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-17 19:00:47,827] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-17 19:00:47,827] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-17 19:00:47,989] {taskinstance.py:900} INFO - Executing <Task(BashOperator): mysql_status> on 2020-07-17T13:30:14.235143+00:00
+[2020-07-17 19:00:47,994] {standard_task_runner.py:53} INFO - Started process 887751 to run task
+[2020-07-17 19:00:48,364] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: storing_data.mysql_status 2020-07-17T13:30:14.235143+00:00 [running]> bhakti-Vostro-3558
+[2020-07-17 19:00:48,494] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-17 19:00:48,495] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmpvpx0p0dw/mysql_status4uts9tge
+[2020-07-17 19:00:48,495] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+dbname=airflow_db2
+location='/home/bhakti/airflow/input_data/dump_mysql_db.db'
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+python3 '/home/bhakti/airflow/minioconnect/minio_connection.py'
+[2020-07-17 19:00:48,505] {bash_operator.py:122} INFO - Output:
+[2020-07-17 19:00:49,825] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-17 19:00:49,833] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=storing_data, task_id=mysql_status, execution_date=20200717T133014, start_date=20200717T133047, end_date=20200717T133049
+[2020-07-17 19:00:57,454] {logging_mixin.py:112} INFO - [2020-07-17 19:00:57,454] {local_task_job.py:103} INFO - Task exited with return code 0

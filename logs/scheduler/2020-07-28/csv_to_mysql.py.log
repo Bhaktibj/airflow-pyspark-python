@@ -1,0 +1,51 @@
+[2020-07-28 16:11:24,621] {scheduler_job.py:153} INFO - Started process (PID=110726) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:11:24,624] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-28 16:11:24,625] {logging_mixin.py:112} INFO - [2020-07-28 16:11:24,624] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:11:42,338] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:11:43,058] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 18.436 seconds
+[2020-07-28 16:12:32,700] {scheduler_job.py:153} INFO - Started process (PID=110969) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:12:32,976] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-28 16:12:32,977] {logging_mixin.py:112} INFO - [2020-07-28 16:12:32,977] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:12:44,368] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:12:45,787] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 13.086 seconds
+[2020-07-28 16:13:32,394] {scheduler_job.py:153} INFO - Started process (PID=111153) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:13:32,558] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-28 16:13:32,559] {logging_mixin.py:112} INFO - [2020-07-28 16:13:32,559] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:13:36,341] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:13:36,636] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 4.242 seconds
+[2020-07-28 16:14:23,261] {scheduler_job.py:153} INFO - Started process (PID=111346) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:14:23,355] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-28 16:14:23,355] {logging_mixin.py:112} INFO - [2020-07-28 16:14:23,355] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:14:53,454] {logging_mixin.py:112} INFO - [2020-07-28 16:14:53,454] {timeout.py:42} ERROR - Process timed out, PID: 111346
+[2020-07-28 16:14:53,703] {logging_mixin.py:112} INFO - [2020-07-28 16:14:53,455] {dagbag.py:239} ERROR - Failed to import: /home/bhakti/airflow/dags/csv_to_mysql.py
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/dagbag.py", line 236, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.8/imp.py", line 171, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 702, in _load
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/bhakti/airflow/dags/csv_to_mysql.py", line 1, in <module>
+    import pandas as pd
+  File "/usr/local/lib/python3.8/dist-packages/pandas/__init__.py", line 147, in <module>
+    from pandas.io.api import (
+  File "/usr/local/lib/python3.8/dist-packages/pandas/io/api.py", line 12, in <module>
+    from pandas.io.json import read_json
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 779, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 874, in get_code
+  File "<frozen importlib._bootstrap_external>", line 973, in get_data
+  File "/usr/local/lib/python3.8/dist-packages/airflow/utils/timeout.py", line 43, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: Timeout, PID: 111346
+[2020-07-28 16:14:53,704] {scheduler_job.py:1576} WARNING - No viable dags retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:14:57,846] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 34.585 seconds
+[2020-07-28 16:16:10,251] {scheduler_job.py:153} INFO - Started process (PID=111640) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:16:10,361] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-28 16:16:10,362] {logging_mixin.py:112} INFO - [2020-07-28 16:16:10,362] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:16:40,157] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-28 16:16:43,007] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 32.756 seconds

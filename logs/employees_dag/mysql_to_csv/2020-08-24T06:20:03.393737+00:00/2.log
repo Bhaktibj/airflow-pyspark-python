@@ -1,0 +1,43 @@
+[2020-08-26 12:00:20,377] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: employees_dag.mysql_to_csv 2020-08-24T06:20:03.393737+00:00 [queued]>
+[2020-08-26 12:00:20,388] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: employees_dag.mysql_to_csv 2020-08-24T06:20:03.393737+00:00 [queued]>
+[2020-08-26 12:00:20,389] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 12:00:20,389] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-08-26 12:00:20,389] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-08-26 12:00:20,887] {taskinstance.py:900} INFO - Executing <Task(MySqlOperator): mysql_to_csv> on 2020-08-24T06:20:03.393737+00:00
+[2020-08-26 12:00:20,894] {standard_task_runner.py:53} INFO - Started process 81738 to run task
+[2020-08-26 12:00:21,321] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: employees_dag.mysql_to_csv 2020-08-24T06:20:03.393737+00:00 [running]> bhakti-Vostro-3558
+[2020-08-26 12:00:21,335] {mysql_operator.py:61} INFO - Executing: SELECT * FROM employees INTO OUTFILE "/input_files_mysql/sample4.csv"
+FIELDS ENCLOSED BY '"' TERMINATED BY ',' ESCAPED BY '"' LINES TERMINATED BY "\n";
+[2020-08-26 12:00:21,385] {logging_mixin.py:112} INFO - [2020-08-26 12:00:21,385] {base_hook.py:87} INFO - Using connection to: id: mysql_conn. Host: mysql, Port: None, Schema: airflow_db1, Login: root, Password: XXXXXXXX, extra: XXXXXXXX
+[2020-08-26 12:00:21,390] {taskinstance.py:1145} ERROR - (2003, "Can't connect to MySQL server on 'mysql' ([Errno -3] Temporary failure in name resolution)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/connections.py", line 581, in connect
+    sock = socket.create_connection(
+  File "/usr/lib/python3.8/socket.py", line 787, in create_connection
+    for res in getaddrinfo(host, port, 0, SOCK_STREAM):
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/mysql_operator.py", line 64, in execute
+    hook.run(
+  File "/usr/local/lib/python3.8/dist-packages/airflow/hooks/dbapi_hook.py", line 162, in run
+    with closing(self.get_conn()) as conn:
+  File "/usr/local/lib/python3.8/dist-packages/airflow/hooks/mysql_hook.py", line 116, in get_conn
+    conn = MySQLdb.connect(**conn_config)
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/connections.py", line 325, in __init__
+    self.connect()
+  File "/usr/local/lib/python3.8/dist-packages/pymysql/connections.py", line 630, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'mysql' ([Errno -3] Temporary failure in name resolution)")
+[2020-08-26 12:00:21,393] {taskinstance.py:1174} INFO - All retries failed; marking task as FAILED.dag_id=employees_dag, task_id=mysql_to_csv, execution_date=20200824T062003, start_date=20200826T063020, end_date=20200826T063021
+[2020-08-26 12:00:29,944] {logging_mixin.py:112} INFO - [2020-08-26 12:00:29,943] {local_task_job.py:103} INFO - Task exited with return code 1

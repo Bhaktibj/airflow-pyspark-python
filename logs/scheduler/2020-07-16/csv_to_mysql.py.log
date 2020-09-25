@@ -1,0 +1,1310 @@
+[2020-07-16 14:30:23,203] {scheduler_job.py:153} INFO - Started process (PID=495226) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:30:23,207] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:30:23,208] {logging_mixin.py:112} INFO - [2020-07-16 14:30:23,207] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:30:27,125] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:30:27,554] {scheduler_job.py:1284} INFO - Processing CSVDAG
+[2020-07-16 14:30:27,971] {scheduler_job.py:1294} INFO - Created <DagRun CSVDAG @ 2020-07-13 00:00:00+00:00: scheduled__2020-07-13T00:00:00+00:00, externally triggered: False>
+[2020-07-16 14:30:27,975] {scheduler_job.py:759} INFO - Examining DAG run <DagRun CSVDAG @ 2020-07-13 00:00:00+00:00: scheduled__2020-07-13T00:00:00+00:00, externally triggered: False>
+[2020-07-16 14:30:28,006] {scheduler_job.py:447} INFO - Skipping SLA check for <DAG: CSVDAG> because no tasks in DAG have SLAs
+[2020-07-16 14:30:28,012] {scheduler_job.py:1640} INFO - Creating / updating <TaskInstance: CSVDAG.csv_to_mysql 2020-07-13 00:00:00+00:00 [scheduled]> in ORM
+[2020-07-16 14:30:28,151] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 4.949 seconds
+[2020-07-16 14:31:46,694] {scheduler_job.py:153} INFO - Started process (PID=497352) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:31:46,742] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:31:46,742] {logging_mixin.py:112} INFO - [2020-07-16 14:31:46,742] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:31:47,130] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:31:47,760] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.066 seconds
+[2020-07-16 14:33:08,304] {scheduler_job.py:153} INFO - Started process (PID=499474) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:33:08,308] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:33:08,309] {logging_mixin.py:112} INFO - [2020-07-16 14:33:08,309] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:33:08,653] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:33:08,845] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.541 seconds
+[2020-07-16 14:34:18,613] {scheduler_job.py:153} INFO - Started process (PID=501368) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:34:18,618] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:34:18,619] {logging_mixin.py:112} INFO - [2020-07-16 14:34:18,618] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:34:18,959] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:34:19,111] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.499 seconds
+[2020-07-16 14:35:29,117] {scheduler_job.py:153} INFO - Started process (PID=503211) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:35:29,120] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:35:29,121] {logging_mixin.py:112} INFO - [2020-07-16 14:35:29,121] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:35:29,438] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:35:29,582] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.465 seconds
+[2020-07-16 14:36:27,711] {scheduler_job.py:153} INFO - Started process (PID=504752) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:36:27,734] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:36:27,735] {logging_mixin.py:112} INFO - [2020-07-16 14:36:27,735] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:36:28,505] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:36:28,710] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.999 seconds
+[2020-07-16 14:37:53,130] {scheduler_job.py:153} INFO - Started process (PID=506944) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:37:53,133] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:37:53,133] {logging_mixin.py:112} INFO - [2020-07-16 14:37:53,133] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:37:53,355] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:37:53,466] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.336 seconds
+[2020-07-16 14:39:29,741] {scheduler_job.py:153} INFO - Started process (PID=509365) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:39:29,744] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:39:29,745] {logging_mixin.py:112} INFO - [2020-07-16 14:39:29,745] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:39:30,021] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:39:30,788] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.046 seconds
+[2020-07-16 14:40:49,038] {scheduler_job.py:153} INFO - Started process (PID=511534) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:40:49,043] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:40:49,044] {logging_mixin.py:112} INFO - [2020-07-16 14:40:49,044] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:40:49,412] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:40:49,599] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.562 seconds
+[2020-07-16 14:41:47,098] {scheduler_job.py:153} INFO - Started process (PID=513082) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:41:47,101] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:41:47,102] {logging_mixin.py:112} INFO - [2020-07-16 14:41:47,102] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:41:47,380] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:41:47,572] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.474 seconds
+[2020-07-16 14:42:45,153] {scheduler_job.py:153} INFO - Started process (PID=514633) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:42:45,157] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:42:45,157] {logging_mixin.py:112} INFO - [2020-07-16 14:42:45,157] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:42:45,391] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:42:45,525] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.372 seconds
+[2020-07-16 14:43:43,229] {scheduler_job.py:153} INFO - Started process (PID=516124) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:43:43,234] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:43:43,235] {logging_mixin.py:112} INFO - [2020-07-16 14:43:43,235] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:43:43,534] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:43:44,434] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.205 seconds
+[2020-07-16 14:44:56,075] {scheduler_job.py:153} INFO - Started process (PID=518109) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:44:56,079] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:44:56,080] {logging_mixin.py:112} INFO - [2020-07-16 14:44:56,080] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:44:56,401] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:44:57,302] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.227 seconds
+[2020-07-16 14:46:12,776] {scheduler_job.py:153} INFO - Started process (PID=520021) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:46:12,780] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:46:12,781] {logging_mixin.py:112} INFO - [2020-07-16 14:46:12,780] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:46:13,104] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:46:13,414] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.638 seconds
+[2020-07-16 14:47:10,833] {scheduler_job.py:153} INFO - Started process (PID=521632) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:47:10,838] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:47:10,838] {logging_mixin.py:112} INFO - [2020-07-16 14:47:10,838] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:47:11,212] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:47:11,406] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.573 seconds
+[2020-07-16 14:48:09,142] {scheduler_job.py:153} INFO - Started process (PID=523163) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:48:09,152] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:48:09,153] {logging_mixin.py:112} INFO - [2020-07-16 14:48:09,153] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:48:09,918] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:48:10,124] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.982 seconds
+[2020-07-16 14:49:07,181] {scheduler_job.py:153} INFO - Started process (PID=524797) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:49:07,184] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:49:07,185] {logging_mixin.py:112} INFO - [2020-07-16 14:49:07,185] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:49:07,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:49:07,733] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.553 seconds
+[2020-07-16 14:50:05,245] {scheduler_job.py:153} INFO - Started process (PID=526361) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:50:05,250] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:50:05,251] {logging_mixin.py:112} INFO - [2020-07-16 14:50:05,250] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:50:05,604] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:50:06,418] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.173 seconds
+[2020-07-16 14:51:03,289] {scheduler_job.py:153} INFO - Started process (PID=527880) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:51:03,292] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:51:03,293] {logging_mixin.py:112} INFO - [2020-07-16 14:51:03,293] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:51:03,558] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:51:04,096] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.807 seconds
+[2020-07-16 14:52:01,345] {scheduler_job.py:153} INFO - Started process (PID=529481) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:52:01,349] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:52:01,350] {logging_mixin.py:112} INFO - [2020-07-16 14:52:01,350] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:52:01,585] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:52:01,757] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.412 seconds
+[2020-07-16 14:52:59,942] {scheduler_job.py:153} INFO - Started process (PID=531100) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:52:59,945] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:52:59,945] {logging_mixin.py:112} INFO - [2020-07-16 14:52:59,945] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:53:26,176] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:53:27,154] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 27.212 seconds
+[2020-07-16 14:54:02,934] {scheduler_job.py:153} INFO - Started process (PID=532533) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:54:02,948] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:54:02,949] {logging_mixin.py:112} INFO - [2020-07-16 14:54:02,948] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:54:03,400] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:54:03,752] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.818 seconds
+[2020-07-16 14:55:00,998] {scheduler_job.py:153} INFO - Started process (PID=534064) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:55:01,003] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:55:01,006] {logging_mixin.py:112} INFO - [2020-07-16 14:55:01,004] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:55:01,416] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:55:01,765] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.767 seconds
+[2020-07-16 14:55:59,086] {scheduler_job.py:153} INFO - Started process (PID=535584) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:55:59,096] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:55:59,099] {logging_mixin.py:112} INFO - [2020-07-16 14:55:59,098] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:55:59,487] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:55:59,699] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.614 seconds
+[2020-07-16 14:56:57,134] {scheduler_job.py:153} INFO - Started process (PID=537175) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:56:57,138] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:56:57,138] {logging_mixin.py:112} INFO - [2020-07-16 14:56:57,138] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:56:57,469] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:56:57,617] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.484 seconds
+[2020-07-16 14:57:55,189] {scheduler_job.py:153} INFO - Started process (PID=538738) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:57:55,192] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:57:55,192] {logging_mixin.py:112} INFO - [2020-07-16 14:57:55,192] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:57:55,509] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:57:55,623] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.434 seconds
+[2020-07-16 14:58:53,257] {scheduler_job.py:153} INFO - Started process (PID=540287) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:58:53,262] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:58:53,262] {logging_mixin.py:112} INFO - [2020-07-16 14:58:53,262] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:58:53,570] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:58:53,682] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.425 seconds
+[2020-07-16 14:59:51,316] {scheduler_job.py:153} INFO - Started process (PID=541891) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:59:51,320] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 14:59:51,320] {logging_mixin.py:112} INFO - [2020-07-16 14:59:51,320] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:59:51,558] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 14:59:51,766] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.451 seconds
+[2020-07-16 15:00:49,374] {scheduler_job.py:153} INFO - Started process (PID=543415) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:00:49,378] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:00:49,379] {logging_mixin.py:112} INFO - [2020-07-16 15:00:49,379] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:00:49,665] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:00:49,835] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.461 seconds
+[2020-07-16 15:01:47,655] {scheduler_job.py:153} INFO - Started process (PID=544986) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:01:47,657] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:01:47,658] {logging_mixin.py:112} INFO - [2020-07-16 15:01:47,658] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:01:47,895] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:01:48,004] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.349 seconds
+[2020-07-16 15:02:45,534] {scheduler_job.py:153} INFO - Started process (PID=546560) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:02:45,538] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:02:45,539] {logging_mixin.py:112} INFO - [2020-07-16 15:02:45,539] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:02:45,803] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:02:45,979] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.445 seconds
+[2020-07-16 15:03:43,596] {scheduler_job.py:153} INFO - Started process (PID=548109) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:03:43,599] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:03:43,600] {logging_mixin.py:112} INFO - [2020-07-16 15:03:43,600] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:03:43,910] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:03:44,155] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.559 seconds
+[2020-07-16 15:04:41,667] {scheduler_job.py:153} INFO - Started process (PID=549738) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:04:41,673] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:04:41,674] {logging_mixin.py:112} INFO - [2020-07-16 15:04:41,674] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:04:42,085] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:04:42,228] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.562 seconds
+[2020-07-16 15:05:40,296] {scheduler_job.py:153} INFO - Started process (PID=551319) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:05:40,300] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:05:40,301] {logging_mixin.py:112} INFO - [2020-07-16 15:05:40,301] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:05:40,649] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:05:40,761] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.465 seconds
+[2020-07-16 15:06:38,351] {scheduler_job.py:153} INFO - Started process (PID=552912) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:06:38,355] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:06:38,355] {logging_mixin.py:112} INFO - [2020-07-16 15:06:38,355] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:06:38,617] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:06:38,781] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.430 seconds
+[2020-07-16 15:07:36,664] {scheduler_job.py:153} INFO - Started process (PID=554430) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:07:36,669] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:07:36,670] {logging_mixin.py:112} INFO - [2020-07-16 15:07:36,670] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:07:37,241] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:07:37,406] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.742 seconds
+[2020-07-16 15:08:34,713] {scheduler_job.py:153} INFO - Started process (PID=556013) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:08:34,716] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:08:34,716] {logging_mixin.py:112} INFO - [2020-07-16 15:08:34,716] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:08:34,992] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:08:35,123] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.410 seconds
+[2020-07-16 15:09:34,816] {scheduler_job.py:153} INFO - Started process (PID=557594) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:09:34,819] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:09:34,820] {logging_mixin.py:112} INFO - [2020-07-16 15:09:34,820] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:09:38,192] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:09:38,293] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 3.477 seconds
+[2020-07-16 15:10:32,367] {scheduler_job.py:153} INFO - Started process (PID=559069) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:10:32,372] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:10:32,373] {logging_mixin.py:112} INFO - [2020-07-16 15:10:32,372] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:10:32,674] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:10:33,247] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.880 seconds
+[2020-07-16 15:11:31,214] {scheduler_job.py:153} INFO - Started process (PID=560568) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:11:31,221] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:11:31,234] {logging_mixin.py:112} INFO - [2020-07-16 15:11:31,234] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:11:31,687] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:11:31,928] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.714 seconds
+[2020-07-16 15:12:36,303] {scheduler_job.py:153} INFO - Started process (PID=561974) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:12:36,338] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:12:36,338] {logging_mixin.py:112} INFO - [2020-07-16 15:12:36,338] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:12:41,906] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:12:42,113] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 5.810 seconds
+[2020-07-16 15:13:34,582] {scheduler_job.py:153} INFO - Started process (PID=563525) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:13:34,587] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:13:34,587] {logging_mixin.py:112} INFO - [2020-07-16 15:13:34,587] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:13:34,821] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:13:34,994] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.412 seconds
+[2020-07-16 15:14:32,452] {scheduler_job.py:153} INFO - Started process (PID=565033) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:14:32,729] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:14:32,729] {logging_mixin.py:112} INFO - [2020-07-16 15:14:32,729] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:14:35,550] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:14:35,825] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 3.373 seconds
+[2020-07-16 15:15:31,538] {scheduler_job.py:153} INFO - Started process (PID=566603) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:15:31,541] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:15:31,541] {logging_mixin.py:112} INFO - [2020-07-16 15:15:31,541] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:15:31,877] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:15:32,150] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.612 seconds
+[2020-07-16 15:16:30,941] {scheduler_job.py:153} INFO - Started process (PID=568120) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:16:30,945] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:16:30,945] {logging_mixin.py:112} INFO - [2020-07-16 15:16:30,945] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:16:31,254] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:16:31,657] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.715 seconds
+[2020-07-16 15:17:35,424] {scheduler_job.py:153} INFO - Started process (PID=569715) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:17:35,445] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:17:35,446] {logging_mixin.py:112} INFO - [2020-07-16 15:17:35,446] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:17:35,669] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:17:35,780] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.356 seconds
+[2020-07-16 15:18:33,461] {scheduler_job.py:153} INFO - Started process (PID=571259) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:18:33,465] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:18:33,465] {logging_mixin.py:112} INFO - [2020-07-16 15:18:33,465] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:18:33,688] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:18:33,937] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.476 seconds
+[2020-07-16 15:19:31,656] {scheduler_job.py:153} INFO - Started process (PID=572804) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:19:31,659] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:19:31,660] {logging_mixin.py:112} INFO - [2020-07-16 15:19:31,660] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:19:31,965] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:19:32,080] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.424 seconds
+[2020-07-16 15:20:31,020] {scheduler_job.py:153} INFO - Started process (PID=574352) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:20:31,023] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:20:31,023] {logging_mixin.py:112} INFO - [2020-07-16 15:20:31,023] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:20:36,499] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:20:37,381] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 6.362 seconds
+[2020-07-16 15:21:29,337] {scheduler_job.py:153} INFO - Started process (PID=575939) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:21:29,342] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:21:29,343] {logging_mixin.py:112} INFO - [2020-07-16 15:21:29,343] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:21:29,692] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:21:29,823] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.487 seconds
+[2020-07-16 15:22:27,394] {scheduler_job.py:153} INFO - Started process (PID=577586) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:22:27,399] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:22:27,399] {logging_mixin.py:112} INFO - [2020-07-16 15:22:27,399] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:22:27,632] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:22:27,744] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.349 seconds
+[2020-07-16 15:23:25,444] {scheduler_job.py:153} INFO - Started process (PID=579169) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:23:25,447] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:23:25,448] {logging_mixin.py:112} INFO - [2020-07-16 15:23:25,447] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:23:25,700] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:23:25,813] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.370 seconds
+[2020-07-16 15:24:23,507] {scheduler_job.py:153} INFO - Started process (PID=580693) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:24:23,511] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:24:23,512] {logging_mixin.py:112} INFO - [2020-07-16 15:24:23,512] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:24:23,911] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:24:24,073] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.566 seconds
+[2020-07-16 15:25:21,767] {scheduler_job.py:153} INFO - Started process (PID=582219) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:25:21,772] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:25:21,772] {logging_mixin.py:112} INFO - [2020-07-16 15:25:21,772] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:25:22,047] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:25:22,287] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.520 seconds
+[2020-07-16 15:26:19,635] {scheduler_job.py:153} INFO - Started process (PID=583739) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:26:19,642] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:26:19,643] {logging_mixin.py:112} INFO - [2020-07-16 15:26:19,642] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:26:20,019] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:26:20,214] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.579 seconds
+[2020-07-16 15:27:18,026] {scheduler_job.py:153} INFO - Started process (PID=585349) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:27:18,031] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:27:18,032] {logging_mixin.py:112} INFO - [2020-07-16 15:27:18,032] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:27:18,449] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:27:18,739] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.713 seconds
+[2020-07-16 15:28:16,090] {scheduler_job.py:153} INFO - Started process (PID=586898) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:28:16,093] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:28:16,094] {logging_mixin.py:112} INFO - [2020-07-16 15:28:16,094] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:28:16,444] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:28:16,626] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.536 seconds
+[2020-07-16 15:29:14,218] {scheduler_job.py:153} INFO - Started process (PID=588453) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:29:14,222] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:29:14,223] {logging_mixin.py:112} INFO - [2020-07-16 15:29:14,222] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:29:14,798] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:29:15,050] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.832 seconds
+[2020-07-16 15:30:12,205] {scheduler_job.py:153} INFO - Started process (PID=590007) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:30:12,208] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:30:12,208] {logging_mixin.py:112} INFO - [2020-07-16 15:30:12,208] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:30:12,469] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:30:12,575] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.370 seconds
+[2020-07-16 15:31:10,449] {scheduler_job.py:153} INFO - Started process (PID=591625) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:31:10,452] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:31:10,453] {logging_mixin.py:112} INFO - [2020-07-16 15:31:10,453] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:31:10,739] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:31:10,995] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.547 seconds
+[2020-07-16 15:32:08,323] {scheduler_job.py:153} INFO - Started process (PID=593234) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:32:08,326] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:32:08,327] {logging_mixin.py:112} INFO - [2020-07-16 15:32:08,327] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:32:08,999] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:32:09,423] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.100 seconds
+[2020-07-16 15:33:06,387] {scheduler_job.py:153} INFO - Started process (PID=594841) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:33:06,392] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:33:06,393] {logging_mixin.py:112} INFO - [2020-07-16 15:33:06,393] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:33:06,730] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:33:07,440] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.054 seconds
+[2020-07-16 15:34:04,464] {scheduler_job.py:153} INFO - Started process (PID=596395) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:34:04,468] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:34:04,469] {logging_mixin.py:112} INFO - [2020-07-16 15:34:04,469] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:34:04,766] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:34:05,600] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.136 seconds
+[2020-07-16 15:35:04,267] {scheduler_job.py:153} INFO - Started process (PID=597817) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:35:04,272] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:35:04,272] {logging_mixin.py:112} INFO - [2020-07-16 15:35:04,272] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:35:04,691] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:35:04,946] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.680 seconds
+[2020-07-16 15:36:02,477] {scheduler_job.py:153} INFO - Started process (PID=598649) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:36:02,480] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:36:02,480] {logging_mixin.py:112} INFO - [2020-07-16 15:36:02,480] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:36:02,878] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:36:03,005] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.529 seconds
+[2020-07-16 15:37:00,713] {scheduler_job.py:153} INFO - Started process (PID=599448) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:37:00,716] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:37:00,716] {logging_mixin.py:112} INFO - [2020-07-16 15:37:00,716] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:37:00,948] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:37:01,058] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.345 seconds
+[2020-07-16 15:37:58,587] {scheduler_job.py:153} INFO - Started process (PID=600236) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:37:58,590] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:37:58,591] {logging_mixin.py:112} INFO - [2020-07-16 15:37:58,590] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:37:58,822] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:37:58,997] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.410 seconds
+[2020-07-16 15:38:56,641] {scheduler_job.py:153} INFO - Started process (PID=601031) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:38:56,646] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:38:56,647] {logging_mixin.py:112} INFO - [2020-07-16 15:38:56,647] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:38:56,865] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:38:57,051] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.410 seconds
+[2020-07-16 15:39:55,438] {scheduler_job.py:153} INFO - Started process (PID=601883) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:39:55,440] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:39:55,441] {logging_mixin.py:112} INFO - [2020-07-16 15:39:55,441] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:39:55,707] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:39:56,337] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.900 seconds
+[2020-07-16 15:40:53,320] {scheduler_job.py:153} INFO - Started process (PID=603145) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:40:53,325] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:40:53,326] {logging_mixin.py:112} INFO - [2020-07-16 15:40:53,326] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:40:53,554] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:40:54,063] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.743 seconds
+[2020-07-16 15:41:51,381] {scheduler_job.py:153} INFO - Started process (PID=604364) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:41:51,384] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:41:51,385] {logging_mixin.py:112} INFO - [2020-07-16 15:41:51,384] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:41:51,684] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:41:51,813] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.432 seconds
+[2020-07-16 15:42:49,442] {scheduler_job.py:153} INFO - Started process (PID=605670) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:42:49,446] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:42:49,447] {logging_mixin.py:112} INFO - [2020-07-16 15:42:49,447] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:42:49,701] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:42:49,830] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.388 seconds
+[2020-07-16 15:43:47,507] {scheduler_job.py:153} INFO - Started process (PID=607218) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:43:47,511] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:43:47,511] {logging_mixin.py:112} INFO - [2020-07-16 15:43:47,511] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:43:47,780] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:43:47,911] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.403 seconds
+[2020-07-16 15:44:45,560] {scheduler_job.py:153} INFO - Started process (PID=608860) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:44:45,564] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:44:45,565] {logging_mixin.py:112} INFO - [2020-07-16 15:44:45,565] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:44:45,877] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:44:45,971] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.411 seconds
+[2020-07-16 15:45:44,077] {scheduler_job.py:153} INFO - Started process (PID=610472) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:45:44,083] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:45:44,084] {logging_mixin.py:112} INFO - [2020-07-16 15:45:44,084] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:45:44,700] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:45:44,882] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.806 seconds
+[2020-07-16 15:46:41,670] {scheduler_job.py:153} INFO - Started process (PID=611991) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:46:41,675] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:46:41,676] {logging_mixin.py:112} INFO - [2020-07-16 15:46:41,676] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:46:42,003] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:46:42,104] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.433 seconds
+[2020-07-16 15:47:39,726] {scheduler_job.py:153} INFO - Started process (PID=613575) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:47:39,729] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:47:39,729] {logging_mixin.py:112} INFO - [2020-07-16 15:47:39,729] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:47:39,962] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:47:40,097] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.371 seconds
+[2020-07-16 15:48:37,979] {scheduler_job.py:153} INFO - Started process (PID=615176) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:48:37,982] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:48:37,982] {logging_mixin.py:112} INFO - [2020-07-16 15:48:37,982] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:48:38,286] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:48:38,395] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.417 seconds
+[2020-07-16 15:49:35,846] {scheduler_job.py:153} INFO - Started process (PID=616725) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:49:35,850] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:49:35,851] {logging_mixin.py:112} INFO - [2020-07-16 15:49:35,851] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:49:36,187] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:49:36,928] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.082 seconds
+[2020-07-16 15:50:33,929] {scheduler_job.py:153} INFO - Started process (PID=618332) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:50:33,933] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:50:33,934] {logging_mixin.py:112} INFO - [2020-07-16 15:50:33,934] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:50:34,176] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:50:34,354] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.426 seconds
+[2020-07-16 15:51:31,981] {scheduler_job.py:153} INFO - Started process (PID=619966) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:51:31,984] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:51:31,984] {logging_mixin.py:112} INFO - [2020-07-16 15:51:31,984] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:51:32,225] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:51:32,402] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.421 seconds
+[2020-07-16 15:52:30,036] {scheduler_job.py:153} INFO - Started process (PID=621507) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:52:30,039] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:52:30,039] {logging_mixin.py:112} INFO - [2020-07-16 15:52:30,039] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:52:30,281] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:52:30,365] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.329 seconds
+[2020-07-16 15:53:28,117] {scheduler_job.py:153} INFO - Started process (PID=623069) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:53:28,126] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:53:28,126] {logging_mixin.py:112} INFO - [2020-07-16 15:53:28,126] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:53:28,376] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:53:28,497] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.380 seconds
+[2020-07-16 15:54:26,559] {scheduler_job.py:153} INFO - Started process (PID=624627) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:54:26,564] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:54:26,565] {logging_mixin.py:112} INFO - [2020-07-16 15:54:26,565] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:54:26,907] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:54:27,072] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.512 seconds
+[2020-07-16 15:55:24,630] {scheduler_job.py:153} INFO - Started process (PID=626193) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:55:24,638] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:55:24,639] {logging_mixin.py:112} INFO - [2020-07-16 15:55:24,639] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:55:24,924] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:55:25,080] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.450 seconds
+[2020-07-16 15:56:22,688] {scheduler_job.py:153} INFO - Started process (PID=627720) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:56:22,691] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:56:22,691] {logging_mixin.py:112} INFO - [2020-07-16 15:56:22,691] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:56:22,911] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:56:23,037] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.350 seconds
+[2020-07-16 15:57:21,183] {scheduler_job.py:153} INFO - Started process (PID=629272) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:57:21,188] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:57:21,188] {logging_mixin.py:112} INFO - [2020-07-16 15:57:21,188] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:57:21,544] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:57:21,650] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.468 seconds
+[2020-07-16 15:58:18,797] {scheduler_job.py:153} INFO - Started process (PID=630846) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:58:18,802] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:58:18,803] {logging_mixin.py:112} INFO - [2020-07-16 15:58:18,803] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:58:19,056] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:58:19,195] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.398 seconds
+[2020-07-16 15:59:16,846] {scheduler_job.py:153} INFO - Started process (PID=632454) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:59:16,849] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 15:59:16,850] {logging_mixin.py:112} INFO - [2020-07-16 15:59:16,850] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:59:17,081] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 15:59:17,179] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.333 seconds
+[2020-07-16 16:00:14,906] {scheduler_job.py:153} INFO - Started process (PID=634071) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:00:14,909] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:00:14,910] {logging_mixin.py:112} INFO - [2020-07-16 16:00:14,910] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:00:15,125] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:00:15,227] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.321 seconds
+[2020-07-16 16:01:12,959] {scheduler_job.py:153} INFO - Started process (PID=635644) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:01:12,963] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:01:12,963] {logging_mixin.py:112} INFO - [2020-07-16 16:01:12,963] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:01:13,263] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:01:13,413] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.453 seconds
+[2020-07-16 16:02:11,017] {scheduler_job.py:153} INFO - Started process (PID=637243) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:02:11,021] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:02:11,022] {logging_mixin.py:112} INFO - [2020-07-16 16:02:11,022] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:02:11,446] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:02:11,815] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.798 seconds
+[2020-07-16 16:03:09,271] {scheduler_job.py:153} INFO - Started process (PID=638790) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:03:09,274] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:03:09,275] {logging_mixin.py:112} INFO - [2020-07-16 16:03:09,275] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:03:09,492] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:03:09,599] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.329 seconds
+[2020-07-16 16:04:07,127] {scheduler_job.py:153} INFO - Started process (PID=640344) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:04:07,130] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:04:07,130] {logging_mixin.py:112} INFO - [2020-07-16 16:04:07,130] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:04:07,368] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:04:07,536] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.409 seconds
+[2020-07-16 16:05:05,185] {scheduler_job.py:153} INFO - Started process (PID=641968) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:05:05,189] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:05:05,190] {logging_mixin.py:112} INFO - [2020-07-16 16:05:05,190] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:05:05,614] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:05:05,731] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.546 seconds
+[2020-07-16 16:06:03,245] {scheduler_job.py:153} INFO - Started process (PID=643482) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:06:03,249] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:06:03,250] {logging_mixin.py:112} INFO - [2020-07-16 16:06:03,250] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:06:03,530] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:06:03,872] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.628 seconds
+[2020-07-16 16:07:01,298] {scheduler_job.py:153} INFO - Started process (PID=645122) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:07:01,303] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:07:01,304] {logging_mixin.py:112} INFO - [2020-07-16 16:07:01,304] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:07:01,574] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:07:01,679] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.381 seconds
+[2020-07-16 16:07:59,352] {scheduler_job.py:153} INFO - Started process (PID=646686) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:07:59,355] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:07:59,355] {logging_mixin.py:112} INFO - [2020-07-16 16:07:59,355] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:07:59,583] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:07:59,685] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.333 seconds
+[2020-07-16 16:08:57,615] {scheduler_job.py:153} INFO - Started process (PID=648249) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:08:57,622] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:08:57,622] {logging_mixin.py:112} INFO - [2020-07-16 16:08:57,622] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:08:57,924] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:08:58,045] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.430 seconds
+[2020-07-16 16:09:55,487] {scheduler_job.py:153} INFO - Started process (PID=649795) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:09:55,490] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:09:55,491] {logging_mixin.py:112} INFO - [2020-07-16 16:09:55,491] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:09:55,875] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:09:56,020] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.533 seconds
+[2020-07-16 16:10:53,564] {scheduler_job.py:153} INFO - Started process (PID=651368) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:10:53,567] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:10:53,568] {logging_mixin.py:112} INFO - [2020-07-16 16:10:53,568] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:10:53,792] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:10:53,926] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.362 seconds
+[2020-07-16 16:11:51,724] {scheduler_job.py:153} INFO - Started process (PID=652894) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:11:51,727] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:11:51,728] {logging_mixin.py:112} INFO - [2020-07-16 16:11:51,728] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:11:51,988] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:11:52,086] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.363 seconds
+[2020-07-16 16:12:49,673] {scheduler_job.py:153} INFO - Started process (PID=654447) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:12:49,676] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:12:49,676] {logging_mixin.py:112} INFO - [2020-07-16 16:12:49,676] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:12:49,932] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:12:50,045] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.373 seconds
+[2020-07-16 16:13:47,760] {scheduler_job.py:153} INFO - Started process (PID=655927) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:13:47,772] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:13:47,773] {logging_mixin.py:112} INFO - [2020-07-16 16:13:47,773] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:13:48,059] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:13:48,177] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.417 seconds
+[2020-07-16 16:14:46,016] {scheduler_job.py:153} INFO - Started process (PID=657506) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:14:46,020] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:14:46,021] {logging_mixin.py:112} INFO - [2020-07-16 16:14:46,021] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:14:46,526] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:14:46,667] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.651 seconds
+[2020-07-16 16:15:43,892] {scheduler_job.py:153} INFO - Started process (PID=659120) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:15:43,899] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:15:43,900] {logging_mixin.py:112} INFO - [2020-07-16 16:15:43,900] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:15:44,202] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:15:44,401] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.509 seconds
+[2020-07-16 16:16:41,943] {scheduler_job.py:153} INFO - Started process (PID=660697) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:16:41,947] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:16:41,948] {logging_mixin.py:112} INFO - [2020-07-16 16:16:41,948] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:16:42,299] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:16:42,473] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.530 seconds
+[2020-07-16 16:17:40,127] {scheduler_job.py:153} INFO - Started process (PID=662315) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:17:40,130] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:17:40,131] {logging_mixin.py:112} INFO - [2020-07-16 16:17:40,130] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:17:40,417] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:17:40,577] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.449 seconds
+[2020-07-16 16:18:38,097] {scheduler_job.py:153} INFO - Started process (PID=663896) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:18:38,101] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:18:38,102] {logging_mixin.py:112} INFO - [2020-07-16 16:18:38,102] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:18:38,401] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:18:38,502] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.405 seconds
+[2020-07-16 16:19:36,149] {scheduler_job.py:153} INFO - Started process (PID=665462) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:19:36,152] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:19:36,152] {logging_mixin.py:112} INFO - [2020-07-16 16:19:36,152] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:19:36,404] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:19:36,768] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.619 seconds
+[2020-07-16 16:20:34,233] {scheduler_job.py:153} INFO - Started process (PID=666984) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:20:34,239] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:20:34,240] {logging_mixin.py:112} INFO - [2020-07-16 16:20:34,240] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:20:34,796] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:20:35,250] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.017 seconds
+[2020-07-16 16:21:32,278] {scheduler_job.py:153} INFO - Started process (PID=668496) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:21:32,281] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:21:32,281] {logging_mixin.py:112} INFO - [2020-07-16 16:21:32,281] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:21:32,604] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:21:32,766] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.488 seconds
+[2020-07-16 16:22:30,351] {scheduler_job.py:153} INFO - Started process (PID=670083) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:22:30,357] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:22:30,358] {logging_mixin.py:112} INFO - [2020-07-16 16:22:30,357] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:22:30,676] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:22:30,979] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.628 seconds
+[2020-07-16 16:23:28,412] {scheduler_job.py:153} INFO - Started process (PID=671712) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:23:28,415] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:23:28,415] {logging_mixin.py:112} INFO - [2020-07-16 16:23:28,415] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:23:28,837] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:23:29,000] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.589 seconds
+[2020-07-16 16:24:26,480] {scheduler_job.py:153} INFO - Started process (PID=673315) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:24:26,483] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:24:26,483] {logging_mixin.py:112} INFO - [2020-07-16 16:24:26,483] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:24:26,815] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:24:26,902] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.423 seconds
+[2020-07-16 16:25:24,544] {scheduler_job.py:153} INFO - Started process (PID=674887) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:25:24,549] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:25:24,550] {logging_mixin.py:112} INFO - [2020-07-16 16:25:24,549] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:25:24,927] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:25:25,204] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.660 seconds
+[2020-07-16 16:26:22,810] {scheduler_job.py:153} INFO - Started process (PID=676457) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:26:22,813] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:26:22,813] {logging_mixin.py:112} INFO - [2020-07-16 16:26:22,813] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:26:23,034] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:26:23,175] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.365 seconds
+[2020-07-16 16:27:21,374] {scheduler_job.py:153} INFO - Started process (PID=678092) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:27:21,378] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:27:21,379] {logging_mixin.py:112} INFO - [2020-07-16 16:27:21,379] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:27:21,593] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:27:21,784] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.410 seconds
+[2020-07-16 16:28:19,435] {scheduler_job.py:153} INFO - Started process (PID=679592) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:28:19,441] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:28:19,442] {logging_mixin.py:112} INFO - [2020-07-16 16:28:19,441] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:28:19,789] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:28:20,667] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.232 seconds
+[2020-07-16 16:29:17,635] {scheduler_job.py:153} INFO - Started process (PID=681134) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:29:17,638] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:29:17,639] {logging_mixin.py:112} INFO - [2020-07-16 16:29:17,639] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:29:17,870] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:29:18,019] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.384 seconds
+[2020-07-16 16:30:15,594] {scheduler_job.py:153} INFO - Started process (PID=682802) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:30:15,625] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:30:15,626] {logging_mixin.py:112} INFO - [2020-07-16 16:30:15,626] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:30:16,075] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:30:16,185] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.591 seconds
+[2020-07-16 16:31:13,718] {scheduler_job.py:153} INFO - Started process (PID=684364) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:31:13,726] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:31:13,727] {logging_mixin.py:112} INFO - [2020-07-16 16:31:13,726] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:31:14,450] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:31:14,573] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.855 seconds
+[2020-07-16 16:32:11,934] {scheduler_job.py:153} INFO - Started process (PID=686052) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:32:11,937] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:32:11,937] {logging_mixin.py:112} INFO - [2020-07-16 16:32:11,937] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:32:12,184] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:32:12,315] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.381 seconds
+[2020-07-16 16:33:09,823] {scheduler_job.py:153} INFO - Started process (PID=687588) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:33:09,829] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:33:09,830] {logging_mixin.py:112} INFO - [2020-07-16 16:33:09,830] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:33:10,442] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:33:10,722] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.900 seconds
+[2020-07-16 16:34:07,865] {scheduler_job.py:153} INFO - Started process (PID=689186) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:34:07,868] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:34:07,869] {logging_mixin.py:112} INFO - [2020-07-16 16:34:07,869] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:34:08,253] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:34:08,555] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.690 seconds
+[2020-07-16 16:35:06,044] {scheduler_job.py:153} INFO - Started process (PID=690738) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:35:06,047] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:35:06,048] {logging_mixin.py:112} INFO - [2020-07-16 16:35:06,048] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:35:06,416] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:35:06,579] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.534 seconds
+[2020-07-16 16:36:03,979] {scheduler_job.py:153} INFO - Started process (PID=692310) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:36:03,983] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:36:03,983] {logging_mixin.py:112} INFO - [2020-07-16 16:36:03,983] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:36:04,238] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:36:05,110] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.131 seconds
+[2020-07-16 16:37:02,038] {scheduler_job.py:153} INFO - Started process (PID=693838) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:37:02,041] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:37:02,042] {logging_mixin.py:112} INFO - [2020-07-16 16:37:02,042] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:37:02,281] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:37:02,572] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.533 seconds
+[2020-07-16 16:38:00,105] {scheduler_job.py:153} INFO - Started process (PID=695380) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:38:00,108] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:38:00,108] {logging_mixin.py:112} INFO - [2020-07-16 16:38:00,108] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:38:00,377] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:38:00,728] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.623 seconds
+[2020-07-16 16:38:58,154] {scheduler_job.py:153} INFO - Started process (PID=696940) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:38:58,158] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:38:58,158] {logging_mixin.py:112} INFO - [2020-07-16 16:38:58,158] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:38:58,525] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:38:58,655] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.501 seconds
+[2020-07-16 16:39:56,216] {scheduler_job.py:153} INFO - Started process (PID=698593) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:39:56,221] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:39:56,221] {logging_mixin.py:112} INFO - [2020-07-16 16:39:56,221] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:39:56,468] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:39:56,594] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.378 seconds
+[2020-07-16 16:40:54,465] {scheduler_job.py:153} INFO - Started process (PID=700125) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:40:54,469] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:40:54,470] {logging_mixin.py:112} INFO - [2020-07-16 16:40:54,470] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:40:54,899] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:40:55,017] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.552 seconds
+[2020-07-16 16:41:52,335] {scheduler_job.py:153} INFO - Started process (PID=701660) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:41:52,340] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:41:52,340] {logging_mixin.py:112} INFO - [2020-07-16 16:41:52,340] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:41:52,668] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:41:52,830] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.495 seconds
+[2020-07-16 16:42:50,404] {scheduler_job.py:153} INFO - Started process (PID=703205) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:42:50,408] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:42:50,409] {logging_mixin.py:112} INFO - [2020-07-16 16:42:50,409] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:42:50,843] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:42:50,985] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.581 seconds
+[2020-07-16 16:43:49,394] {scheduler_job.py:153} INFO - Started process (PID=704849) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:43:49,399] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:43:49,400] {logging_mixin.py:112} INFO - [2020-07-16 16:43:49,400] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:43:49,728] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:43:49,843] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.449 seconds
+[2020-07-16 16:45:25,612] {scheduler_job.py:153} INFO - Started process (PID=707425) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:45:25,617] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:45:25,617] {logging_mixin.py:112} INFO - [2020-07-16 16:45:25,617] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:45:25,843] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:45:25,983] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.371 seconds
+[2020-07-16 16:47:15,477] {scheduler_job.py:153} INFO - Started process (PID=710277) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:47:15,481] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:47:15,482] {logging_mixin.py:112} INFO - [2020-07-16 16:47:15,482] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:47:15,698] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:47:16,004] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.526 seconds
+[2020-07-16 16:48:26,083] {scheduler_job.py:153} INFO - Started process (PID=712178) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:48:26,085] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:48:26,086] {logging_mixin.py:112} INFO - [2020-07-16 16:48:26,086] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:48:26,350] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:48:26,444] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.361 seconds
+[2020-07-16 16:49:24,273] {scheduler_job.py:153} INFO - Started process (PID=713711) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:49:24,276] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:49:24,277] {logging_mixin.py:112} INFO - [2020-07-16 16:49:24,277] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:49:24,522] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:49:24,621] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.347 seconds
+[2020-07-16 16:50:47,408] {scheduler_job.py:153} INFO - Started process (PID=715936) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:50:47,412] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:50:47,412] {logging_mixin.py:112} INFO - [2020-07-16 16:50:47,412] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:50:47,695] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:50:47,797] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.390 seconds
+[2020-07-16 16:51:45,479] {scheduler_job.py:153} INFO - Started process (PID=717495) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:51:45,482] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:51:45,482] {logging_mixin.py:112} INFO - [2020-07-16 16:51:45,482] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:51:45,925] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:51:46,136] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.658 seconds
+[2020-07-16 16:52:43,530] {scheduler_job.py:153} INFO - Started process (PID=719110) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:52:43,533] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:52:43,534] {logging_mixin.py:112} INFO - [2020-07-16 16:52:43,534] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:52:43,763] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:52:43,997] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.467 seconds
+[2020-07-16 16:53:41,595] {scheduler_job.py:153} INFO - Started process (PID=720677) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:53:41,598] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:53:41,598] {logging_mixin.py:112} INFO - [2020-07-16 16:53:41,598] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:53:41,821] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:53:41,933] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.338 seconds
+[2020-07-16 16:54:39,664] {scheduler_job.py:153} INFO - Started process (PID=722194) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:54:39,667] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:54:39,668] {logging_mixin.py:112} INFO - [2020-07-16 16:54:39,668] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:54:39,989] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:54:40,516] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.852 seconds
+[2020-07-16 16:55:37,708] {scheduler_job.py:153} INFO - Started process (PID=723741) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:55:37,711] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:55:37,712] {logging_mixin.py:112} INFO - [2020-07-16 16:55:37,712] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:55:37,977] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:55:38,091] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.383 seconds
+[2020-07-16 16:56:35,770] {scheduler_job.py:153} INFO - Started process (PID=725324) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:56:35,774] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:56:35,774] {logging_mixin.py:112} INFO - [2020-07-16 16:56:35,774] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:56:36,025] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:56:36,163] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.393 seconds
+[2020-07-16 16:57:34,245] {scheduler_job.py:153} INFO - Started process (PID=726853) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:57:34,248] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:57:34,248] {logging_mixin.py:112} INFO - [2020-07-16 16:57:34,248] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:57:34,508] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:57:34,655] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.410 seconds
+[2020-07-16 16:58:31,963] {scheduler_job.py:153} INFO - Started process (PID=728428) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:58:31,966] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:58:31,966] {logging_mixin.py:112} INFO - [2020-07-16 16:58:31,966] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:58:32,221] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:58:32,413] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.450 seconds
+[2020-07-16 16:59:30,022] {scheduler_job.py:153} INFO - Started process (PID=729973) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:59:30,026] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 16:59:30,027] {logging_mixin.py:112} INFO - [2020-07-16 16:59:30,026] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:59:30,323] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 16:59:30,416] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.394 seconds
+[2020-07-16 17:00:28,220] {scheduler_job.py:153} INFO - Started process (PID=731532) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:00:28,223] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:00:28,223] {logging_mixin.py:112} INFO - [2020-07-16 17:00:28,223] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:00:28,442] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:00:28,712] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.492 seconds
+[2020-07-16 17:01:26,131] {scheduler_job.py:153} INFO - Started process (PID=733139) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:01:26,134] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:01:26,135] {logging_mixin.py:112} INFO - [2020-07-16 17:01:26,135] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:01:26,437] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:01:26,614] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.483 seconds
+[2020-07-16 17:02:24,192] {scheduler_job.py:153} INFO - Started process (PID=734634) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:02:24,196] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:02:24,196] {logging_mixin.py:112} INFO - [2020-07-16 17:02:24,196] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:02:24,533] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:02:24,822] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.631 seconds
+[2020-07-16 17:03:22,242] {scheduler_job.py:153} INFO - Started process (PID=736169) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:03:22,246] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:03:22,246] {logging_mixin.py:112} INFO - [2020-07-16 17:03:22,246] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:03:22,581] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:03:22,679] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.437 seconds
+[2020-07-16 17:04:20,298] {scheduler_job.py:153} INFO - Started process (PID=737716) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:04:20,300] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:04:20,301] {logging_mixin.py:112} INFO - [2020-07-16 17:04:20,301] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:04:20,570] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:04:20,764] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.466 seconds
+[2020-07-16 17:05:18,361] {scheduler_job.py:153} INFO - Started process (PID=739259) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:05:18,364] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:05:18,365] {logging_mixin.py:112} INFO - [2020-07-16 17:05:18,364] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:05:18,591] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:05:19,105] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.744 seconds
+[2020-07-16 17:06:16,555] {scheduler_job.py:153} INFO - Started process (PID=740792) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:06:16,559] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:06:16,559] {logging_mixin.py:112} INFO - [2020-07-16 17:06:16,559] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:06:16,949] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:06:17,119] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.564 seconds
+[2020-07-16 17:07:14,467] {scheduler_job.py:153} INFO - Started process (PID=742368) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:07:14,471] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:07:14,472] {logging_mixin.py:112} INFO - [2020-07-16 17:07:14,471] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:07:14,738] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:07:14,834] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.367 seconds
+[2020-07-16 17:08:12,531] {scheduler_job.py:153} INFO - Started process (PID=743999) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:08:12,535] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:08:12,536] {logging_mixin.py:112} INFO - [2020-07-16 17:08:12,536] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:08:12,757] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:08:12,883] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.352 seconds
+[2020-07-16 17:09:10,585] {scheduler_job.py:153} INFO - Started process (PID=745576) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:09:10,588] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:09:10,589] {logging_mixin.py:112} INFO - [2020-07-16 17:09:10,588] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:09:10,822] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:09:11,033] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.449 seconds
+[2020-07-16 17:10:08,652] {scheduler_job.py:153} INFO - Started process (PID=747114) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:10:08,661] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:10:08,662] {logging_mixin.py:112} INFO - [2020-07-16 17:10:08,662] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:10:08,908] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:10:09,684] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.032 seconds
+[2020-07-16 17:11:06,714] {scheduler_job.py:153} INFO - Started process (PID=748701) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:11:06,717] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:11:06,718] {logging_mixin.py:112} INFO - [2020-07-16 17:11:06,718] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:11:07,068] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:11:07,216] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.501 seconds
+[2020-07-16 17:12:04,773] {scheduler_job.py:153} INFO - Started process (PID=750320) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:12:04,776] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:12:04,777] {logging_mixin.py:112} INFO - [2020-07-16 17:12:04,777] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:12:05,024] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:12:05,129] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.356 seconds
+[2020-07-16 17:13:02,836] {scheduler_job.py:153} INFO - Started process (PID=751925) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:13:02,840] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:13:02,840] {logging_mixin.py:112} INFO - [2020-07-16 17:13:02,840] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:13:03,104] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:13:03,404] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.568 seconds
+[2020-07-16 17:14:00,898] {scheduler_job.py:153} INFO - Started process (PID=753582) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:14:00,909] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:14:00,911] {logging_mixin.py:112} INFO - [2020-07-16 17:14:00,911] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:14:01,493] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:14:01,693] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.795 seconds
+[2020-07-16 17:14:59,260] {scheduler_job.py:153} INFO - Started process (PID=755130) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:14:59,265] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:14:59,265] {logging_mixin.py:112} INFO - [2020-07-16 17:14:59,265] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:14:59,682] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:15:00,302] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.042 seconds
+[2020-07-16 17:15:57,184] {scheduler_job.py:153} INFO - Started process (PID=756739) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:15:57,187] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:15:57,188] {logging_mixin.py:112} INFO - [2020-07-16 17:15:57,188] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:15:57,477] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:15:57,685] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.501 seconds
+[2020-07-16 17:16:55,233] {scheduler_job.py:153} INFO - Started process (PID=758328) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:16:55,238] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:16:55,238] {logging_mixin.py:112} INFO - [2020-07-16 17:16:55,238] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:16:55,527] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:16:55,781] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.549 seconds
+[2020-07-16 17:17:53,289] {scheduler_job.py:153} INFO - Started process (PID=759841) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:17:53,291] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:17:53,292] {logging_mixin.py:112} INFO - [2020-07-16 17:17:53,292] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:17:53,552] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:17:54,481] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.192 seconds
+[2020-07-16 17:18:51,348] {scheduler_job.py:153} INFO - Started process (PID=761417) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:18:51,352] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:18:51,352] {logging_mixin.py:112} INFO - [2020-07-16 17:18:51,352] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:18:51,629] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:18:51,838] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.490 seconds
+[2020-07-16 17:19:49,409] {scheduler_job.py:153} INFO - Started process (PID=763018) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:19:49,415] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:19:49,415] {logging_mixin.py:112} INFO - [2020-07-16 17:19:49,415] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:19:49,845] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:19:50,330] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.921 seconds
+[2020-07-16 17:20:47,582] {scheduler_job.py:153} INFO - Started process (PID=764599) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:20:47,584] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:20:47,585] {logging_mixin.py:112} INFO - [2020-07-16 17:20:47,585] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:20:47,905] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:20:48,103] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.521 seconds
+[2020-07-16 17:21:45,532] {scheduler_job.py:153} INFO - Started process (PID=766215) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:21:45,538] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:21:45,538] {logging_mixin.py:112} INFO - [2020-07-16 17:21:45,538] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:21:45,857] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:21:46,037] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.505 seconds
+[2020-07-16 17:22:43,581] {scheduler_job.py:153} INFO - Started process (PID=767767) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:22:43,584] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:22:43,584] {logging_mixin.py:112} INFO - [2020-07-16 17:22:43,584] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:22:43,890] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:22:44,079] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.498 seconds
+[2020-07-16 17:23:41,824] {scheduler_job.py:153} INFO - Started process (PID=769345) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:23:41,827] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:23:41,828] {logging_mixin.py:112} INFO - [2020-07-16 17:23:41,827] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:23:42,253] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:23:42,442] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.618 seconds
+[2020-07-16 17:24:39,949] {scheduler_job.py:153} INFO - Started process (PID=770937) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:24:39,955] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:24:39,956] {logging_mixin.py:112} INFO - [2020-07-16 17:24:39,955] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:24:40,295] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:24:40,439] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.490 seconds
+[2020-07-16 17:25:38,004] {scheduler_job.py:153} INFO - Started process (PID=772440) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:25:38,006] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:25:38,007] {logging_mixin.py:112} INFO - [2020-07-16 17:25:38,007] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:25:38,302] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:25:38,409] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.405 seconds
+[2020-07-16 17:26:36,269] {scheduler_job.py:153} INFO - Started process (PID=773998) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:26:36,273] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:26:36,274] {logging_mixin.py:112} INFO - [2020-07-16 17:26:36,274] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:26:36,622] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:26:36,724] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.455 seconds
+[2020-07-16 17:27:34,118] {scheduler_job.py:153} INFO - Started process (PID=775553) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:27:34,121] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:27:34,121] {logging_mixin.py:112} INFO - [2020-07-16 17:27:34,121] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:27:34,485] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:27:35,065] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.947 seconds
+[2020-07-16 17:28:32,176] {scheduler_job.py:153} INFO - Started process (PID=777139) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:28:32,179] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:28:32,180] {logging_mixin.py:112} INFO - [2020-07-16 17:28:32,180] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:28:32,519] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:28:32,657] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.480 seconds
+[2020-07-16 17:29:30,353] {scheduler_job.py:153} INFO - Started process (PID=778745) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:29:30,358] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:29:30,359] {logging_mixin.py:112} INFO - [2020-07-16 17:29:30,359] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:29:30,731] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:29:31,022] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.669 seconds
+[2020-07-16 17:30:28,424] {scheduler_job.py:153} INFO - Started process (PID=780318) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:30:28,429] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:30:28,430] {logging_mixin.py:112} INFO - [2020-07-16 17:30:28,430] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:30:28,748] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:30:29,012] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.588 seconds
+[2020-07-16 17:31:26,486] {scheduler_job.py:153} INFO - Started process (PID=781867) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:31:26,490] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:31:26,490] {logging_mixin.py:112} INFO - [2020-07-16 17:31:26,490] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:31:26,783] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:31:27,096] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.610 seconds
+[2020-07-16 17:32:24,551] {scheduler_job.py:153} INFO - Started process (PID=783432) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:32:24,554] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:32:24,555] {logging_mixin.py:112} INFO - [2020-07-16 17:32:24,555] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:32:25,141] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:32:25,912] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.361 seconds
+[2020-07-16 17:33:22,631] {scheduler_job.py:153} INFO - Started process (PID=784980) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:33:22,640] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:33:22,641] {logging_mixin.py:112} INFO - [2020-07-16 17:33:22,641] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:33:23,323] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:33:23,490] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.859 seconds
+[2020-07-16 17:34:20,663] {scheduler_job.py:153} INFO - Started process (PID=786566) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:34:20,666] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:34:20,667] {logging_mixin.py:112} INFO - [2020-07-16 17:34:20,667] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:34:20,995] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:34:21,218] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.555 seconds
+[2020-07-16 17:35:18,845] {scheduler_job.py:153} INFO - Started process (PID=788189) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:35:18,850] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:35:18,851] {logging_mixin.py:112} INFO - [2020-07-16 17:35:18,851] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:35:19,158] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:35:19,345] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.500 seconds
+[2020-07-16 17:36:16,794] {scheduler_job.py:153} INFO - Started process (PID=789765) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:36:16,797] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:36:16,797] {logging_mixin.py:112} INFO - [2020-07-16 17:36:16,797] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:36:17,222] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:36:17,377] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.584 seconds
+[2020-07-16 17:37:14,843] {scheduler_job.py:153} INFO - Started process (PID=791348) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:37:14,847] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:37:14,849] {logging_mixin.py:112} INFO - [2020-07-16 17:37:14,848] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:37:15,182] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:37:15,337] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.493 seconds
+[2020-07-16 17:38:12,900] {scheduler_job.py:153} INFO - Started process (PID=792989) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:38:12,903] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:38:12,904] {logging_mixin.py:112} INFO - [2020-07-16 17:38:12,904] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:38:13,213] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:38:13,324] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.424 seconds
+[2020-07-16 17:39:10,972] {scheduler_job.py:153} INFO - Started process (PID=794532) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:39:10,975] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:39:10,975] {logging_mixin.py:112} INFO - [2020-07-16 17:39:10,975] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:39:11,280] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:39:11,472] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.500 seconds
+[2020-07-16 17:40:09,024] {scheduler_job.py:153} INFO - Started process (PID=796099) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:40:09,028] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:40:09,028] {logging_mixin.py:112} INFO - [2020-07-16 17:40:09,028] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:40:09,386] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:40:09,498] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.474 seconds
+[2020-07-16 17:41:07,828] {scheduler_job.py:153} INFO - Started process (PID=797624) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:41:07,839] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:41:07,839] {logging_mixin.py:112} INFO - [2020-07-16 17:41:07,839] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:41:08,266] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:41:08,434] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.606 seconds
+[2020-07-16 17:42:05,136] {scheduler_job.py:153} INFO - Started process (PID=799134) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:42:05,140] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:42:05,140] {logging_mixin.py:112} INFO - [2020-07-16 17:42:05,140] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:42:05,433] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:42:05,539] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.403 seconds
+[2020-07-16 17:43:03,197] {scheduler_job.py:153} INFO - Started process (PID=800670) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:43:03,200] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:43:03,200] {logging_mixin.py:112} INFO - [2020-07-16 17:43:03,200] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:43:03,564] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:43:03,730] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.533 seconds
+[2020-07-16 17:44:01,257] {scheduler_job.py:153} INFO - Started process (PID=802214) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:44:01,260] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:44:01,260] {logging_mixin.py:112} INFO - [2020-07-16 17:44:01,260] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:44:01,643] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:44:01,742] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.485 seconds
+[2020-07-16 17:44:59,488] {scheduler_job.py:153} INFO - Started process (PID=803785) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:44:59,491] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:44:59,491] {logging_mixin.py:112} INFO - [2020-07-16 17:44:59,491] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:44:59,800] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:44:59,936] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.448 seconds
+[2020-07-16 17:45:57,836] {scheduler_job.py:153} INFO - Started process (PID=805315) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:45:57,847] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:45:57,847] {logging_mixin.py:112} INFO - [2020-07-16 17:45:57,847] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:46:10,384] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:46:10,533] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 12.698 seconds
+[2020-07-16 17:46:56,931] {scheduler_job.py:153} INFO - Started process (PID=806817) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:46:56,934] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:46:56,934] {logging_mixin.py:112} INFO - [2020-07-16 17:46:56,934] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:46:57,270] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:46:57,382] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.451 seconds
+[2020-07-16 17:47:54,855] {scheduler_job.py:153} INFO - Started process (PID=808353) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:47:54,858] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:47:54,859] {logging_mixin.py:112} INFO - [2020-07-16 17:47:54,859] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:47:55,186] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:47:55,288] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.433 seconds
+[2020-07-16 17:48:52,917] {scheduler_job.py:153} INFO - Started process (PID=809855) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:48:52,921] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:48:52,922] {logging_mixin.py:112} INFO - [2020-07-16 17:48:52,921] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:48:53,348] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:48:53,460] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.543 seconds
+[2020-07-16 17:49:50,984] {scheduler_job.py:153} INFO - Started process (PID=811419) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:49:50,987] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:49:50,987] {logging_mixin.py:112} INFO - [2020-07-16 17:49:50,987] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:49:51,297] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:49:51,395] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.411 seconds
+[2020-07-16 17:50:49,043] {scheduler_job.py:153} INFO - Started process (PID=813011) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:50:49,046] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:50:49,047] {logging_mixin.py:112} INFO - [2020-07-16 17:50:49,047] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:50:49,591] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:50:49,810] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.767 seconds
+[2020-07-16 17:51:47,114] {scheduler_job.py:153} INFO - Started process (PID=814584) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:51:47,118] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:51:47,119] {logging_mixin.py:112} INFO - [2020-07-16 17:51:47,119] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:51:47,482] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:51:47,770] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.656 seconds
+[2020-07-16 17:52:45,181] {scheduler_job.py:153} INFO - Started process (PID=816180) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:52:45,184] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:52:45,184] {logging_mixin.py:112} INFO - [2020-07-16 17:52:45,184] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:52:45,496] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:52:45,638] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.457 seconds
+[2020-07-16 17:53:43,648] {scheduler_job.py:153} INFO - Started process (PID=817824) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:53:43,652] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:53:43,653] {logging_mixin.py:112} INFO - [2020-07-16 17:53:43,653] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:53:43,994] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:53:44,140] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.493 seconds
+[2020-07-16 17:54:41,702] {scheduler_job.py:153} INFO - Started process (PID=819437) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:54:41,707] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:54:41,707] {logging_mixin.py:112} INFO - [2020-07-16 17:54:41,707] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:54:42,277] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:54:42,416] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.714 seconds
+[2020-07-16 17:55:39,761] {scheduler_job.py:153} INFO - Started process (PID=821038) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:55:39,763] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:55:39,764] {logging_mixin.py:112} INFO - [2020-07-16 17:55:39,764] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:55:40,068] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:55:40,199] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.439 seconds
+[2020-07-16 17:56:37,820] {scheduler_job.py:153} INFO - Started process (PID=822527) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:56:37,823] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:56:37,823] {logging_mixin.py:112} INFO - [2020-07-16 17:56:37,823] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:56:38,125] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:56:38,346] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.527 seconds
+[2020-07-16 17:57:35,879] {scheduler_job.py:153} INFO - Started process (PID=824106) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:57:35,883] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:57:35,883] {logging_mixin.py:112} INFO - [2020-07-16 17:57:35,883] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:57:36,326] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:57:36,440] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.560 seconds
+[2020-07-16 17:58:34,083] {scheduler_job.py:153} INFO - Started process (PID=825727) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:58:34,086] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:58:34,086] {logging_mixin.py:112} INFO - [2020-07-16 17:58:34,086] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:58:34,445] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:58:34,553] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.470 seconds
+[2020-07-16 17:59:31,995] {scheduler_job.py:153} INFO - Started process (PID=827289) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:59:32,000] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 17:59:32,000] {logging_mixin.py:112} INFO - [2020-07-16 17:59:32,000] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:59:32,317] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 17:59:32,603] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.608 seconds
+[2020-07-16 18:00:30,058] {scheduler_job.py:153} INFO - Started process (PID=828840) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:00:30,062] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:00:30,062] {logging_mixin.py:112} INFO - [2020-07-16 18:00:30,062] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:00:30,530] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:00:30,858] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.799 seconds
+[2020-07-16 18:01:28,316] {scheduler_job.py:153} INFO - Started process (PID=830371) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:01:28,320] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:01:28,320] {logging_mixin.py:112} INFO - [2020-07-16 18:01:28,320] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:01:28,820] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:01:28,908] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.592 seconds
+[2020-07-16 18:03:05,202] {scheduler_job.py:153} INFO - Started process (PID=833001) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:03:05,205] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:03:05,206] {logging_mixin.py:112} INFO - [2020-07-16 18:03:05,206] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:03:05,556] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:03:05,685] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.483 seconds
+[2020-07-16 18:04:15,660] {scheduler_job.py:153} INFO - Started process (PID=834897) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:04:15,665] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:04:15,666] {logging_mixin.py:112} INFO - [2020-07-16 18:04:15,666] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:04:16,426] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:04:16,530] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.871 seconds
+[2020-07-16 18:05:39,271] {scheduler_job.py:153} INFO - Started process (PID=837208) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:05:39,275] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:05:39,275] {logging_mixin.py:112} INFO - [2020-07-16 18:05:39,275] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:05:39,852] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:05:40,036] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.765 seconds
+[2020-07-16 18:06:49,332] {scheduler_job.py:153} INFO - Started process (PID=839084) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:06:49,335] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:06:49,336] {logging_mixin.py:112} INFO - [2020-07-16 18:06:49,335] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:06:49,828] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:06:50,166] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.834 seconds
+[2020-07-16 18:07:47,403] {scheduler_job.py:153} INFO - Started process (PID=840630) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:07:47,408] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:07:47,408] {logging_mixin.py:112} INFO - [2020-07-16 18:07:47,408] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:07:47,753] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:07:47,904] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.502 seconds
+[2020-07-16 18:09:11,221] {scheduler_job.py:153} INFO - Started process (PID=842934) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:09:11,224] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:09:11,224] {logging_mixin.py:112} INFO - [2020-07-16 18:09:11,224] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:09:11,532] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:09:11,724] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.504 seconds
+[2020-07-16 18:10:20,902] {scheduler_job.py:153} INFO - Started process (PID=844799) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:10:20,905] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:10:20,905] {logging_mixin.py:112} INFO - [2020-07-16 18:10:20,905] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:10:21,196] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:10:21,337] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.435 seconds
+[2020-07-16 18:11:18,968] {scheduler_job.py:153} INFO - Started process (PID=846349) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:11:18,977] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:11:18,979] {logging_mixin.py:112} INFO - [2020-07-16 18:11:18,979] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:11:19,684] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:11:19,862] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.894 seconds
+[2020-07-16 18:12:17,579] {scheduler_job.py:153} INFO - Started process (PID=848061) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:12:17,586] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:12:17,587] {logging_mixin.py:112} INFO - [2020-07-16 18:12:17,587] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:12:18,417] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:12:19,057] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.478 seconds
+[2020-07-16 18:13:15,638] {scheduler_job.py:153} INFO - Started process (PID=849585) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:13:15,642] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:13:15,643] {logging_mixin.py:112} INFO - [2020-07-16 18:13:15,643] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:13:16,031] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:13:16,951] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.313 seconds
+[2020-07-16 18:14:41,534] {scheduler_job.py:153} INFO - Started process (PID=851815) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:14:41,538] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:14:41,539] {logging_mixin.py:112} INFO - [2020-07-16 18:14:41,538] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:14:42,032] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:14:42,194] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.660 seconds
+[2020-07-16 18:15:53,145] {scheduler_job.py:153} INFO - Started process (PID=853697) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:15:53,150] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:15:53,151] {logging_mixin.py:112} INFO - [2020-07-16 18:15:53,151] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:15:53,501] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:15:53,590] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.445 seconds
+[2020-07-16 18:17:04,917] {scheduler_job.py:153} INFO - Started process (PID=855613) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:17:04,922] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:17:04,923] {logging_mixin.py:112} INFO - [2020-07-16 18:17:04,922] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:17:05,340] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:17:06,797] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.880 seconds
+[2020-07-16 18:18:04,251] {scheduler_job.py:153} INFO - Started process (PID=857086) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:18:04,255] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:18:04,256] {logging_mixin.py:112} INFO - [2020-07-16 18:18:04,256] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:18:04,784] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:18:04,923] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.672 seconds
+[2020-07-16 18:19:02,358] {scheduler_job.py:153} INFO - Started process (PID=858655) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:19:02,371] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:19:02,376] {logging_mixin.py:112} INFO - [2020-07-16 18:19:02,375] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:19:02,942] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:19:04,827] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 2.469 seconds
+[2020-07-16 18:20:00,550] {scheduler_job.py:153} INFO - Started process (PID=860192) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:20:00,553] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:20:00,554] {logging_mixin.py:112} INFO - [2020-07-16 18:20:00,554] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:20:00,917] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:20:01,023] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.472 seconds
+[2020-07-16 18:20:58,419] {scheduler_job.py:153} INFO - Started process (PID=861715) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:20:58,422] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:20:58,423] {logging_mixin.py:112} INFO - [2020-07-16 18:20:58,423] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:20:58,782] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:20:59,280] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.861 seconds
+[2020-07-16 18:21:56,476] {scheduler_job.py:153} INFO - Started process (PID=863271) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:21:56,480] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:21:56,480] {logging_mixin.py:112} INFO - [2020-07-16 18:21:56,480] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:21:56,863] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:21:56,956] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.480 seconds
+[2020-07-16 18:22:54,738] {scheduler_job.py:153} INFO - Started process (PID=864805) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:22:54,741] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:22:54,741] {logging_mixin.py:112} INFO - [2020-07-16 18:22:54,741] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:22:55,042] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:22:55,171] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.433 seconds
+[2020-07-16 18:23:52,608] {scheduler_job.py:153} INFO - Started process (PID=866340) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:23:52,612] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:23:52,613] {logging_mixin.py:112} INFO - [2020-07-16 18:23:52,613] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:23:53,137] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:23:53,272] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.664 seconds
+[2020-07-16 18:24:50,683] {scheduler_job.py:153} INFO - Started process (PID=867886) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:24:50,689] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:24:50,690] {logging_mixin.py:112} INFO - [2020-07-16 18:24:50,690] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:24:51,505] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:24:51,717] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.034 seconds
+[2020-07-16 18:25:48,739] {scheduler_job.py:153} INFO - Started process (PID=869491) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:25:48,744] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:25:48,745] {logging_mixin.py:112} INFO - [2020-07-16 18:25:48,744] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:25:49,133] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:25:49,289] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.550 seconds
+[2020-07-16 18:26:46,930] {scheduler_job.py:153} INFO - Started process (PID=871011) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:26:46,933] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:26:46,933] {logging_mixin.py:112} INFO - [2020-07-16 18:26:46,933] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:26:47,251] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:26:47,344] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.414 seconds
+[2020-07-16 18:28:18,365] {scheduler_job.py:153} INFO - Started process (PID=873513) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:28:18,424] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:28:18,428] {logging_mixin.py:112} INFO - [2020-07-16 18:28:18,428] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:28:19,888] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:28:20,174] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.806 seconds
+[2020-07-16 18:29:27,953] {scheduler_job.py:153} INFO - Started process (PID=875433) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:29:27,956] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:29:27,957] {logging_mixin.py:112} INFO - [2020-07-16 18:29:27,957] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:29:28,267] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:29:28,446] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.493 seconds
+[2020-07-16 18:30:26,030] {scheduler_job.py:153} INFO - Started process (PID=876908) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:30:26,035] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:30:26,045] {logging_mixin.py:112} INFO - [2020-07-16 18:30:26,044] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:30:26,789] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:30:26,888] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.858 seconds
+[2020-07-16 18:31:49,206] {scheduler_job.py:153} INFO - Started process (PID=879185) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:31:49,209] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:31:49,209] {logging_mixin.py:112} INFO - [2020-07-16 18:31:49,209] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:31:49,521] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:31:49,825] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.619 seconds
+[2020-07-16 18:32:59,837] {scheduler_job.py:153} INFO - Started process (PID=881082) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:32:59,840] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:32:59,840] {logging_mixin.py:112} INFO - [2020-07-16 18:32:59,840] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:33:00,193] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:33:00,332] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.495 seconds
+[2020-07-16 18:33:58,032] {scheduler_job.py:153} INFO - Started process (PID=882630) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:33:58,036] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:33:58,036] {logging_mixin.py:112} INFO - [2020-07-16 18:33:58,036] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:33:58,331] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:33:58,502] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.470 seconds
+[2020-07-16 18:34:56,089] {scheduler_job.py:153} INFO - Started process (PID=884171) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:34:56,093] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:34:56,094] {logging_mixin.py:112} INFO - [2020-07-16 18:34:56,093] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:34:56,846] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:34:56,967] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.878 seconds
+[2020-07-16 18:35:54,156] {scheduler_job.py:153} INFO - Started process (PID=885715) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:35:54,164] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:35:54,165] {logging_mixin.py:112} INFO - [2020-07-16 18:35:54,165] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:35:54,645] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:35:54,955] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.800 seconds
+[2020-07-16 18:37:20,356] {scheduler_job.py:153} INFO - Started process (PID=888099) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:37:20,362] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:37:20,363] {logging_mixin.py:112} INFO - [2020-07-16 18:37:20,363] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:37:20,808] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:37:20,923] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.567 seconds
+[2020-07-16 18:38:31,251] {scheduler_job.py:153} INFO - Started process (PID=889999) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:38:31,255] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:38:31,256] {logging_mixin.py:112} INFO - [2020-07-16 18:38:31,256] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:38:31,659] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:38:31,960] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.709 seconds
+[2020-07-16 18:39:57,641] {scheduler_job.py:153} INFO - Started process (PID=892352) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:39:57,649] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:39:57,650] {logging_mixin.py:112} INFO - [2020-07-16 18:39:57,650] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:39:58,724] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:39:58,864] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 1.223 seconds
+[2020-07-16 18:41:07,754] {scheduler_job.py:153} INFO - Started process (PID=894270) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:41:07,759] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:41:07,759] {logging_mixin.py:112} INFO - [2020-07-16 18:41:07,759] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:41:08,047] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:41:08,239] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.485 seconds
+[2020-07-16 18:42:05,809] {scheduler_job.py:153} INFO - Started process (PID=895791) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:42:05,813] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:42:05,814] {logging_mixin.py:112} INFO - [2020-07-16 18:42:05,813] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:42:06,191] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:42:06,300] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.492 seconds
+[2020-07-16 18:43:03,865] {scheduler_job.py:153} INFO - Started process (PID=897347) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:43:03,870] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:43:03,870] {logging_mixin.py:112} INFO - [2020-07-16 18:43:03,870] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:43:04,411] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:43:04,607] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.742 seconds
+[2020-07-16 18:44:01,924] {scheduler_job.py:153} INFO - Started process (PID=898881) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:44:01,927] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:44:01,928] {logging_mixin.py:112} INFO - [2020-07-16 18:44:01,928] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:44:02,227] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:44:02,368] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.444 seconds
+[2020-07-16 18:45:24,992] {scheduler_job.py:153} INFO - Started process (PID=901102) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:45:24,994] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:45:24,995] {logging_mixin.py:112} INFO - [2020-07-16 18:45:24,995] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:45:25,378] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:45:25,546] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.554 seconds
+[2020-07-16 18:46:35,110] {scheduler_job.py:153} INFO - Started process (PID=903094) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:46:35,116] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:46:35,116] {logging_mixin.py:112} INFO - [2020-07-16 18:46:35,116] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:46:35,471] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:46:35,605] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.495 seconds
+[2020-07-16 18:47:33,174] {scheduler_job.py:153} INFO - Started process (PID=904641) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:47:33,178] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:47:33,178] {logging_mixin.py:112} INFO - [2020-07-16 18:47:33,178] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:47:33,494] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:47:33,696] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.523 seconds
+[2020-07-16 18:48:31,241] {scheduler_job.py:153} INFO - Started process (PID=906129) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:48:31,244] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:48:31,245] {logging_mixin.py:112} INFO - [2020-07-16 18:48:31,244] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:48:31,613] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:48:32,114] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.873 seconds
+[2020-07-16 18:49:56,882] {scheduler_job.py:153} INFO - Started process (PID=908581) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:49:56,886] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:49:56,886] {logging_mixin.py:112} INFO - [2020-07-16 18:49:56,886] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:49:57,266] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:49:57,460] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.579 seconds
+[2020-07-16 18:50:54,937] {scheduler_job.py:153} INFO - Started process (PID=910125) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:50:54,940] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:50:54,941] {logging_mixin.py:112} INFO - [2020-07-16 18:50:54,940] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:50:55,250] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:50:55,423] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.486 seconds
+[2020-07-16 18:51:53,026] {scheduler_job.py:153} INFO - Started process (PID=911666) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:51:53,031] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:51:53,032] {logging_mixin.py:112} INFO - [2020-07-16 18:51:53,031] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:51:53,372] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:51:53,523] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.497 seconds
+[2020-07-16 18:52:51,052] {scheduler_job.py:153} INFO - Started process (PID=913203) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:52:51,056] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:52:51,056] {logging_mixin.py:112} INFO - [2020-07-16 18:52:51,056] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:52:51,531] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:52:51,846] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.794 seconds
+[2020-07-16 18:53:49,238] {scheduler_job.py:153} INFO - Started process (PID=914755) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:53:49,241] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:53:49,242] {logging_mixin.py:112} INFO - [2020-07-16 18:53:49,242] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:53:49,664] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:53:49,761] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.524 seconds
+[2020-07-16 18:54:47,199] {scheduler_job.py:153} INFO - Started process (PID=916300) to work on /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:54:47,203] {scheduler_job.py:1562} INFO - Processing file /home/bhakti/airflow/dags/csv_to_mysql.py for tasks to queue
+[2020-07-16 18:54:47,204] {logging_mixin.py:112} INFO - [2020-07-16 18:54:47,203] {dagbag.py:396} INFO - Filling up the DagBag from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:54:47,882] {scheduler_job.py:1574} INFO - DAG(s) dict_keys(['CSVDAG']) retrieved from /home/bhakti/airflow/dags/csv_to_mysql.py
+[2020-07-16 18:54:47,984] {scheduler_job.py:161} INFO - Processing /home/bhakti/airflow/dags/csv_to_mysql.py took 0.785 seconds

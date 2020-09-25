@@ -1,0 +1,23 @@
+[2020-07-17 16:37:52,350] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.mysql_status 2020-07-17T11:07:31.218723+00:00 [queued]>
+[2020-07-17 16:37:52,358] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: storing_data.mysql_status 2020-07-17T11:07:31.218723+00:00 [queued]>
+[2020-07-17 16:37:52,359] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-17 16:37:52,359] {taskinstance.py:880} INFO - Starting attempt 1 of 2
+[2020-07-17 16:37:52,359] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-17 16:37:52,525] {taskinstance.py:900} INFO - Executing <Task(BashOperator): mysql_status> on 2020-07-17T11:07:31.218723+00:00
+[2020-07-17 16:37:52,528] {standard_task_runner.py:53} INFO - Started process 659096 to run task
+[2020-07-17 16:37:52,704] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: storing_data.mysql_status 2020-07-17T11:07:31.218723+00:00 [running]> bhakti-Vostro-3558
+[2020-07-17 16:37:52,727] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-17 16:37:52,729] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmp58lazmfk/mysql_status_0e6lq51
+[2020-07-17 16:37:52,729] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+dbname=airflow_db2
+location='/home/bhakti/airflow/input_data/dump_mysql_db.sql'
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+[2020-07-17 16:37:52,741] {bash_operator.py:122} INFO - Output:
+[2020-07-17 16:37:53,330] {bash_operator.py:128} INFO - Command exited with return code 0
+[2020-07-17 16:37:53,342] {taskinstance.py:1052} INFO - Marking task as SUCCESS.dag_id=storing_data, task_id=mysql_status, execution_date=20200717T110731, start_date=20200717T110752, end_date=20200717T110753
+[2020-07-17 16:38:02,188] {logging_mixin.py:112} INFO - [2020-07-17 16:38:02,188] {local_task_job.py:103} INFO - Task exited with return code 0

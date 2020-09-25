@@ -1,0 +1,47 @@
+[2020-07-22 09:58:19,120] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T04:25:12.548905+00:00 [queued]>
+[2020-07-22 09:58:19,143] {taskinstance.py:669} INFO - Dependencies all met for <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T04:25:12.548905+00:00 [queued]>
+[2020-07-22 09:58:19,143] {taskinstance.py:879} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 09:58:19,143] {taskinstance.py:880} INFO - Starting attempt 2 of 2
+[2020-07-22 09:58:19,143] {taskinstance.py:881} INFO - 
+--------------------------------------------------------------------------------
+[2020-07-22 09:58:19,345] {taskinstance.py:900} INFO - Executing <Task(BashOperator): dbdump_in_minio> on 2020-07-22T04:25:12.548905+00:00
+[2020-07-22 09:58:19,349] {standard_task_runner.py:53} INFO - Started process 26293 to run task
+[2020-07-22 09:58:19,524] {logging_mixin.py:112} INFO - Running %s on host %s <TaskInstance: MYSQLDAG.dbdump_in_minio 2020-07-22T04:25:12.548905+00:00 [running]> bhakti-Vostro-3558
+[2020-07-22 09:58:19,541] {bash_operator.py:82} INFO - Tmp dir root location: 
+ /tmp
+[2020-07-22 09:58:19,543] {bash_operator.py:103} INFO - Temporary script location: /tmp/airflowtmp0y9768fd/dbdump_in_miniovek7iaz_
+[2020-07-22 09:58:19,543] {bash_operator.py:115} INFO - Running command: #!/bin/bash -x
+user=root
+password=
+dbname=airflow_db2
+root_dir="/home/bhakti/airflow/"
+location=$root_dir"input_data/dump_mysql_db.db"
+if [ $dbname != " " ]
+then
+docker exec -it mysqlCon \
+mysqldump --user $user --databases $dbname > $location
+python3 $root_dir"minioconnect/minio_connection.py"
+echo 'File uploaded successfully'
+/opt/spark/bin/spark-submit airflow/config/settings.py
+fi
+[2020-07-22 09:58:19,550] {bash_operator.py:122} INFO - Output:
+[2020-07-22 09:58:21,683] {bash_operator.py:126} INFO - mysqldump2020-07-22 09:58:21.683187.sql
+[2020-07-22 09:58:21,887] {bash_operator.py:126} INFO - File uploaded successfully
+[2020-07-22 09:58:23,578] {bash_operator.py:126} INFO - 20/07/22 09:58:23 WARN Utils: Your hostname, bhakti-Vostro-3558 resolves to a loopback address: 127.0.1.1; using 192.168.43.94 instead (on interface wlp6s0)
+[2020-07-22 09:58:23,579] {bash_operator.py:126} INFO - 20/07/22 09:58:23 WARN Utils: Set SPARK_LOCAL_IP if you need to bind to another address
+[2020-07-22 09:58:24,441] {bash_operator.py:126} INFO - 20/07/22 09:58:24 WARN NativeCodeLoader: Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[2020-07-22 09:58:25,020] {bash_operator.py:126} INFO - python3: can't open file '/tmp/airflowtmp0y9768fd/airflow/config/settings.py': [Errno 2] No such file or directory
+[2020-07-22 09:58:25,030] {bash_operator.py:126} INFO - log4j:WARN No appenders could be found for logger (org.apache.spark.util.ShutdownHookManager).
+[2020-07-22 09:58:25,031] {bash_operator.py:126} INFO - log4j:WARN Please initialize the log4j system properly.
+[2020-07-22 09:58:25,031] {bash_operator.py:126} INFO - log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+[2020-07-22 09:58:25,056] {bash_operator.py:128} INFO - Command exited with return code 2
+[2020-07-22 09:58:25,066] {taskinstance.py:1145} ERROR - Bash command failed
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.8/dist-packages/airflow/models/taskinstance.py", line 983, in _run_raw_task
+    result = task_copy.execute(context=context)
+  File "/usr/local/lib/python3.8/dist-packages/airflow/operators/bash_operator.py", line 134, in execute
+    raise AirflowException("Bash command failed")
+airflow.exceptions.AirflowException: Bash command failed
+[2020-07-22 09:58:25,068] {taskinstance.py:1174} INFO - All retries failed; marking task as FAILED.dag_id=MYSQLDAG, task_id=dbdump_in_minio, execution_date=20200722T042512, start_date=20200722T042819, end_date=20200722T042825
+[2020-07-22 09:58:28,995] {logging_mixin.py:112} INFO - [2020-07-22 09:58:28,995] {local_task_job.py:103} INFO - Task exited with return code 1
